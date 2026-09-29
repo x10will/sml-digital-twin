@@ -1,0 +1,114 @@
+[
+ {
+  "text": "The wannabe steps off the 6670 bus at 水社. Walks past 水社遊客中心, sees the 捷安特 sign. No queue. Walks right in. Picks an e-bike. The day starts perfectly.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "arrival_and_rental_queue"
+  },
+  "time": "09:00",
+  "beat": "arrival_and_rental_queue",
+  "commentary": "3185 pax across 15 nodes. Top: 伊達邵商店街=1200. 15 cohorts active.",
+  "metrics": {
+   "total_pax": 3185,
+   "occupied_nodes": 15,
+   "cohort_count": 15,
+   "top_node": "伊達邵商店街=1200"
+  }
+ },
+ {
+  "text": "First km on 月潭自行車道 — the elevated water platform. Lake on the left, mountains ahead, wind in their face. This is the Instagram reel come alive. No other cyclists blocking the shot.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "first_ride_moment"
+  },
+  "time": "09:45",
+  "beat": "first_ride_moment",
+  "commentary": "2710 pax across 11 nodes. Top: 伊達邵商店街=1200. 11 cohorts active.",
+  "metrics": {
+   "total_pax": 2710,
+   "occupied_nodes": 11,
+   "cohort_count": 11,
+   "top_node": "伊達邵商店街=1200"
+  }
+ },
+ {
+  "text": "向山遊客中心 — the architecture is stunning, the cantilever platform juts over the lake. Coffee in hand. Decision: continue east to 伊達邵? At 8K visitors, of course. The road ahead is clear.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "xiangshan_fork"
+  },
+  "time": "10:30",
+  "beat": "xiangshan_fork",
+  "commentary": "2690 pax across 9 nodes. Top: 伊達邵商店街=1400. 13 cohorts active.",
+  "metrics": {
+   "total_pax": 2690,
+   "occupied_nodes": 9,
+   "cohort_count": 13,
+   "top_node": "伊達邵商店街=1400"
+  }
+ },
+ {
+  "text": "伊達邵商店街 — 山豬肉香腸 sizzling, 小米麻糬 bouncing in the fryer. The wannabe locks the bike, joins the food stalls. No crowd crush. They find a seat, eat slowly. The lake glitters through the buildings.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "yidashao_lunch"
+  },
+  "time": "12:00",
+  "beat": "yidashao_lunch",
+  "commentary": "2770 pax across 7 nodes. Top: 伊達邵商店街=1250. 12 cohorts active.",
+  "metrics": {
+   "total_pax": 2770,
+   "occupied_nodes": 7,
+   "cohort_count": 12,
+   "top_node": "伊達邵商店街=1250"
+  }
+ },
+ {
+  "text": "Lunch done. The bike is at 伊達邵. Home base is 捷安特 水社. In the dream day, this is fine — the 8km return ride is pleasant. Quiet road, afternoon light on the water. The wannabe climbs back on and rides north. An hour of gentle pedaling, not a slog.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "return_dilemma"
+  },
+  "time": "13:30",
+  "beat": "return_dilemma",
+  "commentary": "2550 pax across 8 nodes. Top: 伊達邵商店街=1250. 11 cohorts active.",
+  "metrics": {
+   "total_pax": 2550,
+   "occupied_nodes": 8,
+   "cohort_count": 11,
+   "top_node": "伊達邵商店街=1250"
+  }
+ },
+ {
+  "text": "The wannabe is back at 水社, bike returned. Walks to 水社碼頭. Takes the 15:00 ferry for a lazy sunset circuit — 水社→玄光→伊達邵→水社. Golden hour on the water. The cherry on top of a perfect day.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "backtrack_or_ferry"
+  },
+  "time": "15:00",
+  "beat": "backtrack_or_ferry",
+  "commentary": "1750 pax across 4 nodes. Top: 伊達邵商店街=800. 8 cohorts active.",
+  "metrics": {
+   "total_pax": 1750,
+   "occupied_nodes": 4,
+   "cohort_count": 8,
+   "top_node": "伊達邵商店街=800"
+  }
+ },
+ {
+  "text": "Back at 水社碼頭, sunset painting the mountains. The wannabe walks past the rental station (closed for the day) and catches the 17:00 bus back to 台中. Instagram story posted: 日月潭 is as good as promised. 5 stars. Would cycle again.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "sunset_return"
+  },
+  "time": "16:30",
+  "beat": "sunset_return",
+  "commentary": "850 pax across 2 nodes. Top: 伊達邵商店街=800. 4 cohorts active.",
+  "metrics": {
+   "total_pax": 850,
+   "occupied_nodes": 2,
+   "cohort_count": 4,
+   "top_node": "伊達邵商店街=800"
+  }
+ }
+]

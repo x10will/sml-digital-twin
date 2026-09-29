@@ -1,0 +1,114 @@
+[
+ {
+  "text": "Same queue as B. The wannabe joins the line at 捷安特 — still 200+ people, still 40 minutes. 甲租乙還 doesn't fix the morning queue. It fixes the afternoon return. The queue is the price of admission. But this time, the wannabe reads the sign at the desk: \"Return at any partner station — NT$50 surcharge.\" A seed is planted.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "arrival_and_rental_queue"
+  },
+  "time": "09:15",
+  "beat": "arrival_and_rental_queue",
+  "commentary": "6705 pax across 20 nodes. Top: 伊達邵商店街=2100. 16 cohorts active.",
+  "metrics": {
+   "total_pax": 6705,
+   "occupied_nodes": 20,
+   "cohort_count": 16,
+   "top_node": "伊達邵商店街=2100"
+  }
+ },
+ {
+  "text": "Same congested first km. 水社壩 dismount zone still takes 10 min. The path is still busy. But the mood is different — the wannabe knows they don't have to ride back this way. The ride is one-way. Every meter forward is progress, not debt.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "first_ride_moment"
+  },
+  "time": "10:00",
+  "beat": "first_ride_moment",
+  "commentary": "6785 pax across 8 nodes. Top: 伊達邵商店街=2900. 17 cohorts active.",
+  "metrics": {
+   "total_pax": 6785,
+   "occupied_nodes": 8,
+   "cohort_count": 17,
+   "top_node": "伊達邵商店街=2900"
+  }
+ },
+ {
+  "text": "向山 at 10:40, same as B. Café queue, crowded platform. But the decision at the fork is different. In B: \"Should I risk the road east, knowing I have to come back?\" In C: \"The road east is a one-way trip to 伊達邵. I'll drop the bike there.\" The wannabe presses east with confidence, not anxiety.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "xiangshan_fork"
+  },
+  "time": "10:40",
+  "beat": "xiangshan_fork",
+  "commentary": "6855 pax across 11 nodes. Top: 伊達邵商店街=2900. 21 cohorts active.",
+  "metrics": {
+   "total_pax": 6855,
+   "occupied_nodes": 11,
+   "cohort_count": 21,
+   "top_node": "伊達邵商店街=2900"
+  }
+ },
+ {
+  "text": "伊達邵 at 13:00, same crowd as B. But the wannabe's state of mind is completely different. In B, they're watching the clock (must ride back 8km). In C, they're browsing. The bike is about to be someone else's problem. They find a shaded seat, order 日月潭紅茶, watch the ferry boats on the lake. This is vacation.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "yidashao_lunch"
+  },
+  "time": "13:00",
+  "beat": "yidashao_lunch",
+  "commentary": "7450 pax across 6 nodes. Top: 伊達邵碼頭=2950. 17 cohorts active.",
+  "metrics": {
+   "total_pax": 7450,
+   "occupied_nodes": 6,
+   "cohort_count": 17,
+   "top_node": "伊達邵碼頭=2950"
+  }
+ },
+ {
+  "text": "The moment that defines v5. Same food street, same bike, same distance to 水社. But: B: \"I must ride 8km back.\" → Slog. C: \"I'll drop the bike at the partner desk.\" → Freedom.\nThe wannabe walks to the 捷安特 partner counter near 伊達邵碼頭. \"Return bike, please.\" NT$50 surcharge on the card. Bike parked. Done. The weight lifts. Two and a half hours of daylight left, and none of it will be spent on a road.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "return_dilemma"
+  },
+  "time": "14:00",
+  "beat": "return_dilemma",
+  "commentary": "6350 pax across 6 nodes. Top: 伊達邵商店街=2700. 17 cohorts active.",
+  "metrics": {
+   "total_pax": 6350,
+   "occupied_nodes": 6,
+   "cohort_count": 17,
+   "top_node": "伊達邵商店街=2700"
+  }
+ },
+ {
+  "text": "B: halfway back on the north shore road, legs burning, bus honking, watching the ferry from the guardrail. C: ON the ferry. 伊達邵→玄光→水社. The wannabe stands at the bow railing. The lake is gold. The mountains are purple. They photograph exactly the moment they saw on Instagram — but from the water, not the road. The tea egg from 玄光 is warm in their hand. This is the real 日月潭.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "backtrack_or_ferry"
+  },
+  "time": "15:30",
+  "beat": "backtrack_or_ferry",
+  "commentary": "4500 pax across 8 nodes. Top: 伊達邵商店街=1300. 13 cohorts active.",
+  "metrics": {
+   "total_pax": 4500,
+   "occupied_nodes": 8,
+   "cohort_count": 13,
+   "top_node": "伊達邵商店街=1300"
+  }
+ },
+ {
+  "text": "水社碼頭, sunset. The wannabe steps off the ferry, relaxed. Walks past the rental station (where the morning queue was) — it's empty now. Catches the 17:05 bus to 台中.\nInstagram story posted: three photos. The bike path at 09:45. The food street at 13:00. The sunset from the ferry at 15:45. Caption: \"Ride in the morning, ferry back for sunset. The perfect day.\" 500 likes. Six friends asking \"how do I get there?\"\nThe day 日月潭 was supposed to sell. And now, with 甲租乙還, it can.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "sunset_return"
+  },
+  "time": "16:30",
+  "beat": "sunset_return",
+  "commentary": "1520 pax across 2 nodes. Top: 伊達邵商店街=1300. 4 cohorts active.",
+  "metrics": {
+   "total_pax": 1520,
+   "occupied_nodes": 2,
+   "cohort_count": 4,
+   "top_node": "伊達邵商店街=1300"
+  }
+ }
+]

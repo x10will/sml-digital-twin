@@ -1,0 +1,42 @@
+{
+  "_comment": "Director-owned story config (viewer-story-cinema §3). References ONLY baked data: cohort ids from frames_v5_a_viewer.json, beat slugs from director_narration_v5_a.json, coords from expanded_graph nodes. Lineage-gated by tests/test_story_config_lineage.py.",
+  "scenario": "v5_a",
+  "protagonist_tracks": [
+    { "cohort": "v5a_wannabe_ride", "from": "09:00", "to": "14:45" },
+    { "cohort": "v5a_wannabe_ferry", "from": "14:45", "to": null }
+  ],
+  "defaults": { "play_speed_ms": 45 },
+  "beats": {
+    "arrival_and_rental_queue": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.8665026, 120.9112999], "posOffset": [80, -220], "posZ": 940, "targetAnchor": [23.8665026, 120.9112999], "targetZ": 760 } },
+      "play_speed_ms": 280
+    },
+    "first_ride_moment": {
+      "camera": { "mode": "follow", "follow": { "distance_m": 140, "height_m": 70 } },
+      "play_speed_ms": 340
+    },
+    "xiangshan_fork": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.8519763, 120.9019718], "posOffset": [-180, -180], "posZ": 980, "targetAnchor": [23.8519763, 120.9019718], "targetZ": 760 } },
+      "play_speed_ms": 260
+    },
+    "yidashao_lunch": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.848, 120.93], "posOffset": [-120, -320], "posZ": 1100, "targetAnchor": [23.848, 120.93], "targetZ": 760 } },
+      "play_speed_ms": 260,
+      "skip_to": "13:20"
+    },
+    "return_dilemma": {
+      "camera": { "mode": "follow", "follow": { "distance_m": 140, "height_m": 70 } },
+      "play_speed_ms": 340
+    },
+    "backtrack_or_ferry": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.8643, 120.9119], "posOffset": [-60, -260], "posZ": 950, "targetAnchor": [23.8643, 120.9119], "targetZ": 755 } },
+      "play_speed_ms": 260
+    },
+    "sunset_return": {
+      "camera": { "mode": "follow", "follow": { "distance_m": 220, "height_m": 110 } },
+      "play_speed_ms": 340,
+      "hold_ms": 4000
+    }
+  },
+  "display": { "min_cohort_pax": 5, "reason": "delta_report_v5.md §5 ⚠ ENGINE — background artifacts must not read as signal in cinema; working mode unaffected" }
+}

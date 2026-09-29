@@ -1,0 +1,915 @@
+{
+  "rows": [
+    {
+      "length_m": 8.678127303375543,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E025"
+    },
+    {
+      "length_m": 60.04817164957548,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E026"
+    },
+    {
+      "length_m": 32.36493336624271,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E027"
+    },
+    {
+      "length_m": 71.18599801951677,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E028a"
+    },
+    {
+      "length_m": 71.0570644880416,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E028b"
+    },
+    {
+      "length_m": 71.15299791885235,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E028c"
+    },
+    {
+      "length_m": 71.9822310913527,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E032"
+    },
+    {
+      "length_m": 88.29351349695062,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E033a"
+    },
+    {
+      "length_m": 88.35173504642349,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E033b"
+    },
+    {
+      "length_m": 28.585596125980665,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E034"
+    },
+    {
+      "length_m": 32.426232709002484,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E038"
+    },
+    {
+      "length_m": 31.895566110937573,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E049"
+    },
+    {
+      "length_m": 69.70325989886558,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E050"
+    },
+    {
+      "length_m": 302.3558136138873,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E051"
+    },
+    {
+      "length_m": 7.749768895993523,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E052"
+    },
+    {
+      "length_m": 95.59199217255913,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E056a"
+    },
+    {
+      "length_m": 95.64293343344148,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E056b"
+    },
+    {
+      "length_m": 97.93922059095256,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E057a"
+    },
+    {
+      "length_m": 97.88344639954607,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E057b"
+    },
+    {
+      "length_m": 97.93045150519995,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E057c"
+    },
+    {
+      "length_m": 98.03929771404715,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E057d"
+    },
+    {
+      "length_m": 97.90192688317364,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E057e"
+    },
+    {
+      "length_m": 97.95096435481925,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E057f"
+    },
+    {
+      "length_m": 97.92373091471491,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E057g"
+    },
+    {
+      "length_m": 97.95156229659743,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E057h"
+    },
+    {
+      "length_m": 98.00755486431274,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E057i"
+    },
+    {
+      "length_m": 97.8845844661147,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E057j"
+    },
+    {
+      "length_m": 50.97784509405933,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E058a"
+    },
+    {
+      "length_m": 51.02567506047537,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E058b"
+    },
+    {
+      "length_m": 149.9525841381122,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E093"
+    },
+    {
+      "length_m": 34.5659400558829,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E096"
+    },
+    {
+      "length_m": 38.55457137483128,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E097"
+    },
+    {
+      "length_m": 83.9648599377362,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E098a"
+    },
+    {
+      "length_m": 80.88102146160502,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E098b"
+    },
+    {
+      "length_m": 81.99331585643228,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E098c"
+    },
+    {
+      "length_m": 83.46165743041936,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E098d"
+    },
+    {
+      "length_m": 78.3661092832073,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E098e"
+    },
+    {
+      "length_m": 56.83151846358637,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E133a"
+    },
+    {
+      "length_m": 56.69339352245136,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E133b"
+    },
+    {
+      "length_m": 1.70272558643985,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E160"
+    },
+    {
+      "length_m": 17.04278681705124,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E161"
+    },
+    {
+      "length_m": 18.408320567169238,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E162"
+    },
+    {
+      "length_m": 687.8523186553164,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E163a"
+    },
+    {
+      "length_m": 687.7597138167926,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E163b"
+    },
+    {
+      "length_m": 342.88650901578507,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E164"
+    },
+    {
+      "length_m": 17.937769642637445,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E167"
+    },
+    {
+      "length_m": 57.02130317723149,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E168"
+    },
+    {
+      "length_m": 5.9633943255415245,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E169"
+    },
+    {
+      "length_m": 30.784679269181613,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E170"
+    },
+    {
+      "length_m": 15.787322307842985,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E171"
+    },
+    {
+      "length_m": 213.07547357655682,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E172"
+    },
+    {
+      "length_m": 687.2242734829624,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E173"
+    },
+    {
+      "length_m": 20.854585772709854,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E174"
+    },
+    {
+      "length_m": 10.244317354084943,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E175"
+    },
+    {
+      "length_m": 35.1108109719035,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E176"
+    },
+    {
+      "length_m": 63.305048752484424,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E177"
+    },
+    {
+      "length_m": 194.21035610979715,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E178"
+    },
+    {
+      "length_m": 328.68593097751506,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E179"
+    },
+    {
+      "length_m": 144.19792305400617,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E180"
+    },
+    {
+      "length_m": 44.79954182838996,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E181"
+    },
+    {
+      "length_m": 17.25069554000487,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E182"
+    },
+    {
+      "length_m": 71.96529265589473,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E186"
+    },
+    {
+      "length_m": 34.339822781041875,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E187"
+    },
+    {
+      "length_m": 90.90048262211768,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E215a"
+    },
+    {
+      "length_m": 90.81284452231996,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E215b"
+    },
+    {
+      "length_m": 90.86551226016996,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E215c"
+    },
+    {
+      "length_m": 90.90116128326306,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E215d"
+    },
+    {
+      "length_m": 75.975104204611,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E233a"
+    },
+    {
+      "length_m": 75.88212436304953,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E233b"
+    },
+    {
+      "length_m": 59.761215417598955,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E240"
+    },
+    {
+      "length_m": 6.280572661095901,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E241"
+    },
+    {
+      "length_m": 93.54616755996497,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E243a"
+    },
+    {
+      "length_m": 93.50128333090602,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E243b"
+    },
+    {
+      "length_m": 93.46977386453264,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E243c"
+    },
+    {
+      "length_m": 67.25315661769133,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E244"
+    },
+    {
+      "length_m": 31.91566478548135,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E245"
+    },
+    {
+      "length_m": 33.82276896259219,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E246"
+    },
+    {
+      "length_m": 59.48948191249636,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E247"
+    },
+    {
+      "length_m": 62.46804847227604,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E274a"
+    },
+    {
+      "length_m": 62.47222225889716,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E274b"
+    },
+    {
+      "length_m": 71.53430221730716,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E296"
+    },
+    {
+      "length_m": 46.66450077485251,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E298"
+    },
+    {
+      "length_m": 23.962171819373363,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E302"
+    },
+    {
+      "length_m": 65.76072449528824,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E303"
+    },
+    {
+      "length_m": 28.45353939244673,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E306"
+    },
+    {
+      "length_m": 93.8212935104579,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E320a"
+    },
+    {
+      "length_m": 93.78706289128874,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E320b"
+    },
+    {
+      "length_m": 93.82590004284927,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E320c"
+    },
+    {
+      "length_m": 93.68204283919363,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E320d"
+    },
+    {
+      "length_m": 93.91390419260279,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E320e"
+    },
+    {
+      "length_m": 93.77549196915913,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E320f"
+    },
+    {
+      "length_m": 93.68277501479642,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E320g"
+    },
+    {
+      "length_m": 93.81522932095504,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E320h"
+    },
+    {
+      "length_m": 93.8888122196315,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E320i"
+    },
+    {
+      "length_m": 93.6904297879993,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E320j"
+    },
+    {
+      "length_m": 93.84347929984577,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E320k"
+    },
+    {
+      "length_m": 93.84339416060033,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E320l"
+    },
+    {
+      "length_m": 93.80462482517594,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E320m"
+    },
+    {
+      "length_m": 93.81321159832295,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E320n"
+    },
+    {
+      "length_m": 93.68841984547075,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E320o"
+    },
+    {
+      "length_m": 10.688702337402258,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E349"
+    },
+    {
+      "length_m": 23.408775421877614,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E350"
+    },
+    {
+      "length_m": 39.49906623585256,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E408"
+    },
+    {
+      "length_m": 26.58732218680866,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E409"
+    },
+    {
+      "length_m": 16.661486158698832,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E410"
+    },
+    {
+      "length_m": 6.341274170993204,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E413"
+    },
+    {
+      "length_m": 12.341043835549536,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E414"
+    },
+    {
+      "length_m": 42.69050143877769,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E417"
+    },
+    {
+      "length_m": 49.7433266656649,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E436"
+    },
+    {
+      "length_m": 52.54891350818902,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E438a"
+    },
+    {
+      "length_m": 52.55706020097571,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E438b"
+    },
+    {
+      "length_m": 90.99129456247582,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E459a"
+    },
+    {
+      "length_m": 91.15815179861312,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E459b"
+    },
+    {
+      "length_m": 91.03558099215951,
+      "mode": "cycleway",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "BikelaneEdge",
+      "set_element_id": "E459c"
+    },
+    {
+      "length_m": 46.82069472546348,
+      "mode": "trail",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "WalkwayEdge",
+      "set_element_id": "E483"
+    },
+    {
+      "length_m": 9.525105369364075,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E532"
+    },
+    {
+      "length_m": 236.13720394534172,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E533"
+    },
+    {
+      "length_m": 19.5435413937667,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E534"
+    },
+    {
+      "length_m": 230.08680190405326,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E535"
+    },
+    {
+      "length_m": 105.82188722629589,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E536"
+    },
+    {
+      "length_m": 26.13493558864794,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E537"
+    },
+    {
+      "length_m": 116.99494201179778,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E572"
+    },
+    {
+      "length_m": 23.14319075742201,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E573"
+    },
+    {
+      "length_m": 13.775602611483658,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E574"
+    },
+    {
+      "length_m": 2.695522351623816,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E575"
+    },
+    {
+      "length_m": 52.298189993598434,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E576"
+    },
+    {
+      "length_m": 93.13947759097667,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E577"
+    },
+    {
+      "length_m": 123.70165876259601,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E581"
+    },
+    {
+      "length_m": 108.15730416249976,
+      "mode": "road",
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "RoadEdge",
+      "set_element_id": "E587"
+    },
+    {
+      "area_m2": 11253708.309208838,
+      "patch_id": "TP-SML-ONSET-001",
+      "semantic_type": "TerrainPatch",
+      "set_element_id": "F-TERRAIN-SML-ONSET-001"
+    }
+  ],
+  "site": "sml",
+  "version": 1
+}

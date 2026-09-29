@@ -1,0 +1,135 @@
+{
+  "site": "sml",
+  "generated_by": "scripts/mesh_gen/*",
+  "meshes": [
+    {
+      "file": "cycleways.glb",
+      "description": "Cycling route ribbon mesh around 日月潭 (~27km loop)",
+      "sha256": "15ad09d9198e3f5fb22823465cb2f602f1c8d2ea1a14b32ed8acd3464ddcd2cd",
+      "size_bytes": 80760,
+      "vertices": 2850,
+      "faces": 2848,
+      "bounds_m": {
+        "x": [
+          -1765.0,
+          2767.0
+        ],
+        "y": [
+          -2953.0,
+          1622.0
+        ],
+        "z": [
+          766.8,
+          878.5
+        ]
+      },
+      "coordinate_origin": "23.858N, 120.917E (shared with all mesh-gen)",
+      "elevation_frame": "WGS84 (GPX MSL + 18m geoid)",
+      "source_route": "cycling_route.json",
+      "source_elevation": "dem/road_elevation_profile.json",
+      "source_osm": "osm_cycling_ways.json",
+      "route_length_m": 27212.0,
+      "segment_types": {
+        "cycling": 1115,
+        "shared_lane": 34,
+        "push_bike": 275
+      },
+      "vertex_colors": {
+        "green (cycling)": 2230,
+        "dark_green (shared_lane)": 68,
+        "orange (push_bike)": 552
+      },
+      "elevation_offset_m": 0.3,
+      "ribbon_widths_m": {
+        "cycling": 3.0,
+        "shared_lane": 3.0,
+        "push_bike": 2.0
+      }
+    },
+    {
+      "file": "lake.glb",
+      "description": "Lake surface with 拉魯島 hole at 766.48m WGS84",
+      "generated_by": "scripts/mesh_gen/lake_mesh.py",
+      "sha256": "52332ce99fd384fdf3add52ce0edff5f76125eb49d5e88017f052a410387f7e0",
+      "size_bytes": 24272,
+      "vertices": 832,
+      "faces": 832,
+      "category": "backdrop"
+    },
+    {
+      "file": "roads.glb",
+      "description": "89 road ways from OSM, width from 特定區計畫",
+      "generated_by": "scripts/mesh_gen/road_mesh.py",
+      "sha256": "91c3fc4a1fd1702111014f927ea91849e0640fc0ef2b46e8304a1f9f8a043703",
+      "size_bytes": 126308,
+      "vertices": 4552,
+      "faces": 4374,
+      "category": "backdrop"
+    },
+    {
+      "file": "buildings.glb",
+      "description": "221 buildings extruded with type-based heights",
+      "generated_by": "scripts/mesh_gen/building_mesh.py",
+      "sha256": "a24e646043c70a07d380601ee4ca64ce0927071cd0b3e5eab4d75682e79dfe54",
+      "size_bytes": 89260,
+      "vertices": 2472,
+      "faces": 4060,
+      "category": "backdrop"
+    },
+    {
+      "file": "trails.glb",
+      "description": "243 footway/steps/path ways",
+      "generated_by": "scripts/mesh_gen/infra_mesh.py",
+      "sha256": "49487cb1dccb547792eb8f2d8c716aa3c6df9a66c6979e92198c5d5f09f80c17",
+      "size_bytes": 134696,
+      "vertices": 4984,
+      "faces": 4498,
+      "category": "backdrop"
+    },
+    {
+      "file": "docks.glb",
+      "description": "3 dock platforms (水社/伊達邵/朝霧) at lake+1m",
+      "generated_by": "scripts/mesh_gen/infra_mesh.py",
+      "sha256": "eb3b5a9a9cf47b8f2af1c9aafa04b1c730046973f54e0e6d3249c39f56157503",
+      "size_bytes": 1228,
+      "vertices": 12,
+      "faces": 6,
+      "category": "backdrop"
+    },
+    {
+      "file": "ropeway.glb",
+      "description": "Ropeway line 日月潭站→九族站, DEM+20m clearance",
+      "generated_by": "scripts/mesh_gen/infra_mesh.py",
+      "sha256": "6093ef6d39de11d4be53b0352fbd4c2ec748adf19b8196793f65842872fdc177",
+      "size_bytes": 2236,
+      "vertices": 46,
+      "faces": 44,
+      "category": "backdrop"
+    },
+    {
+      "file": "support_structures.glb",
+      "description": "M9 gated S7 retaining wall for E-62f16ef2 rows 53-56",
+      "generated_by": "scripts/mesh_gen/road_support_structure.py",
+      "mesh_role": "support_structure",
+      "sidecar": "support_structures.glb.provenance.json",
+      "sha256": "7b365ce6e4bee299896c84ea304d41088b400b498b386423bc2a10c25699d219",
+      "size_bytes": 28600,
+      "vertices": 740,
+      "faces": 1472,
+      "bounds_m": {
+        "x": [
+          1944.485186,
+          1980.143296
+        ],
+        "y": [
+          860.799233,
+          876.515519
+        ],
+        "z": [
+          779.743379,
+          784.96583
+        ]
+      }
+    }
+  ]
+}

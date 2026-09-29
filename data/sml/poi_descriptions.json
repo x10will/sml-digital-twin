@@ -1,0 +1,1213 @@
+{
+ "generated_by": "scripts/build_poi_descriptions.py",
+ "pois": {
+  "SML-ACC-01": {
+   "description": "Luxury resort on Hanbi peninsula, one of Taiwan's most prestigious hotels.",
+   "lat": 23.862772,
+   "lng": 120.90806,
+   "name": "涵碧樓",
+   "name_en": "The Lalu",
+   "type": "facility"
+  },
+  "SML-ACC-02": {
+   "description": "11-story luxury hotel overlooking the lake",
+   "lat": 23.863544,
+   "lng": 120.909106,
+   "name": "漢來日月行館",
+   "name_en": "Grand Hanlai Sun Moon Lake",
+   "type": "facility"
+  },
+  "SML-ACC-03": {
+   "description": "Hot spring resort hotel on north shore",
+   "lat": 23.871207,
+   "lng": 120.92353,
+   "name": "雲品溫泉酒店",
+   "name_en": "Fleur de Chine Hotel",
+   "type": "facility"
+  },
+  "SML-ACC-04": {
+   "description": "13-story Wyndham-branded hot spring hotel at Ita Thao",
+   "lat": 23.847264,
+   "lng": 120.931543,
+   "name": "日月潭力麗溫德姆溫泉酒店",
+   "name_en": "Wyndham Sun Moon Lake",
+   "type": "facility"
+  },
+  "SML-ACC-05": {
+   "description": "Major hot spring resort at Shuishe area",
+   "lat": 23.868145,
+   "lng": 120.908809,
+   "name": "馥麗溫泉大飯店",
+   "name_en": "Fuli Hot Spring Resort",
+   "type": "facility"
+  },
+  "SML-ACC-06": {
+   "description": "12-story hotel at Shuishe village center with dedicated parking.",
+   "lat": 23.866263,
+   "lng": 120.903005,
+   "name": "日月潭大飯店",
+   "name_en": "Sun Moon Lake Hotel",
+   "type": "facility"
+  },
+  "SML-ACC-07": {
+   "description": "Hotel on north shore near 環湖路口",
+   "lat": 23.872097,
+   "lng": 120.920788,
+   "name": "米洛克大飯店",
+   "name_en": "Miracolo View Hotel",
+   "type": "facility"
+  },
+  "SML-ACC-08": {
+   "description": "Cluster of ~30 hotels, hostels, and guesthouses in the Shuishe village area.",
+   "lat": 23.866,
+   "lng": 120.911,
+   "name": "水社住宿群 (中小型旅館+民宿)",
+   "name_en": "Shuishe Accommodation Cluster",
+   "type": "facility"
+  },
+  "SML-ACC-09": {
+   "description": "Cluster of ~20 hotels and guesthouses in the Ita Thao village area.",
+   "lat": 23.848,
+   "lng": 120.931,
+   "name": "伊達邵住宿群 (中小型旅館+民宿)",
+   "name_en": "Ita Thao Accommodation Cluster",
+   "type": "facility"
+  },
+  "SML-ACC-10": {
+   "description": "Youth hostel/activity center near the ropeway station",
+   "lat": 23.852306,
+   "lng": 120.937562,
+   "name": "日月潭青年活動中心",
+   "name_en": "Sun Moon Lake Youth Activity Center",
+   "type": "facility"
+  },
+  "SML-ACC-12": {
+   "description": "Guest house in 地利/雙龍 area (near 達瑪巒). Accommodation node for the cluster.",
+   "lat": 23.7822003,
+   "lng": 120.9452234,
+   "name": "達瑪勞翁民宿",
+   "name_en": "Damalaoweng Guesthouse",
+   "type": "ACC"
+  },
+  "SML-BIK-01": {
+   "description": "Giant bicycle rental at Shuishe, 中山路163號B1. Road, e-assist, and standard bikes with GPS equipment.",
+   "lat": 23.8665026,
+   "lng": 120.9112999,
+   "name": "捷安特日月潭租賃站",
+   "name_en": "Giant Sun Moon Lake Rental",
+   "type": "facility"
+  },
+  "SML-BIK-02": {
+   "description": "OPENBIKE rental at Shuishe, 中山路163號3F. E-assist, parent-child, pet carrier, and children's bikes.",
+   "lat": 23.8663651,
+   "lng": 120.9109898,
+   "name": "OPENBIKE 日月潭站",
+   "name_en": "OPENBIKE Sun Moon Lake",
+   "type": "facility"
+  },
+  "SML-BIK-03": {
+   "description": "Songmeng bike rental at Shuishe, 中興路12巷18號. Wide range including 21/27-speed, parent-child, tandem, and e-bikes.",
+   "lat": 23.8664215,
+   "lng": 120.9104614,
+   "name": "松錳租車",
+   "name_en": "Songmeng Bike Rental",
+   "type": "facility"
+  },
+  "SML-BIK-04": {
+   "description": "Merida bicycle rental near Xiangshan Visitor Center, 中山路592號. Standard, tandem, e-bikes, parent-child. Offers cross-station return to Shuishe.",
+   "lat": 23.8541562,
+   "lng": 120.9011096,
+   "name": "美利達向山租賃店",
+   "name_en": "Merida Xiangshan Rental",
+   "type": "facility"
+  },
+  "SML-BIK-05": {
+   "description": "Happy Bike rental at Shuishe, 中興路12巷31號. Basic, e-bike, and dual tandem options.",
+   "lat": 23.8657124,
+   "lng": 120.9089302,
+   "name": "快樂鐵馬",
+   "name_en": "Happy Bike Rental",
+   "type": "facility"
+  },
+  "SML-BIK-06": {
+   "description": "Anxin Qi scooter and e-bike rental at Shuishe, 中山路149號. Carries Giant brand e-bikes.",
+   "lat": 23.8662847,
+   "lng": 120.9116145,
+   "name": "安心騎",
+   "name_en": "Anxin Qi Rental",
+   "type": "facility"
+  },
+  "SML-BIK-07": {
+   "description": "Bicycle rental at Ita Thao. Status uncertain — zero web presence beyond OSM listing.",
+   "lat": 23.8470032,
+   "lng": 120.9323782,
+   "name": "叱奼風輪",
+   "name_en": "Chicha Fenglun Bike Rental",
+   "type": "facility"
+  },
+  "SML-BIK-08": {
+   "description": "Merida partner bicycle rental at Ita Thao, 文化街11號. Standard and e-bike options.",
+   "lat": 23.847141,
+   "lng": 120.93249,
+   "name": "奔騰單車出租",
+   "name_en": "Benteng Bike Rental",
+   "type": "facility"
+  },
+  "SML-BIK-09": {
+   "description": "Bicycle rental at Ita Thao, 日月街107號. Hours 07:00-20:00. NT$200/2hr.",
+   "lat": 23.848,
+   "lng": 120.932,
+   "name": "中華自行車租賃 (伊達邵)",
+   "name_en": "Zhonghua Bike Rental (Ita Thao)",
+   "type": "facility"
+  },
+  "SML-BIK-10": {
+   "description": "Sole 甲租乙還 operator at Sun Moon Lake. Giant fleet ~20 models. Shuishe branch paired with Ita Thao branch (SML-BIK-11) for cross-station return.",
+   "lat": 23.866,
+   "lng": 120.911,
+   "name": "旅人BIKE (水社)",
+   "name_en": "Traveler BIKE (Shuishe)",
+   "type": "facility"
+  },
+  "SML-BIK-11": {
+   "description": "甲租乙還 return point at Ita Thao, paired with Shuishe branch (SML-BIK-10).",
+   "lat": 23.847,
+   "lng": 120.932,
+   "name": "旅人BIKE (伊達邵)",
+   "name_en": "Traveler BIKE (Ita Thao)",
+   "type": "facility"
+  },
+  "SML-BIK-12": {
+   "description": "INCOMPLETE / low-confidence. Bike-rental shops are known to cluster at the 集集車站 民生路 exit and the 龍泉車站 龍泉巷 exit (the standard 綠色隧道 ride start), but NO individual rental business is tagged in OSM (shop=bicycle and amenity=bicycle_rental both returned 0 hits in the bbox). Needs an on-site or operator survey to enumerate shops, rates, hours, and fleet.",
+   "lat": 23.826,
+   "lng": 120.7842,
+   "name": "集集車站 自行車出租聚落 (bike-rental cluster)",
+   "name_en": "Jiji Station Bike-Rental Cluster",
+   "type": "bike_rental"
+  },
+  "SML-BIK-13": {
+   "description": "~17.52 km signed cycling loop linking 集集車站, 綠色隧道, 軍史公園 and the 民生東路 cluster — a former 'national top-10 classic cycleway'. Mostly flat, shared with the 樟樹 avenue. OSM carries a named 集集自行車道 segment east of the station.",
+   "lat": 23.8267543,
+   "lng": 120.7926713,
+   "name": "集集環鎮自行車道 / 集集自行車道",
+   "name_en": "Jiji Town-Loop Cycleway",
+   "type": "cycleway"
+  },
+  "SML-COM-01": {
+   "description": "Dense food and souvenir street in Ita Thao village. Main dining/shopping area on east side of lake.",
+   "lat": 23.848,
+   "lng": 120.93,
+   "name": "伊達邵商店街",
+   "name_en": "Ita Thao Food/Shopping Street",
+   "type": "facility"
+  },
+  "SML-COM-02": {
+   "description": "Commercial area around Shuishe pier and visitor center. Hotels, restaurants, shops, 85C cafe.",
+   "lat": 23.865,
+   "lng": 120.911,
+   "name": "水社商圈",
+   "name_en": "Shuishe Commercial Area",
+   "type": "facility"
+  },
+  "SML-COM-12": {
+   "description": "The 集集車站-front commercial strip along 民生路/八張街 — souvenir/snack shops (山蕉伴手禮, 臭豆腐, 肉圓, 牛肉麵), the 集集觀光夜市 (Tue & Sat evenings), the 農會 集集大飯店 hostel, banks, pharmacies, an underground public car park, and public toilets. A commerce/services area rather than a single point.",
+   "lat": 23.8283083,
+   "lng": 120.7845102,
+   "name": "集集老街 (民生路商圈 / 觀光夜市)",
+   "name_en": "Jiji Old Street (commerce cluster / night market)",
+   "type": "commerce_area"
+  },
+  "SML-FAC-01": {
+   "description": "Scenic viewpoint structure near Shuishe, Confucian-themed",
+   "lat": 23.8641917,
+   "lng": 120.9075633,
+   "name": "杏壇",
+   "name_en": "Shing-Tan",
+   "type": "poi"
+  },
+  "SML-FAC-02": {
+   "description": "Historical pavilion on the Hanbi peninsula, former Chiang Kai-shek rest spot",
+   "lat": 23.8627013,
+   "lng": 120.9099562,
+   "name": "蔣公涼亭",
+   "name_en": "Jiang Gong Pavilion",
+   "type": "poi"
+  },
+  "SML-FAC-03": {
+   "description": "Yushan National Park (玉管處) visitor center in 水里 town — a secondary visitor-information point (different authority from NSA). Useful transfer/orientation node for 水里 arrivals.",
+   "lat": 23.8125491,
+   "lng": 120.8500599,
+   "name": "玉管處水里遊客中心",
+   "name_en": "Yushan NP Shuili Visitor Center",
+   "type": "facility"
+  },
+  "SML-FAC-04": {
+   "description": "NSA-operated visitor center at 車埕 (民權巷, former 車埕國小 site), information and interpretation hub for the 車埕 cluster. Operated by 交通部觀光署日月潭國家風景區管理處.",
+   "lat": 23.8335762,
+   "lng": 120.86681497,
+   "name": "車埕遊客中心",
+   "name_en": "Checheng Visitor Center",
+   "opening_hours": "Mo-Su 09:00-17:00 (per OSM way 606935467; a duplicate OSM feature says Tu-Su — VERIFY against NSA before encoding time-sensitive hours)",
+   "type": "facility"
+  },
+  "SML-FAC-05": {
+   "description": "The NSA authority's own Puli office on 台21線 (桃南路), just inside the northern boundary. Best in-boundary physical twin for the 埔里 gateway anchor N-NSA-e1de5e (gov trust-1 facility). NOTE: the anchor coordinate itself (23.96614/120.94610) point-in-polygon tests ~76 m OUTSIDE the boundary; this station is ~250 m S and IN.",
+   "lat": 23.9639532,
+   "lng": 120.9461626,
+   "name": "日月潭國家風景區管理處 埔里管理站",
+   "name_en": "Sun Moon Lake NSA — Puli Management Station",
+   "type": "visitor_information_office"
+  },
+  "SML-FAC-06": {
+   "description": "Bunun community landmark school (est. 民國47/1958). Destroyed in 921; rebuilt by 浩然基金會, designed by architect 姜樂靜 as a Bunun 石板家屋 (slate house) concept in steel — the '知識的小米倉' library. Designated emergency evacuation center (潭南村3-4鄰).",
+   "lat": 23.8212641,
+   "lng": 120.9401968,
+   "name": "潭南國小",
+   "name_en": "Tannan Elementary School",
+   "type": "FAC"
+  },
+  "SML-HYD-01": {
+   "description": "日月潭水體本身——台灣最大高山湖泊，亦為大觀／明潭抽蓄水力系統的上池水庫。日治建壩後水位較原湖升高約18.18公尺。",
+   "lat": 23.855,
+   "lng": 120.915,
+   "name": "日月潭（湖體・上池水庫）",
+   "name_en": "Sun Moon Lake (reservoir / upper pond)",
+   "type": "hydro"
+  },
+  "SML-HYD-02": {
+   "description": "從濁水溪上游武界壩跨流域引水進入日月潭的人工地下水道，是維持日月潭蓄水位的命脈；出水口位於東岸大竹湖（即日月湧泉 POI-18）。",
+   "lat": 23.8625,
+   "lng": 120.9404,
+   "name": "武界引水隧道（跨流域引水道）",
+   "name_en": "Wujie Diversion Tunnel",
+   "type": "hydro"
+  },
+  "SML-PKG-01": {
+   "description": "Main public parking at Shuishe area, fee-based surface lot.",
+   "lat": 23.865468,
+   "lng": 120.910069,
+   "name": "中興停車場",
+   "name_en": "Zhongxing Parking Lot",
+   "type": "facility"
+  },
+  "SML-PKG-02": {
+   "description": "Parking lot at Shuishe area near the dam",
+   "lat": 23.852704,
+   "lng": 120.901078,
+   "name": "水秀停車場",
+   "name_en": "Shuixiu Parking Lot",
+   "type": "facility"
+  },
+  "SML-PKG-03": {
+   "description": "Large surface parking lot at the ropeway station.",
+   "lat": 23.852086,
+   "lng": 120.935306,
+   "name": "日月潭纜車站停車場",
+   "name_en": "Ropeway Station Parking Lot",
+   "type": "facility"
+  },
+  "SML-PKG-04": {
+   "description": "New 2-level parking structure at Ita Thao. Opened to relieve holiday congestion.",
+   "lat": 23.84632,
+   "lng": 120.932223,
+   "name": "伊達邵立體停車場",
+   "name_en": "Ita Thao Multi-Storey Parking",
+   "type": "facility"
+  },
+  "SML-PKG-05": {
+   "description": "Surface parking near Ita Thao village",
+   "lat": 23.847469,
+   "lng": 120.933215,
+   "name": "伊達邵臨時停車場",
+   "name_en": "Ita Thao Temporary Parking",
+   "type": "facility"
+  },
+  "SML-PKG-06": {
+   "description": "Bus-only parking near Wenwu Temple (opened to cars on holidays).",
+   "lat": 23.869292,
+   "lng": 120.929157,
+   "name": "蘭園大客車停車場",
+   "name_en": "Lanyuan Tour Bus Parking",
+   "type": "facility"
+  },
+  "SML-PKG-07": {
+   "description": "Surface parking at Wenwu Temple",
+   "lat": 23.869749,
+   "lng": 120.92851,
+   "name": "文武廟停車場",
+   "name_en": "Wenwu Temple Parking",
+   "type": "facility"
+  },
+  "SML-PKG-08": {
+   "description": "Cluster of parking lots at Xiangshan Visitor Center: separate lots for small cars, large buses, and staff.",
+   "lat": 23.8509,
+   "lng": 120.902,
+   "name": "向山停車場群 (小型車+大型車+員工)",
+   "name_en": "Xiangshan Parking Lots (cars + buses + staff)",
+   "type": "facility"
+  },
+  "SML-PKG-09": {
+   "description": "Small parking at Shuiwa Trail entrance",
+   "lat": 23.857649,
+   "lng": 120.94003,
+   "name": "水蛙頭步道停車場",
+   "name_en": "Shuiwa Trail Parking",
+   "type": "facility"
+  },
+  "SML-PKG-10": {
+   "description": "Parking at Neihushan Trail trailhead, north shore",
+   "lat": 23.873238,
+   "lng": 120.922577,
+   "name": "內湖山步道停車場",
+   "name_en": "Neihushan Trail Parking",
+   "type": "facility"
+  },
+  "SML-PKG-11": {
+   "description": "Large parking lots at the theme park",
+   "lat": 23.869674,
+   "lng": 120.944944,
+   "name": "九族文化村停車場",
+   "name_en": "Formosan Aboriginal Culture Village Parking",
+   "type": "facility"
+  },
+  "SML-PKG-12": {
+   "description": "Surface parking at the Ita Thao Visitor Center / pier plaza.",
+   "lat": 23.848662318564774,
+   "lng": 120.92987027638405,
+   "name": "伊達邵遊客中心停車場",
+   "name_en": "Ita Thao Visitor Center Parking",
+   "type": "facility"
+  },
+  "SML-PKG-13": {
+   "description": "Parking by 朝霧碼頭 / 風管處 (scenic area admin office), NW shore.",
+   "lat": 23.868182642969103,
+   "lng": 120.91631340184783,
+   "name": "朝霧碼頭停車場",
+   "name_en": "Chaowu Pier Parking",
+   "type": "facility"
+  },
+  "SML-PKG-14": {
+   "description": "Surface parking west of 台21 near 向山, just west of the 向山 visitor-center cluster.",
+   "lat": 23.8510914053818,
+   "lng": 120.9008742369781,
+   "name": "山明停車場",
+   "name_en": "Shanming Parking",
+   "type": "facility"
+  },
+  "SML-PKG-15": {
+   "description": "Trailhead parking for the 水社大山登山步道, at the lake-level trail entrance near the 青年活動中心/纜車站.",
+   "lat": 23.85061,
+   "lng": 120.93622,
+   "name": "水社大山停車場",
+   "name_en": "Shuishe Dashan Trailhead Parking",
+   "type": "facility"
+  },
+  "SML-PKG-16": {
+   "description": "Two fee public parking lots serving the 車埕 attraction cluster: one asphalt lot beside 車埕遊客中心 (~23.8317,120.8662) and one near the station / 木業展示館 (~23.8339,120.8672).",
+   "lat": 23.83171868,
+   "lng": 120.86617784,
+   "name": "車埕停車場 (遊客中心/木業展示館)",
+   "name_en": "Checheng Parking (Visitor Center / Museum)",
+   "type": "facility"
+  },
+  "SML-POI-01": {
+   "description": "Main visitor center at Shuishe village, information office and transit hub",
+   "lat": 23.866474,
+   "lng": 120.9110263,
+   "name": "水社遊客中心",
+   "name_en": "Shuishe Visitor Center",
+   "opening_hours": "09:00-17:00",
+   "type": "facility"
+  },
+  "SML-POI-02": {
+   "description": "Architecturally notable visitor center designed by Norihiko Dan, south side of lake",
+   "lat": 23.8519763,
+   "lng": 120.9019718,
+   "name": "向山遊客中心",
+   "name_en": "Xiangshan Visitor Center",
+   "opening_hours": "09:00-17:00",
+   "type": "facility"
+  },
+  "SML-POI-03": {
+   "description": "Management station and visitor center at Ita Thao",
+   "lat": 23.8489134,
+   "lng": 120.929308,
+   "name": "伊達邵遊客中心",
+   "name_en": "Ita Thao Visitor Center",
+   "type": "facility"
+  },
+  "SML-POI-10": {
+   "description": "Major temple on north shore, dedicated to Confucius and martial deity Guan Yu. Famous 365-step staircase (年梯步道).",
+   "lat": 23.870005,
+   "lng": 120.927682,
+   "name": "文武廟",
+   "name_en": "Wenwu Temple",
+   "type": "poi",
+   "wikidata": "Q10311331"
+  },
+  "SML-POI-11": {
+   "description": "Small Buddhist temple on south shore promontory, accessed from Xuanguang Pier. Famous for 阿婆茶葉蛋.",
+   "lat": 23.852101,
+   "lng": 120.913633,
+   "name": "玄光寺",
+   "name_en": "Xuanguang Temple",
+   "type": "poi"
+  },
+  "SML-POI-12": {
+   "description": "Buddhist temple on hillside above Xuanguang Temple, houses relics of monk Xuanzang.",
+   "lat": 23.847337,
+   "lng": 120.917091,
+   "name": "玄奘寺",
+   "name_en": "Xuanzang Temple",
+   "type": "poi"
+  },
+  "SML-POI-13": {
+   "description": "8-story observation tower on a hilltop. Highest point around the lake. Wheelchair not accessible.",
+   "lat": 23.841972,
+   "lng": 120.920802,
+   "name": "慈恩塔",
+   "name_en": "Ci-en Pagoda",
+   "type": "poi",
+   "wikidata": "Q51697770"
+  },
+  "SML-POI-14": {
+   "description": "Temple complex at west entrance area. 月下老人祠 is the famous matchmaker deity shrine.",
+   "lat": 23.867069,
+   "lng": 120.905473,
+   "name": "龍鳳宮 / 月下老人祠",
+   "name_en": "Dragon Phoenix Temple / Matchmaker Temple",
+   "opening_hours": "08:00-20:00",
+   "type": "poi"
+  },
+  "SML-POI-15": {
+   "description": "Historic chapel built during Chiang Kai-shek era, on the Hanbi peninsula.",
+   "lat": 23.863599,
+   "lng": 120.910225,
+   "name": "耶穌堂",
+   "name_en": "Sun Moon Lake Jesus Church",
+   "opening_hours": "10:00-16:00",
+   "type": "poi",
+   "wikidata": "Q55716296"
+  },
+  "SML-POI-16": {
+   "description": "Theme park with indigenous culture exhibitions, rides, gardens. Connected to lake by ropeway.",
+   "lat": 23.8635,
+   "lng": 120.9498,
+   "name": "九族文化村",
+   "name_en": "Formosan Aboriginal Culture Village",
+   "type": "poi"
+  },
+  "SML-POI-17": {
+   "description": "Scenic viewpoint near Xiangshan Visitor Center",
+   "lat": 23.8549364,
+   "lng": 120.9054773,
+   "name": "向山眺望平台",
+   "name_en": "Xiangshan Lookout Platform",
+   "type": "poi"
+  },
+  "SML-POI-18": {
+   "description": "Natural spring/water intake viewpoint on east shore near Dazhuhu",
+   "lat": 23.8625052,
+   "lng": 120.9403996,
+   "name": "日月湧泉",
+   "name_en": "Sun Moon Spring",
+   "type": "poi"
+  },
+  "SML-POI-19": {
+   "description": "Butterfly garden near the ropeway station area",
+   "lat": 23.85145,
+   "lng": 120.93746,
+   "name": "蝴蝶園",
+   "name_en": "Butterfly Garden",
+   "type": "poi"
+  },
+  "SML-POI-20": {
+   "description": "Small reservoir south of the main lake, open Tu-Su",
+   "lat": 23.838709,
+   "lng": 120.898461,
+   "name": "頭社水庫",
+   "name_en": "Toushe Reservoir",
+   "opening_hours": "Tu-Su 09:00-16:00",
+   "type": "poi"
+  },
+  "SML-POI-21": {
+   "description": "邵族最高祖靈居住之聖地，位於日月潭中央；名稱歷經珠仔山→玉島→光華島→拉魯島正名。",
+   "lat": 23.8556878,
+   "lng": 120.9112816,
+   "name": "拉魯島",
+   "name_en": "Lalu Island",
+   "type": "poi"
+  },
+  "SML-POI-22": {
+   "description": "日月潭西北側山峰，小百岳#049，海拔約1016m；日月潭觀日出最佳點，可遠眺九份二山、集集大山。",
+   "lat": 23.8813974,
+   "lng": 120.9079643,
+   "name": "貓囒山",
+   "name_en": "Maolanshan",
+   "type": "poi"
+  },
+  "SML-POI-23": {
+   "description": "中央氣象署測候所，位於貓囒山步道終點(海拔約1005m)；全台四座不同海拔測候所之一(竹子湖850/阿里山2400/玉山3800)，海拔第二高。",
+   "lat": 23.8812932,
+   "lng": 120.9080172,
+   "name": "日月潭氣象站",
+   "name_en": "Sun Moon Lake Weather Station",
+   "opening_hours": "05:30-17:30",
+   "type": "poi"
+  },
+  "SML-POI-24": {
+   "description": "日治1936年創設之魚池紅茶試驗支所，阿薩姆紅茶發源地；日式建築群，館內展示阿薩姆紅茶發展史，免費參觀，位於貓囒山步道中段(約海拔850m)。",
+   "lat": 23.868891,
+   "lng": 120.908909,
+   "name": "農業部茶及飲料作物改良場 魚池分場",
+   "name_en": "TBRS Yuchi Branch (Tea Research Station)",
+   "type": "poi"
+  },
+  "SML-POI-26": {
+   "description": "Timber-industry museum on the former 振昌木業 site beside 車埕車站, continuing the 車埕 forestry-town heritage narrative (振昌木業 was central Taiwan's largest timber mill). Sits next to the historic 貯木池 (log pond). Part of the NSA-managed 車埕 cluster.",
+   "lat": 23.83348802,
+   "lng": 120.86588824,
+   "name": "車埕木業展示館",
+   "name_en": "Checheng Wood Industry Exhibition Hall",
+   "type": "attraction"
+  },
+  "SML-POI-27": {
+   "description": "Retail + dining + woodcraft-DIY complex at 車埕 (中央廣場一樓) built on the former 振昌木業 mill, continuing its timber craftsmanship as a hands-on 木工DIY experience factory using reclaimed forest timber. Branded 'The Grove / 林班道'. A primary visitor draw of the 車埕 cluster alongside the station and museum.",
+   "lat": 23.834,
+   "lng": 120.8658,
+   "name": "林班道商圈 / 林班道體驗工廠",
+   "name_en": "The Grove (Linbandao) Shopping Area & Experience Factory",
+   "type": "attraction"
+  },
+  "SML-POI-28": {
+   "description": "The historic 車埕 village street and adjacent 貯木池 (timber storage pond) — the walkable heritage core linking 車埕車站, 木業展示館 and 林班道. The 貯木池 water feature is the cluster's scenic centrepiece.",
+   "lat": 23.833,
+   "lng": 120.8662,
+   "name": "車埕老街 / 車埕貯木池",
+   "name_en": "Checheng Old Street & Log Pond",
+   "type": "attraction"
+  },
+  "SML-POI-29": {
+   "description": "Historic wood-fired 'snake kiln' (蛇窯, est. 1927) turned ceramics culture park at 頂崁, 水里 — a signature 水里 attraction with pottery exhibits and DIY. South of 車埕 along 水信路一段512巷.",
+   "lat": 23.80078525,
+   "lng": 120.86479175,
+   "name": "水里蛇窯陶藝文化園區",
+   "name_en": "Shuili Snake Kiln Ceramics Culture Park",
+   "type": "attraction",
+   "wikidata": "Q11130725"
+  },
+  "SML-POI-30": {
+   "description": "Heritage hydroelectric plant (日月潭第一發電所, construction from 1918, operational 1934) in the 水里溪 valley west of Sun Moon Lake, at 車埕村明潭巷. NSA-listed attraction. Uses 日月潭 as upper pool; the 明湖水庫 (下池) sits at its outfall as part of the later 大觀二廠 pumped-storage scheme. Industrial-heritage viewpoint of the 車埕 zone.",
+   "lat": 23.8542,
+   "lng": 120.8708,
+   "name": "大觀發電廠",
+   "name_en": "Daguan Power Plant (Sun Moon Lake First Power Plant)",
+   "type": "attraction"
+  },
+  "SML-POI-31": {
+   "description": "Lower reservoir (明湖下池, 復旦池) of the 大觀二廠 pumped-storage scheme on the 水里溪, downstream of 大觀發電廠; 日月潭 serves as the upper pool. Dam ~57.5 m high, crest ~450 m. A scenic reservoir viewpoint between 車埕 and 水里.",
+   "lat": 23.85,
+   "lng": 120.87,
+   "name": "明湖水庫 (下池)",
+   "name_en": "Minghu Reservoir (Lower Pond)",
+   "type": "attraction"
+  },
+  "SML-POI-32": {
+   "description": "The old 武昌宮 collapsed intact in the 1999 921 earthquake and is preserved as a ruin memorial; a new temple stands alongside. One of 集集's signature 921 sites.",
+   "lat": 23.831426,
+   "lng": 120.7921432,
+   "name": "武昌宮 (921 地震遺蹟)",
+   "name_en": "Wuchang Temple 921 Earthquake Ruin",
+   "type": "attraction"
+  },
+  "SML-POI-33": {
+   "description": "Government natural-history / biodiversity museum — 3 floors of Taiwan endemic-species ecology (石虎, 黑熊 exhibits). Renamed 農業部生物多樣性研究所 (formerly 特有生物研究保育中心, 特生中心); the public 保育教育館 is the visitor-facing hall. Anchors the 民生東路 cultural cluster with 明新書院 + 山蕉文化館.",
+   "lat": 23.8280663,
+   "lng": 120.8005598,
+   "name": "農業部生物多樣性研究所 保育教育館 (特有生物研究保育中心)",
+   "name_en": "TBRI Conservation Education Hall (Endemic Species Research Institute)",
+   "opening_hours": "09:00-16:30 (ticket sales stop 16:00); closed Mondays, CNY eve-1/eve/day1, and 6/1-6/10 & 12/1-12/10; open on national holidays",
+   "type": "museum"
+  },
+  "SML-POI-34": {
+   "description": "Visitor/education museum for the 集集攔河堰 (Jiji Weir, Taiwan's largest water-diversion barrage on the 濁水溪). This water-museum node is INSIDE the NSA; the 352.5 m barrage structure + management center (林尾里攔河路2號, right bank) fall OUT — see report edge section.",
+   "lat": 23.8208877,
+   "lng": 120.7650092,
+   "name": "集集攔河堰 臺灣水資源館",
+   "name_en": "Jiji Weir — Taiwan Water Resources Museum",
+   "opening_hours": "09:00-17:00 daily (per OSM; verify against 水利署 — management-center hours are Mon-Fri 08:00-12:00,13:30-17:30)",
+   "type": "museum"
+  },
+  "SML-POI-35": {
+   "description": "~4.5 km camphor-tree (樟樹) avenue planted in the Japanese era along the 152縣道 (楓林巷), running parallel to the 集集線 rail — a signature 集集 landscape and the spine of the ~17.52 km 集集環鎮自行車道. The central楓林巷 stretch is INSIDE the NSA; the west portal (綠色隧道西口, 名間/龍泉 side) is OUT.",
+   "lat": 23.8309582,
+   "lng": 120.7580869,
+   "name": "集集綠色隧道",
+   "name_en": "Jiji Green Tunnel",
+   "type": "attraction"
+  },
+  "SML-POI-36": {
+   "description": "Qing-era Confucian academy (縣定古蹟), part of the 民生東路 cultural cluster next to 特生中心 and 山蕉文化館. Active 文昌帝君 worship + heritage site.",
+   "lat": 23.827939,
+   "lng": 120.7985598,
+   "name": "明新書院",
+   "name_en": "Mingxin Academy",
+   "type": "heritage_site"
+  },
+  "SML-POI-37": {
+   "description": "Theme museum on 集集's signature 山蕉 (mountain banana) trade, on 民生東路 in the eastern cultural cluster. Free admission.",
+   "lat": 23.8286557,
+   "lng": 120.7994486,
+   "name": "集集山蕉歷史文化館",
+   "name_en": "Jijishan Banana History and Culture Museum",
+   "type": "museum"
+  },
+  "SML-POI-38": {
+   "description": "Restored Japanese-era 樟腦 (camphor) branch-office heritage building near 集集車站; small exhibition, open weekends.",
+   "lat": 23.82865,
+   "lng": 120.7870057,
+   "name": "集集樟腦出張所",
+   "name_en": "Jiji Camphor Bureau Office",
+   "opening_hours": "Sa-Su & PH 09:00-17:00; closed Mon",
+   "type": "heritage_site"
+  },
+  "SML-POI-39": {
+   "description": "Open-air park displaying retired military tanks/aircraft/guns, on 集集's east side by 廣興壇; a free family stop on the 環鎮自行車道.",
+   "lat": 23.827157,
+   "lng": 120.7954082,
+   "name": "軍史公園",
+   "name_en": "Military History Park",
+   "type": "park"
+  },
+  "SML-POI-40": {
+   "description": "One of 桃米's headline frog-watching wetlands; part of the community night-frog-tour (夜間賞蛙) circuit. 桃米 hosts ~79% of Taiwan's frog species.",
+   "lat": 23.944356,
+   "lng": 120.9336507,
+   "name": "茅埔坑濕地",
+   "name_en": "Maopukeng Wetland",
+   "type": "wetland_ecology"
+  },
+  "SML-POI-41": {
+   "description": "Large university campus straddling the NSA northern boundary; SE campus edge (bus stops, 圖書館, MOLi 自造者實驗室, public-art trail) is inside the NSA. A 台21 corridor waypoint and demand generator.",
+   "lat": 23.9511014,
+   "lng": 120.9309466,
+   "name": "國立暨南國際大學 (校園南緣)",
+   "name_en": "National Chi Nan University (south campus edge)",
+   "type": "external_area"
+  },
+  "SML-POI-42": {
+   "description": "Flagship of 桃米生態村 — the earthquake-relief Paper Dome relocated from Kobe after the 921 quake; ecology park with lily ponds, art, and the 新故鄉 community-rebuild story. Core anchor attraction of the Taomi zone.",
+   "lat": 23.942278,
+   "lng": 120.9275194,
+   "name": "紙教堂新故鄉見學園區",
+   "name_en": "Paper Dome (New Homeland Learning Garden)",
+   "opening_hours": "09:30-17:00 (last entry 16:30); closed Wednesdays except holidays/school-breaks; closed CNY eve",
+   "type": "attraction"
+  },
+  "SML-POI-43": {
+   "description": "Castle-themed chocolate attraction on 桃米路, adjacent to the Taomi ecovillage core; family/tour-group draw on the 台21 corridor.",
+   "lat": 23.9438814,
+   "lng": 120.9297947,
+   "name": "妮娜巧克力夢想城堡",
+   "name_en": "Conas Chococastle",
+   "type": "attraction"
+  },
+  "SML-POI-44": {
+   "description": "Wooden frog and dragonfly public sculptures marking 桃米's frog-ecology identity, near the ecovillage service area.",
+   "lat": 23.9424035,
+   "lng": 120.9374211,
+   "name": "桃米社區青蛙意象雕塑群 (木青蛙/木蜻蜓)",
+   "name_en": "Taomi Frog/Dragonfly Sculptures",
+   "type": "artwork"
+  },
+  "SML-POI-45": {
+   "description": "Stone-sculpture art park on 台21線 north of 暨大, a 6670 台灣好行 stop; in-boundary attraction on the corridor toward the 埔里 gateway.",
+   "lat": 23.9662801,
+   "lng": 120.9448003,
+   "name": "牛耳藝術石雕公園",
+   "name_en": "Niu'er Art (Stone Sculpture) Park",
+   "type": "attraction"
+  },
+  "SML-POI-46": {
+   "description": "Ticketed attraction. Taiwan's longest/deepest pedestrian suspension bridge (全長342m, 最深110m) over the 雙龍瀑布 gorge, 信義鄉光復巷. Reached via a steep 好漢坡 stair descent. Operated by 南投縣政府 (風景區管理所).",
+   "lat": 23.7791262,
+   "lng": 120.9502528,
+   "name": "雙龍瀑布七彩吊橋",
+   "name_en": "Shuanglong Rainbow Suspension Bridge",
+   "type": "POI"
+  },
+  "SML-POI-47": {
+   "description": "High-drop waterfall on a 濁水溪 tributary in 雙龍部落; the gorge spanned by the 七彩吊橋. Free 24H trail access (bridge itself ticketed).",
+   "lat": 23.7764604,
+   "lng": 120.9504742,
+   "name": "雙龍瀑布",
+   "name_en": "Shuanglong Waterfall",
+   "type": "POI"
+  },
+  "SML-POI-48": {
+   "description": "Bunun (布農族 卡社群 Kasibaan) village on the 濁水溪 mid-slope, ~600m elevation, north end of 信義鄉, south of 日月潭 (hence 潭南). Bunun name Laidazuan (malavi). Cultural gateway village on 投97 (原投63).",
+   "lat": 23.8212411,
+   "lng": 120.9398559,
+   "name": "潭南村",
+   "name_en": "Tannan Village",
+   "type": "EXT"
+  },
+  "SML-POI-49": {
+   "description": "Nantou's highest-elevation Catholic church, a large Jesus statue at its front. Original destroyed in the 921 earthquake; rebuilt 2003 on a Noah's-Ark concept. A signature 潭南部落 landmark.",
+   "lat": 23.8229582,
+   "lng": 120.9403992,
+   "name": "潭南天主堂 (聖伯多祿堂)",
+   "name_en": "Tannan Catholic Church (St. Peter)",
+   "type": "POI"
+  },
+  "SML-POI-51": {
+   "description": "Bunun 卡社群 village at the 台16線 × 投97(原投63) junction — the eastern road gateway into the 潭南/雙龍 cluster. Corridor-anchor candidate for the skipped c5 corridor (see scout report).",
+   "lat": 23.794452,
+   "lng": 120.9449648,
+   "name": "地利村 (達瑪巒 Tamazuan)",
+   "name_en": "Dili Village (Tamazuan)",
+   "type": "EXT"
+  },
+  "SML-POI-52": {
+   "description": "Bunun 卡社群 village above the 濁水溪, home base for the 雙龍瀑布七彩吊橋 attraction (光復巷). Reached via 雙龍橋 off 台16.",
+   "lat": 23.7843475,
+   "lng": 120.9487107,
+   "name": "雙龍部落 (Isingan)",
+   "name_en": "Shuanglong Village (Isingan)",
+   "type": "EXT"
+  },
+  "SML-POI-53": {
+   "description": "Catholic church of 雙龍部落 (光復巷23號). Designated emergency evacuation center (雙龍村3鄰).",
+   "lat": 23.7830786,
+   "lng": 120.9479227,
+   "name": "雙龍聖保祿堂",
+   "name_en": "Shuanglong St. Paul Catholic Church",
+   "type": "POI"
+  },
+  "SML-POI-54": {
+   "description": "Presbyterian church of 雙龍部落 (光復巷50號). Designated emergency evacuation center (雙龍村4-5鄰).",
+   "lat": 23.7828447,
+   "lng": 120.9453665,
+   "name": "迪巴恩基督長老教會",
+   "name_en": "Dibaen Presbyterian Church",
+   "type": "POI"
+  },
+  "SML-STA-01": {
+   "description": "Main ferry pier at Shuishe. Multiple floating berths (refs 1-4). Primary boarding point for lake cruises.",
+   "lat": 23.8643,
+   "lng": 120.9119,
+   "name": "水社碼頭",
+   "name_en": "Shuishe Pier",
+   "type": "station"
+  },
+  "SML-STA-02": {
+   "description": "Mid-lake ferry pier near Xuanguang Temple. Smaller scale, famous for 阿婆茶葉蛋.",
+   "lat": 23.8528938,
+   "lng": 120.9131022,
+   "name": "玄光碼頭",
+   "name_en": "Xuanguang Pier",
+   "type": "station"
+  },
+  "SML-STA-03": {
+   "description": "Ferry pier at Ita Thao (Thao indigenous village area). Large pier complex with multiple berths.",
+   "lat": 23.849444,
+   "lng": 120.9285997,
+   "name": "伊達邵碼頭",
+   "name_en": "Ita Thao Pier",
+   "type": "station"
+  },
+  "SML-STA-04": {
+   "description": "Pier on north shore near scenic area admin. Used for sunrise viewing and some ferry boarding.",
+   "lat": 23.8666,
+   "lng": 120.9155,
+   "name": "朝霧碼頭",
+   "name_en": "Chaowu (Dawn Mist) Pier",
+   "type": "station"
+  },
+  "SML-STA-05": {
+   "description": "Lake-side ropeway terminal station, with parking lot and bus stop",
+   "lat": 23.852257,
+   "lng": 120.9348179,
+   "name": "日月潭纜車站 (湖畔端)",
+   "name_en": "Sun Moon Lake Ropeway Station (Lake Side)",
+   "type": "station"
+  },
+  "SML-STA-06": {
+   "description": "Theme park side ropeway terminal",
+   "lat": 23.8601457,
+   "lng": 120.950941,
+   "name": "九族文化村纜車站",
+   "name_en": "Formosan Aboriginal Culture Village Ropeway Station",
+   "type": "station"
+  },
+  "SML-STA-10": {
+   "description": "Main bus terminal at Shuishe. Hub for 6669, 6670, and intercity services.",
+   "lat": 23.8665198,
+   "lng": 120.9113374,
+   "name": "日月潭 (水社) 巴士站",
+   "name_en": "Sun Moon Lake (Shuishe) Bus Terminal",
+   "type": "station"
+  },
+  "SML-STA-11": {
+   "description": "Bus stop at Shuishe village center",
+   "lat": 23.8668148,
+   "lng": 120.9026956,
+   "name": "水社 巴士站",
+   "name_en": "Shuishe Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-12": {
+   "description": "Bus stop at Ita Thao village, near pier",
+   "lat": 23.8468683,
+   "lng": 120.9322139,
+   "name": "伊達邵 巴士站",
+   "name_en": "Ita Thao Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-13": {
+   "description": "Bus stop at Wenwu Temple",
+   "lat": 23.8695244,
+   "lng": 120.9278928,
+   "name": "文武廟 巴士站",
+   "name_en": "Wenwu Temple Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-14": {
+   "description": "Bus stop at Xuanzang Temple",
+   "lat": 23.8517195,
+   "lng": 120.9131341,
+   "name": "玄奘寺 巴士站",
+   "name_en": "Xuanzang Temple Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-15": {
+   "description": "Bus stop at the ropeway station / youth activity center",
+   "lat": 23.8509795,
+   "lng": 120.9359014,
+   "name": "日月潭纜車站(青年活動中心) 巴士站",
+   "name_en": "Ropeway Station (Youth Center) Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-16": {
+   "description": "Bus stop at Xiangshan Visitor Center area",
+   "lat": 23.8521631,
+   "lng": 120.9014028,
+   "name": "向山行政中心 巴士站",
+   "name_en": "Xiangshan Admin Center Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-17": {
+   "description": "Bus stop near the scenic area management office and Chaowu Pier",
+   "lat": 23.8665066,
+   "lng": 120.9148283,
+   "name": "風管處(朝霧碼頭) 巴士站",
+   "name_en": "Scenic Area Admin (Chaowu Pier) Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-18": {
+   "description": "Bus stop at dam crest between Shuishe and Xiangshan",
+   "lat": 23.861876,
+   "lng": 120.9004255,
+   "name": "壩頂 巴士站",
+   "name_en": "Shuishe Dam Top Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-19": {
+   "description": "Bus stop for Ci-en Pagoda trailhead",
+   "lat": 23.8456232,
+   "lng": 120.9176545,
+   "name": "慈恩塔 巴士站",
+   "name_en": "Ci-en Pagoda Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-20": {
+   "description": "Bus stop at Shuiwa Trail entrance (east shore)",
+   "lat": 23.8574943,
+   "lng": 120.939684,
+   "name": "水蛙頭步道 巴士站",
+   "name_en": "Shuiwa Trail Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-21": {
+   "description": "Bus stop at Dazhuhu Trail entrance (east shore)",
+   "lat": 23.8642982,
+   "lng": 120.9404585,
+   "name": "大竹湖步道 巴士站",
+   "name_en": "Dazhuhu Trail Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-22": {
+   "description": "Bus stop near former Peacock Garden",
+   "lat": 23.8683637,
+   "lng": 120.9315441,
+   "name": "孔雀園 巴士站",
+   "name_en": "Peacock Garden Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-23": {
+   "description": "Bus stop at Songbolun Trail entrance",
+   "lat": 23.8689684,
+   "lng": 120.929279,
+   "name": "松柏崙步道 巴士站",
+   "name_en": "Songbolun Trail Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-24": {
+   "description": "Bus stop at Tutingzi Trail entrance (south shore)",
+   "lat": 23.8509991,
+   "lng": 120.922358,
+   "name": "土亭仔步道 巴士站",
+   "name_en": "Tutingzi Trail Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-25": {
+   "description": "Bus stop at Fleur de Chine (Yunpin) Hotel",
+   "lat": 23.8713765,
+   "lng": 120.9240856,
+   "name": "雲品酒店 巴士站",
+   "name_en": "Fleur de Chine Hotel Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-26": {
+   "description": "Bus stop near Longfeng Temple at west entrance area",
+   "lat": 23.8668694,
+   "lng": 120.9065517,
+   "name": "龍鳳宮 巴士站",
+   "name_en": "Dragon Phoenix Temple Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-27": {
+   "description": "Bus stop at Fuli Hotel, Shuishe area",
+   "lat": 23.8678744,
+   "lng": 120.9085402,
+   "name": "馥麗飯店 巴士站",
+   "name_en": "Fuli Hotel Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-28": {
+   "description": "Bus stop at the theme park entrance",
+   "lat": 23.8709208,
+   "lng": 120.9443182,
+   "name": "九族文化村 巴士站",
+   "name_en": "Formosan Aboriginal Culture Village Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-29": {
+   "description": "Bus stop at Moon Bay (月牙灣) near Xiangshan",
+   "lat": 23.8450551,
+   "lng": 120.9016384,
+   "name": "月牙灣 巴士站",
+   "name_en": "Yueyawan Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-30": {
+   "description": "Bus stop at Dingshe (near Toushe Elementary School), Toushe basin.",
+   "lat": 23.8378287,
+   "lng": 120.9009509,
+   "name": "頂社 巴士站",
+   "name_en": "Dingshe Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-31": {
+   "description": "Bus stop in front of Toushe Police Station, Toushe basin.",
+   "lat": 23.8338336,
+   "lng": 120.8962399,
+   "name": "頭社派出所 巴士站",
+   "name_en": "Toushe Police Station Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-32": {
+   "description": "Bus stop at Toushe village, gateway to the 頭社活盆地 (floating farmland basin).",
+   "lat": 23.830721,
+   "lng": 120.8952498,
+   "name": "頭社 巴士站",
+   "name_en": "Toushe Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-33": {
+   "description": "Terminus stop of the 6669主線 lake-loop bus, at 玄光寺 / 玄光碼頭 (CKS heritage temple + boat pier).",
+   "lat": 23.8528938,
+   "lng": 120.9131022,
+   "name": "玄光寺 巴士站",
+   "name_en": "Syuanguang Temple Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-34": {
+   "description": "集集線 (Jiji Line) terminus, TRA station code 3436. 簡易站 with a single island platform (only the B/non-station-house side currently in service). Unstaffed — operationally managed by 水里鄉公所, tickets sold by 車埕社區發展協會. Elevation ~330 m: TRA's highest-elevation operational station since the 舊山線 ceased in 1998. Established 1922-01-14 as 外車埕驛. Marketed as 最後的火車站 (the last train station); anchor of the 車埕 timber-heritage tourist cluster (木業展示館, 貯木池, 林班道商圈).",
+   "lat": 23.8324779,
+   "lng": 120.8659221,
+   "name": "車埕車站",
+   "name_en": "Checheng Station",
+   "type": "station"
+  },
+  "SML-STA-35": {
+   "description": "集集線 station, TRA station code 3435, one stop south of 車埕 (~4 min, terminus-adjacent). Main rail gateway for 水里 town and the transfer point to 南投客運/豐榮客運/員林客運 buses toward 日月潭 / 埔里 / 集集. EXISTENCE VERIFIED via TRA (station code 3435 in the live 集集線 station list and fare/timetable system) even though OSM carries NO railway=station node here — only a stop_position node (12183049845, train=yes). Producer should treat the station as real; the missing OSM station node is an OSM data gap, not a real-world absence.",
+   "lat": 23.8185895,
+   "lng": 120.8531978,
+   "name": "水里車站",
+   "name_en": "Shuili Station",
+   "type": "station"
+  },
+  "SML-STA-36": {
+   "description": "水里 town intercity/local bus hub, the primary road-transit transfer between the 集集/水里/車埕 cluster and the 日月潭 lake ring (台21). Co-located cluster of platforms: 員林客運水里站 (amenity=bus_station), 南投客運 水里站 (日月潭/九族/埔里/車埕; 集集/竹山/溪頭), 豐榮客運 水里站 (日月潭/埔里). ~40 m from 水里車站, enabling rail↔bus transfer. This is the functional lake-ring connector the brief asks for.",
+   "lat": 23.8180453,
+   "lng": 120.8536957,
+   "name": "水里站 (客運轉運/公車站群)",
+   "name_en": "Shuili Bus Hub",
+   "type": "station"
+  },
+  "SML-STA-37": {
+   "description": "Sheltered bus stop on 台16/明潭巷 at 車埕, ~180 m from 車埕車站. Served by 水里↔日月潭 road route. Provides the road-transit access point to the 車埕 attraction cluster for visitors not arriving by 集集線.",
+   "lat": 23.833964,
+   "lng": 120.8638086,
+   "name": "外車埕公車站",
+   "name_en": "Wai-Checheng Bus Stop",
+   "type": "station"
+  },
+  "SML-STA-38": {
+   "description": "Historic Japanese-era wooden TRA station (rebuilt after the 921 quake) and the icon of the 集集線. Zone hub and gateway to 集集老街 + 綠色隧道; bike-rental shops line the 民生路 exit. Backs corridor anchor N-NSA-fe6903.",
+   "lat": 23.8262675,
+   "lng": 120.7849582,
+   "name": "集集車站",
+   "name_en": "Jiji Station",
+   "type": "train_station"
+  },
+  "SML-STA-39": {
+   "description": "集集線 intermediate TRA station between 濁水 and 集集, at the west (名間 side) approach to the 集集綠色隧道; a secondary bike-rental start point (龍泉巷). Inside the NSA boundary though the 綠色隧道 west portal just beyond is OUT.",
+   "lat": 23.8352758,
+   "lng": 120.7500417,
+   "name": "龍泉車站",
+   "name_en": "Longquan Station",
+   "type": "train_station"
+  },
+  "SML-STA-40": {
+   "description": "台21線 bus stop serving 桃米生態村/紙教堂; the primary public-transport gateway to the Taomi zone. Two directional platforms. Physical backing for corridor anchor N-NSA-d8c5bf.",
+   "lat": 23.942177,
+   "lng": 120.9297328,
+   "name": "桃米坑 (紙教堂) 公車站",
+   "name_en": "Taomikeng (Paper Dome) Bus Stop",
+   "type": "bus_stop"
+  },
+  "SML-STA-41": {
+   "description": "台21線 6670 台灣好行 stop at the SE edge of 國立暨南國際大學; the campus edge lies inside the NSA boundary. Also served by the campus 暨大交通車 shuttle network (separate operator).",
+   "lat": 23.9488668,
+   "lng": 120.9376462,
+   "name": "暨南大學公車站",
+   "name_en": "National Chi Nan University Bus Stop",
+   "type": "bus_stop"
+  },
+  "SML-STA-42": {
+   "description": "台21線 bus stop at 坪頂, the northernmost in-boundary stop on the corridor and the transport side of the 埔里 gateway anchor. Adjacent to 埔里管理站 (NSA office).",
+   "lat": 23.9626567,
+   "lng": 120.9461028,
+   "name": "坪頂公車站 (台21埔里北端)",
+   "name_en": "Pingding Bus Stop (Prov-21 Puli north gateway)",
+   "type": "bus_stop"
+  },
+  "SML-STA-43": {
+   "description": "台14/台21 bus stop named 埔里遊客中心, at the NW inside-boundary fringe; a 6670 台灣好行 route stop early in the 埔里 leg. In-boundary by PIP.",
+   "lat": 23.9696115,
+   "lng": 120.9304894,
+   "name": "埔里遊客中心 公車站",
+   "name_en": "Puli Visitor Center Bus Stop",
+   "type": "bus_stop"
+  },
+  "SML-TRL-01": {
+   "description": "Lakeside boardwalk circling the Hanbi peninsula. Flat, easy, popular.",
+   "lat": 23.8633,
+   "lng": 120.909,
+   "name": "涵碧步道",
+   "name_en": "Hanbi Trail",
+   "type": "trail-node"
+  },
+  "SML-TRL-02": {
+   "description": "Trail on east shore, famous for 九蛙疊像 (nine stacking frogs water level marker).",
+   "lat": 23.8575,
+   "lng": 120.9397,
+   "name": "水蛙頭步道",
+   "name_en": "Shuiwa (Frog) Trail",
+   "type": "trail-node"
+  },
+  "SML-TRL-03": {
+   "description": "Shortest trail around the lake, leads to water intake viewpoint (日月湧泉).",
+   "lat": 23.864,
+   "lng": 120.9404,
+   "name": "大竹湖步道",
+   "name_en": "Dazhuhu Trail",
+   "type": "trail-node"
+  },
+  "SML-TRL-04": {
+   "description": "South shore trail leading to the Tutingzi lighthouse (smallest lighthouse in Taiwan).",
+   "lat": 23.851,
+   "lng": 120.9224,
+   "name": "土亭仔步道",
+   "name_en": "Tutingzi Trail",
+   "type": "trail-node"
+  },
+  "SML-TRL-05": {
+   "description": "Trail from Xuanguang Pier uphill through Xuanguang Temple to Xuanzang Temple. 850m, stairway.",
+   "lat": 23.85,
+   "lng": 120.914,
+   "name": "青龍山步道",
+   "name_en": "Qinglong Mountain Trail",
+   "type": "trail-node"
+  },
+  "SML-TRL-06": {
+   "description": "Boardwalk along the dam between Shuishe and Xiangshan areas.",
+   "lat": 23.862,
+   "lng": 120.9005,
+   "name": "水社壩棧道",
+   "name_en": "Shuishe Dam Boardwalk",
+   "type": "trail-node"
+  },
+  "SML-TRL-07": {
+   "description": "Connector trail from Ita Thao pier to the ropeway station.",
+   "lat": 23.849,
+   "lng": 120.934,
+   "name": "伊達邵碼頭-纜車站步道",
+   "name_en": "Ita Thao Pier to Ropeway Station Trail",
+   "type": "trail-node"
+  },
+  "SML-TRL-08": {
+   "description": "Accessible trail connecting ropeway station area to Shuiwa Trail entrance.",
+   "lat": 23.854,
+   "lng": 120.938,
+   "name": "纜車站-水蛙頭無障礙步道",
+   "name_en": "Ropeway Station to Shuiwa Accessible Trail",
+   "type": "trail-node"
+  },
+  "SML-TRL-09": {
+   "description": "Challenging mountain trail ascending 水社大山 from Ita Thao side.",
+   "lat": 23.85,
+   "lng": 120.938,
+   "name": "水社大山步道 (伊達邵線)",
+   "name_en": "Mt. Shuishe Trail (Ita Thao Route)",
+   "type": "trail-node"
+  },
+  "SML-TRL-10": {
+   "description": "Historic indigenous trail on south side of the lake",
+   "lat": 23.845,
+   "lng": 120.91,
+   "name": "逐鹿古道",
+   "name_en": "Zhulu Ancient Trail",
+   "type": "trail-node"
+  },
+  "SML-TRL-11": {
+   "description": "CNN-rated top 10 most beautiful cycling path in the world. Shuishe to Xiangshan Visitor Center.",
+   "lat": 23.858,
+   "lng": 120.903,
+   "name": "月潭自行車道 (向山段)",
+   "name_en": "Moon Lake Cycling Path (Xiangshan Section)",
+   "type": "trail-node"
+  },
+  "SML-TRL-12": {
+   "description": "全長約4.6km登山步道；登山口在國光客運日月潭站斜對面、明潭國中旁，經茶業改良場魚池分場至日月潭氣象站。沿途阿薩姆茶園與台灣杉林。",
+   "lat": 23.8678,
+   "lng": 120.9104,
+   "name": "貓囒山步道",
+   "name_en": "Maolanshan Trail",
+   "type": "trail-node"
+  }
+ },
+ "site": "sml"
+}

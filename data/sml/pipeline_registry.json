@@ -1,0 +1,239 @@
+{
+  "site": "sml",
+  "schema": "scripts/artifact_provenance_schema.json",
+  "comment": "Fallback attribution for artifacts whose generators have not yet been retrofitted to emit inline `generated_by`. Phase 2 of the artifact-provenance-manifests OpenSpec change retires these entries as the generators are updated to write their own provenance.",
+  "entries": [
+    {
+      "path_pattern": "meshes/terrain.glb",
+      "pipeline": {
+        "name": "mesh-gen-terrain",
+        "script": "scripts/mesh_gen/terrain_mesh.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/lake.glb",
+      "pipeline": {
+        "name": "mesh-gen-lake",
+        "script": "scripts/mesh_gen/lake_mesh.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/buildings.glb",
+      "pipeline": {
+        "name": "mesh-gen-buildings",
+        "script": "scripts/mesh_gen/building_mesh.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/roads.glb",
+      "pipeline": {
+        "name": "mesh-gen-roads",
+        "script": "scripts/mesh_gen/road_mesh.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/cycleways.glb",
+      "pipeline": {
+        "name": "mesh-gen-cycleways",
+        "script": "scripts/mesh_gen/cycling_route_mesh.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/docks.glb",
+      "pipeline": {
+        "name": "mesh-gen-infra",
+        "script": "scripts/mesh_gen/infra_mesh.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/ropeway.glb",
+      "pipeline": {
+        "name": "mesh-gen-infra",
+        "script": "scripts/mesh_gen/infra_mesh.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/edges.glb",
+      "pipeline": {
+        "name": "mesh-gen-graph",
+        "script": "scripts/mesh_gen/graph_mesh.py"
+      }
+    },
+    {
+      "path_pattern": "diagnostics/unsupported_deck_gap.json",
+      "pipeline": {
+        "name": "sml-s7-road-support-structure",
+        "script": "scripts/mesh_gen/road_support_structure.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/support_structures.glb",
+      "pipeline": {
+        "name": "sml-s7-road-support-structure",
+        "script": "scripts/mesh_gen/road_support_structure.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/nodes.glb",
+      "pipeline": {
+        "name": "mesh-gen-graph",
+        "script": "scripts/mesh_gen/graph_mesh.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/reference_cycling_edges.glb",
+      "pipeline": {
+        "name": "mesh-gen-cycleways",
+        "script": "scripts/mesh_gen/cycling_route_mesh.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/test_hero_railing.glb",
+      "pipeline": {
+        "name": "mesh-gen-hero-railing",
+        "script": "scripts/mesh_gen/hero_railing.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/manifest.json",
+      "pipeline": {
+        "name": "mesh-gen-publish-legacy",
+        "script": "scripts/mesh_gen/publish_typed_artifacts.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/trails.glb",
+      "pipeline": {
+        "name": "mesh-gen-trails",
+        "script": "scripts/mesh_gen/road_mesh.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/tiles/tileset.json",
+      "pipeline": {
+        "name": "tile-cutter",
+        "script": "scripts/mesh_gen/tile_cutter.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/tiles/manifest.json",
+      "pipeline": {
+        "name": "tile-cutter",
+        "script": "scripts/mesh_gen/tile_cutter.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/tiles/enu_transform.json",
+      "pipeline": {
+        "name": "tile-cutter",
+        "script": "scripts/mesh_gen/tile_cutter.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/tiles/L2/*.glb",
+      "pipeline": {
+        "name": "tile-cutter",
+        "script": "scripts/mesh_gen/tile_cutter.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/tiles/L2/*.b3dm",
+      "pipeline": {
+        "name": "tile-cutter",
+        "script": "scripts/mesh_gen/tile_cutter.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/tiles/L2/*_manifest.json",
+      "pipeline": {
+        "name": "tile-cutter",
+        "script": "scripts/mesh_gen/tile_cutter.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/tiles/segment_*.glb",
+      "pipeline": {
+        "name": "tile-cutter",
+        "script": "scripts/mesh_gen/tile_cutter.py"
+      }
+    },
+    {
+      "path_pattern": "meshes/tiles/segment_*.b3dm",
+      "pipeline": {
+        "name": "tile-cutter",
+        "script": "scripts/mesh_gen/tile_cutter.py"
+      }
+    },
+    {
+      "path_pattern": "set/typed_set.json",
+      "pipeline": {
+        "name": "typed-set",
+        "script": "scripts/mesh_gen/typed_set.py"
+      }
+    },
+    {
+      "path_pattern": "set/typed_set_schema.json",
+      "pipeline": {
+        "name": "typed-set",
+        "script": "scripts/mesh_gen/typed_set.py"
+      }
+    },
+    {
+      "path_pattern": "set/terrain_reference.json",
+      "pipeline": {
+        "name": "typed-set-terrain-ref",
+        "script": "scripts/mesh_gen/generate_terrain_reference.py"
+      }
+    },
+    {
+      "path_pattern": "set/geometry_report.json",
+      "pipeline": {
+        "name": "typed-set-geometry-report",
+        "script": "scripts/mesh_gen/measure_set_geometry.py"
+      }
+    }
+  ],
+  "ignore_patterns": [
+    "_archive/**",
+    "site_graph.json",
+    "expanded_graph.json",
+    "cycling_route.json",
+    "cycling_route_legacy.json",
+    "claim_audit.json",
+    "data_sources.json",
+    "physical_twins.json",
+    "graph_corrections.json",
+    "_node_snapshot.json",
+    "gap_report.json",
+    "linkage.json",
+    "profiles.json",
+    "improv_audit_*.json",
+    ".osm_cache.json",
+    "osm_cache/**",
+    "pool_a/**",
+    "pool_b/**",
+    "gov_highway/**",
+    "dem/**",
+    "frames_*.json",
+    "frames_*",
+    "frames_*/**",
+    "director/**",
+    "director_*.json",
+    "scenario_*.yaml",
+    "scenario_*.yml",
+    "*.kml",
+    "*.kmz",
+    "*.gpx",
+    "*.gpkg",
+    "meshes/templates/**",
+    "meshes/textures/**",
+    "meshes/test_edge/**",
+    "meshes/tiles/tileset_old.json",
+    "meshes/tiles/tileset_test_new.json",
+    "meshes/tiles/tileset_test_old.json",
+    "meshes/tiles/L0/**",
+    "meshes/tiles/L1/**",
+    "meshes/tiles/backdrop/**",
+    "osm_*.json"
+  ]
+}

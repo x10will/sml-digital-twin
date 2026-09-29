@@ -1,0 +1,59 @@
+{
+  "_comment": "Director-owned story config (viewer-story-cinema §3). B carries the 4-beat epilogue; the 15:30 guardrail pose at 大竹湖 is the pivot shot (lake low in frame, full ferry gliding past). Lineage-gated by tests/test_story_config_lineage.py.",
+  "scenario": "v5_b",
+  "protagonist_tracks": [
+    { "cohort": "v5b_wannabe_ride", "from": "09:15", "to": "16:00" },
+    { "cohort": "v5b_wannabe_missed_ferry", "from": "16:00", "to": null }
+  ],
+  "defaults": { "play_speed_ms": 45 },
+  "beats": {
+    "arrival_and_rental_queue": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.8665026, 120.9112999], "posOffset": [80, -220], "posZ": 940, "targetAnchor": [23.866474, 120.9110263], "targetZ": 760 } },
+      "play_speed_ms": 300
+    },
+    "first_ride_moment": {
+      "camera": { "mode": "follow", "follow": { "distance_m": 140, "height_m": 70 } },
+      "play_speed_ms": 340
+    },
+    "xiangshan_fork": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.8519763, 120.9019718], "posOffset": [-180, -180], "posZ": 980, "targetAnchor": [23.8519763, 120.9019718], "targetZ": 760 } },
+      "play_speed_ms": 260
+    },
+    "yidashao_lunch": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.848, 120.93], "posOffset": [-120, -320], "posZ": 1100, "targetAnchor": [23.848, 120.93], "targetZ": 760 } },
+      "play_speed_ms": 260,
+      "skip_to": "13:55"
+    },
+    "return_dilemma": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.848, 120.93], "posOffset": [60, -160], "posZ": 880, "targetAnchor": [23.848, 120.93], "targetZ": 758 } },
+      "play_speed_ms": 280
+    },
+    "backtrack_or_ferry": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.8642982, 120.9404585], "posOffset": [-140, -260], "posZ": 860, "targetAnchor": [23.8642982, 120.9404585], "targetZ": 752 } },
+      "play_speed_ms": 300,
+      "hold_ms": 5000
+    },
+    "sunset_return": {
+      "camera": { "mode": "follow", "follow": { "distance_m": 140, "height_m": 70 } },
+      "play_speed_ms": 340
+    },
+    "wrong_ferry_boarding": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.8643, 120.9119], "posOffset": [-60, -260], "posZ": 950, "targetAnchor": [23.8643, 120.9119], "targetZ": 755 } },
+      "play_speed_ms": 260
+    },
+    "wrong_shore_landing": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.849444, 120.9285997], "posOffset": [-160, -220], "posZ": 940, "targetAnchor": [23.849444, 120.9285997], "targetZ": 755 } },
+      "play_speed_ms": 280
+    },
+    "walking_in_the_dark": {
+      "camera": { "mode": "follow", "follow": { "distance_m": 90, "height_m": 35 } },
+      "play_speed_ms": 420
+    },
+    "nightfall_stranded": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.85749, 120.93968], "posOffset": [-500, -700], "posZ": 1600, "targetAnchor": [23.85749, 120.93968], "targetZ": 755 } },
+      "play_speed_ms": 300,
+      "hold_ms": 6000
+    }
+  },
+  "display": { "min_cohort_pax": 5, "reason": "delta_report_v5.md §5 ⚠ ENGINE — background artifacts must not read as signal in cinema; working mode unaffected" }
+}

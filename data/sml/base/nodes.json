@@ -1,0 +1,957 @@
+{
+  "site": "sml",
+  "generated_by": {
+    "pipeline": {
+      "name": "sml-base-nodes",
+      "script": "scripts/base/ingest_sml_base_nodes.py",
+      "openspec_change": "sml-t1-cycling-graph-rebuild"
+    },
+    "consumes": [
+      "data/sml/physical_twins.json",
+      "data/sml/pool_a/physical_twins.json"
+    ],
+    "site": "sml",
+    "generated_at": {
+      "timestamp": "2026-05-19T08:37:16Z",
+      "git_commit": "46fac6785e"
+    }
+  },
+  "nodes": [
+    {
+      "id": "pa:SML-ACC-01",
+      "name": "碼頭精品旅店",
+      "name_en": "Harbor Elite Hotel",
+      "type": "accommodation",
+      "lat": 23.8656274,
+      "lng": 120.9119744,
+      "trust_tier": 1
+    },
+    {
+      "id": "pt:SML-ACC-01",
+      "name": "涵碧樓",
+      "name_en": "The Lalu",
+      "type": "facility",
+      "lat": 23.862772,
+      "lng": 120.90806,
+      "trust_tier": 1
+    },
+    {
+      "id": "pa:SML-COM-01",
+      "name": "Starbucks 水社店",
+      "name_en": "Starbucks Shuishe",
+      "type": "commerce",
+      "lat": 23.8656274,
+      "lng": 120.9119744,
+      "trust_tier": 1
+    },
+    {
+      "id": "pt:SML-COM-01",
+      "name": "伊達邵商店街",
+      "name_en": "Ita Thao Food/Shopping Street",
+      "type": "facility",
+      "lat": 23.848,
+      "lng": 120.93,
+      "trust_tier": 1
+    },
+    {
+      "id": "pa:SML-ACC-02",
+      "name": "潭香時尚旅店",
+      "name_en": "Tanshiang Resort Hotel",
+      "type": "accommodation",
+      "lat": 23.8663713,
+      "lng": 120.9118192,
+      "trust_tier": 1
+    },
+    {
+      "id": "pt:SML-ACC-02",
+      "name": "漢來日月行館",
+      "name_en": "Grand Hanlai Sun Moon Lake",
+      "type": "facility",
+      "lat": 23.863544,
+      "lng": 120.909106,
+      "trust_tier": 1
+    },
+    {
+      "id": "pa:SML-ACC-03",
+      "name": "日月潭名人大飯店",
+      "name_en": "Sun Moon Lake Min Ren Hotel",
+      "type": "accommodation",
+      "lat": 23.8664824,
+      "lng": 120.9116436,
+      "trust_tier": 1
+    },
+    {
+      "id": "pt:SML-ACC-03",
+      "name": "雲品溫泉酒店",
+      "name_en": "Fleur de Chine Hotel",
+      "type": "facility",
+      "lat": 23.871207,
+      "lng": 120.92353,
+      "trust_tier": 1
+    },
+    {
+      "id": "pa:SML-ACC-04",
+      "name": "松鶴園大飯店",
+      "name_en": "Songhe Hotel",
+      "type": "accommodation",
+      "lat": 23.866248,
+      "lng": 120.91172,
+      "trust_tier": 1
+    },
+    {
+      "id": "pt:SML-ACC-04",
+      "name": "日月潭力麗溫德姆溫泉酒店",
+      "name_en": "Wyndham Sun Moon Lake",
+      "type": "facility",
+      "lat": 23.847264,
+      "lng": 120.931543,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-CAF-01",
+      "name": "85度C 水社店",
+      "name_en": "85°C Bakery Cafe Shuishe",
+      "type": "commerce",
+      "lat": 23.8646614,
+      "lng": 120.9111573,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-CAF-02",
+      "name": "日月潭遊牧咖啡",
+      "name_en": "Nomad Day Café",
+      "type": "commerce",
+      "lat": 23.8671472,
+      "lng": 120.9102486,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-CVS-01",
+      "name": "7-Eleven 水社門市",
+      "name_en": "7-Eleven Shuishe",
+      "type": "commerce",
+      "lat": 23.8656874,
+      "lng": 120.9116003,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-CVS-02",
+      "name": "全家便利商店 水社店",
+      "name_en": "FamilyMart Shuishe",
+      "type": "commerce",
+      "lat": 23.865019,
+      "lng": 120.9115578,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-LM-01",
+      "name": "水社商圈",
+      "name_en": "Shuishe Shopping District",
+      "type": "landmark",
+      "lat": 23.8655,
+      "lng": 120.9115,
+      "trust_tier": 1
+    },
+    {
+      "id": "pa:SML-ACC-10",
+      "name": "力麗哲園-日潭館",
+      "name_en": "Lealea Garden Hotels Sun Moon Lake - Sun",
+      "type": "accommodation",
+      "lat": 23.84892,
+      "lng": 120.9311096,
+      "trust_tier": 1
+    },
+    {
+      "id": "pt:SML-ACC-10",
+      "name": "日月潭青年活動中心",
+      "name_en": "Sun Moon Lake Youth Activity Center",
+      "type": "facility",
+      "lat": 23.852306,
+      "lng": 120.937562,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-ACC-11",
+      "name": "映涵日月潭渡假中心",
+      "name_en": "Einhan Resort",
+      "type": "accommodation",
+      "lat": 23.8481817,
+      "lng": 120.9305692,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-COM-10",
+      "name": "冒煙的喬",
+      "name_en": "Smokey Joe's",
+      "type": "food-street",
+      "lat": 23.848802,
+      "lng": 120.9291297,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-COM-11",
+      "name": "劉家",
+      "name_en": "Liu's Restaurant",
+      "type": "food-street",
+      "lat": 23.848,
+      "lng": 120.9311016,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-CVS-10",
+      "name": "7-Eleven 伊達邵門市",
+      "name_en": "7-Eleven Ita Thao",
+      "type": "commerce",
+      "lat": 23.848432,
+      "lng": 120.9305987,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-CVS-11",
+      "name": "全家便利商店 伊達邵店",
+      "name_en": "FamilyMart Ita Thao",
+      "type": "commerce",
+      "lat": 23.8478183,
+      "lng": 120.9311791,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-LM-02",
+      "name": "伊達邵商圈",
+      "name_en": "Ita Thao Shopping District",
+      "type": "landmark",
+      "lat": 23.8484,
+      "lng": 120.9307,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-POI-01",
+      "name": "水社遊客中心",
+      "name_en": "Shuishe Visitor Center",
+      "type": "facility",
+      "lat": 23.866474,
+      "lng": 120.9110263,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-POI-02",
+      "name": "向山遊客中心",
+      "name_en": "Xiangshan Visitor Center",
+      "type": "facility",
+      "lat": 23.8519763,
+      "lng": 120.9019718,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-POI-03",
+      "name": "伊達邵遊客中心",
+      "name_en": "Ita Thao Visitor Center",
+      "type": "facility",
+      "lat": 23.8489134,
+      "lng": 120.929308,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-01",
+      "name": "水社碼頭",
+      "name_en": "Shuishe Pier",
+      "type": "station",
+      "lat": 23.8643,
+      "lng": 120.9119,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-02",
+      "name": "玄光碼頭",
+      "name_en": "Xuanguang Pier",
+      "type": "station",
+      "lat": 23.8528938,
+      "lng": 120.9131022,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-03",
+      "name": "伊達邵碼頭",
+      "name_en": "Ita Thao Pier",
+      "type": "station",
+      "lat": 23.849444,
+      "lng": 120.9285997,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-04",
+      "name": "朝霧碼頭",
+      "name_en": "Chaowu (Dawn Mist) Pier",
+      "type": "station",
+      "lat": 23.8666,
+      "lng": 120.9155,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-05",
+      "name": "日月潭纜車站 (湖畔端)",
+      "name_en": "Sun Moon Lake Ropeway Station (Lake Side)",
+      "type": "station",
+      "lat": 23.852257,
+      "lng": 120.9348179,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-06",
+      "name": "九族文化村纜車站",
+      "name_en": "Formosan Aboriginal Culture Village Ropeway Station",
+      "type": "station",
+      "lat": 23.8686668,
+      "lng": 120.9493413,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-10",
+      "name": "日月潭 (水社) 巴士站",
+      "name_en": "Sun Moon Lake (Shuishe) Bus Terminal",
+      "type": "station",
+      "lat": 23.8665198,
+      "lng": 120.9113374,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-11",
+      "name": "水社 巴士站",
+      "name_en": "Shuishe Bus Stop",
+      "type": "station",
+      "lat": 23.8668148,
+      "lng": 120.9026956,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-12",
+      "name": "伊達邵 巴士站",
+      "name_en": "Ita Thao Bus Stop",
+      "type": "station",
+      "lat": 23.8468683,
+      "lng": 120.9322139,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-13",
+      "name": "文武廟 巴士站",
+      "name_en": "Wenwu Temple Bus Stop",
+      "type": "station",
+      "lat": 23.8695244,
+      "lng": 120.9278928,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-14",
+      "name": "玄奘寺 巴士站",
+      "name_en": "Xuanzang Temple Bus Stop",
+      "type": "station",
+      "lat": 23.8517195,
+      "lng": 120.9131341,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-15",
+      "name": "日月潭纜車站(青年活動中心) 巴士站",
+      "name_en": "Ropeway Station (Youth Center) Bus Stop",
+      "type": "station",
+      "lat": 23.8509795,
+      "lng": 120.9359014,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-16",
+      "name": "向山行政中心 巴士站",
+      "name_en": "Xiangshan Admin Center Bus Stop",
+      "type": "station",
+      "lat": 23.8521631,
+      "lng": 120.9014028,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-17",
+      "name": "風管處(朝霧碼頭) 巴士站",
+      "name_en": "Scenic Area Admin (Chaowu Pier) Bus Stop",
+      "type": "station",
+      "lat": 23.8665066,
+      "lng": 120.9148283,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-18",
+      "name": "壩頂 巴士站",
+      "name_en": "Shuishe Dam Top Bus Stop",
+      "type": "station",
+      "lat": 23.861876,
+      "lng": 120.9004255,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-19",
+      "name": "慈恩塔 巴士站",
+      "name_en": "Ci-en Pagoda Bus Stop",
+      "type": "station",
+      "lat": 23.8456232,
+      "lng": 120.9176545,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-20",
+      "name": "水蛙頭步道 巴士站",
+      "name_en": "Shuiwa Trail Bus Stop",
+      "type": "station",
+      "lat": 23.8574943,
+      "lng": 120.939684,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-21",
+      "name": "大竹湖步道 巴士站",
+      "name_en": "Dazhuhu Trail Bus Stop",
+      "type": "station",
+      "lat": 23.8642982,
+      "lng": 120.9404585,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-22",
+      "name": "孔雀園 巴士站",
+      "name_en": "Peacock Garden Bus Stop",
+      "type": "station",
+      "lat": 23.8683637,
+      "lng": 120.9315441,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-23",
+      "name": "松柏崙步道 巴士站",
+      "name_en": "Songbolun Trail Bus Stop",
+      "type": "station",
+      "lat": 23.8689684,
+      "lng": 120.929279,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-24",
+      "name": "土亭仔步道 巴士站",
+      "name_en": "Tutingzi Trail Bus Stop",
+      "type": "station",
+      "lat": 23.8509991,
+      "lng": 120.922358,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-25",
+      "name": "雲品酒店 巴士站",
+      "name_en": "Fleur de Chine Hotel Bus Stop",
+      "type": "station",
+      "lat": 23.8713765,
+      "lng": 120.9240856,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-26",
+      "name": "龍鳳宮 巴士站",
+      "name_en": "Dragon Phoenix Temple Bus Stop",
+      "type": "station",
+      "lat": 23.8668694,
+      "lng": 120.9065517,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-27",
+      "name": "馥麗飯店 巴士站",
+      "name_en": "Fuli Hotel Bus Stop",
+      "type": "station",
+      "lat": 23.8678744,
+      "lng": 120.9085402,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-28",
+      "name": "九族文化村 巴士站",
+      "name_en": "Formosan Aboriginal Culture Village Bus Stop",
+      "type": "station",
+      "lat": 23.8709208,
+      "lng": 120.9443182,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-STA-29",
+      "name": "月牙灣 巴士站",
+      "name_en": "Yueyawan Bus Stop",
+      "type": "station",
+      "lat": 23.8450551,
+      "lng": 120.9016384,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-POI-10",
+      "name": "文武廟",
+      "name_en": "Wenwu Temple",
+      "type": "poi",
+      "lat": 23.870005,
+      "lng": 120.927682,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-POI-11",
+      "name": "玄光寺",
+      "name_en": "Xuanguang Temple",
+      "type": "poi",
+      "lat": 23.852101,
+      "lng": 120.913633,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-POI-12",
+      "name": "玄奘寺",
+      "name_en": "Xuanzang Temple",
+      "type": "poi",
+      "lat": 23.847337,
+      "lng": 120.917091,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-POI-13",
+      "name": "慈恩塔",
+      "name_en": "Ci-en Pagoda",
+      "type": "poi",
+      "lat": 23.841972,
+      "lng": 120.920802,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-POI-14",
+      "name": "龍鳳宮 / 月下老人祠",
+      "name_en": "Dragon Phoenix Temple / Matchmaker Temple",
+      "type": "poi",
+      "lat": 23.867069,
+      "lng": 120.905473,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-POI-15",
+      "name": "耶穌堂",
+      "name_en": "Sun Moon Lake Jesus Church",
+      "type": "poi",
+      "lat": 23.863599,
+      "lng": 120.910225,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-POI-16",
+      "name": "九族文化村",
+      "name_en": "Formosan Aboriginal Culture Village",
+      "type": "poi",
+      "lat": 23.8635,
+      "lng": 120.9498,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-POI-17",
+      "name": "向山眺望平台",
+      "name_en": "Xiangshan Lookout Platform",
+      "type": "poi",
+      "lat": 23.8549364,
+      "lng": 120.9054773,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-POI-18",
+      "name": "日月湧泉",
+      "name_en": "Sun Moon Spring",
+      "type": "poi",
+      "lat": 23.8625052,
+      "lng": 120.9403996,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-POI-19",
+      "name": "蝴蝶園",
+      "name_en": "Butterfly Garden",
+      "type": "poi",
+      "lat": 23.85145,
+      "lng": 120.93746,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-POI-20",
+      "name": "頭社水庫",
+      "name_en": "Toushe Reservoir",
+      "type": "poi",
+      "lat": 23.838709,
+      "lng": 120.898461,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-TRL-01",
+      "name": "涵碧步道",
+      "name_en": "Hanbi Trail",
+      "type": "trail-node",
+      "lat": 23.8633,
+      "lng": 120.909,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-TRL-02",
+      "name": "水蛙頭步道",
+      "name_en": "Shuiwa (Frog) Trail",
+      "type": "trail-node",
+      "lat": 23.8575,
+      "lng": 120.9397,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-TRL-03",
+      "name": "大竹湖步道",
+      "name_en": "Dazhuhu Trail",
+      "type": "trail-node",
+      "lat": 23.864,
+      "lng": 120.9404,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-TRL-04",
+      "name": "土亭仔步道",
+      "name_en": "Tutingzi Trail",
+      "type": "trail-node",
+      "lat": 23.851,
+      "lng": 120.9224,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-TRL-05",
+      "name": "青龍山步道",
+      "name_en": "Qinglong Mountain Trail",
+      "type": "trail-node",
+      "lat": 23.85,
+      "lng": 120.914,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-TRL-06",
+      "name": "水社壩棧道",
+      "name_en": "Shuishe Dam Boardwalk",
+      "type": "trail-node",
+      "lat": 23.862,
+      "lng": 120.9005,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-TRL-07",
+      "name": "伊達邵碼頭-纜車站步道",
+      "name_en": "Ita Thao Pier to Ropeway Station Trail",
+      "type": "trail-node",
+      "lat": 23.849,
+      "lng": 120.934,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-TRL-08",
+      "name": "纜車站-水蛙頭無障礙步道",
+      "name_en": "Ropeway Station to Shuiwa Accessible Trail",
+      "type": "trail-node",
+      "lat": 23.854,
+      "lng": 120.938,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-TRL-09",
+      "name": "水社大山步道 (伊達邵線)",
+      "name_en": "Mt. Shuishe Trail (Ita Thao Route)",
+      "type": "trail-node",
+      "lat": 23.85,
+      "lng": 120.938,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-TRL-10",
+      "name": "逐鹿古道",
+      "name_en": "Zhulu Ancient Trail",
+      "type": "trail-node",
+      "lat": 23.845,
+      "lng": 120.91,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-TRL-11",
+      "name": "月潭自行車道 (向山段)",
+      "name_en": "Moon Lake Cycling Path (Xiangshan Section)",
+      "type": "trail-node",
+      "lat": 23.858,
+      "lng": 120.903,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-PKG-01",
+      "name": "中興停車場",
+      "name_en": "Zhongxing Parking Lot",
+      "type": "facility",
+      "lat": 23.865468,
+      "lng": 120.910069,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-PKG-02",
+      "name": "水秀停車場",
+      "name_en": "Shuixiu Parking Lot",
+      "type": "facility",
+      "lat": 23.852704,
+      "lng": 120.901078,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-PKG-03",
+      "name": "日月潭纜車站停車場",
+      "name_en": "Ropeway Station Parking Lot",
+      "type": "facility",
+      "lat": 23.852086,
+      "lng": 120.935306,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-PKG-04",
+      "name": "伊達邵立體停車場",
+      "name_en": "Ita Thao Multi-Storey Parking",
+      "type": "facility",
+      "lat": 23.84632,
+      "lng": 120.932223,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-PKG-05",
+      "name": "伊達邵臨時停車場",
+      "name_en": "Ita Thao Temporary Parking",
+      "type": "facility",
+      "lat": 23.847469,
+      "lng": 120.933215,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-PKG-06",
+      "name": "蘭園大客車停車場",
+      "name_en": "Lanyuan Tour Bus Parking",
+      "type": "facility",
+      "lat": 23.869292,
+      "lng": 120.929157,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-PKG-07",
+      "name": "文武廟停車場",
+      "name_en": "Wenwu Temple Parking",
+      "type": "facility",
+      "lat": 23.869749,
+      "lng": 120.92851,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-PKG-08",
+      "name": "向山停車場群 (小型車+大型車+員工)",
+      "name_en": "Xiangshan Parking Lots (cars + buses + staff)",
+      "type": "facility",
+      "lat": 23.8509,
+      "lng": 120.902,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-PKG-09",
+      "name": "水蛙頭步道停車場",
+      "name_en": "Shuiwa Trail Parking",
+      "type": "facility",
+      "lat": 23.857649,
+      "lng": 120.94003,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-PKG-10",
+      "name": "內湖山步道停車場",
+      "name_en": "Neihushan Trail Parking",
+      "type": "facility",
+      "lat": 23.873238,
+      "lng": 120.922577,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-PKG-11",
+      "name": "九族文化村停車場",
+      "name_en": "Formosan Aboriginal Culture Village Parking",
+      "type": "facility",
+      "lat": 23.869674,
+      "lng": 120.944944,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-ACC-05",
+      "name": "馥麗溫泉大飯店",
+      "name_en": "Fuli Hot Spring Resort",
+      "type": "facility",
+      "lat": 23.868145,
+      "lng": 120.908809,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-ACC-06",
+      "name": "日月潭大飯店",
+      "name_en": "Sun Moon Lake Hotel",
+      "type": "facility",
+      "lat": 23.866263,
+      "lng": 120.903005,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-ACC-07",
+      "name": "米洛克大飯店",
+      "name_en": "Miracolo View Hotel",
+      "type": "facility",
+      "lat": 23.872097,
+      "lng": 120.920788,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-ACC-08",
+      "name": "水社住宿群 (中小型旅館+民宿)",
+      "name_en": "Shuishe Accommodation Cluster",
+      "type": "facility",
+      "lat": 23.866,
+      "lng": 120.911,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-ACC-09",
+      "name": "伊達邵住宿群 (中小型旅館+民宿)",
+      "name_en": "Ita Thao Accommodation Cluster",
+      "type": "facility",
+      "lat": 23.848,
+      "lng": 120.931,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-COM-02",
+      "name": "水社商圈",
+      "name_en": "Shuishe Commercial Area",
+      "type": "facility",
+      "lat": 23.865,
+      "lng": 120.911,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-FAC-01",
+      "name": "杏壇",
+      "name_en": "Shing-Tan",
+      "type": "poi",
+      "lat": 23.8641917,
+      "lng": 120.9075633,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-FAC-02",
+      "name": "蔣公涼亭",
+      "name_en": "Jiang Gong Pavilion",
+      "type": "poi",
+      "lat": 23.8627013,
+      "lng": 120.9099562,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-BIK-01",
+      "name": "捷安特日月潭租賃站",
+      "name_en": "Giant Sun Moon Lake Rental",
+      "type": "facility",
+      "lat": 23.8665026,
+      "lng": 120.9112999,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-BIK-02",
+      "name": "OPENBIKE 日月潭站",
+      "name_en": "OPENBIKE Sun Moon Lake",
+      "type": "facility",
+      "lat": 23.8663651,
+      "lng": 120.9109898,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-BIK-03",
+      "name": "松錳租車",
+      "name_en": "Songmeng Bike Rental",
+      "type": "facility",
+      "lat": 23.8664215,
+      "lng": 120.9104614,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-BIK-04",
+      "name": "美利達向山租賃店",
+      "name_en": "Merida Xiangshan Rental",
+      "type": "facility",
+      "lat": 23.8541562,
+      "lng": 120.9011096,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-BIK-05",
+      "name": "快樂鐵馬",
+      "name_en": "Happy Bike Rental",
+      "type": "facility",
+      "lat": 23.8657124,
+      "lng": 120.9089302,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-BIK-06",
+      "name": "安心騎",
+      "name_en": "Anxin Qi Rental",
+      "type": "facility",
+      "lat": 23.8662847,
+      "lng": 120.9116145,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-BIK-07",
+      "name": "叱奼風輪",
+      "name_en": "Chicha Fenglun Bike Rental",
+      "type": "facility",
+      "lat": 23.8470032,
+      "lng": 120.9323782,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-BIK-08",
+      "name": "奔騰單車出租",
+      "name_en": "Benteng Bike Rental",
+      "type": "facility",
+      "lat": 23.847141,
+      "lng": 120.93249,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-BIK-09",
+      "name": "中華自行車租賃 (伊達邵)",
+      "name_en": "Zhonghua Bike Rental (Ita Thao)",
+      "type": "facility",
+      "lat": 23.848,
+      "lng": 120.932,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-BIK-10",
+      "name": "旅人BIKE (水社)",
+      "name_en": "Traveler BIKE (Shuishe)",
+      "type": "facility",
+      "lat": 23.866,
+      "lng": 120.911,
+      "trust_tier": 1
+    },
+    {
+      "id": "SML-BIK-11",
+      "name": "旅人BIKE (伊達邵)",
+      "name_en": "Traveler BIKE (Ita Thao)",
+      "type": "facility",
+      "lat": 23.847,
+      "lng": 120.932,
+      "trust_tier": 1
+    }
+  ]
+}

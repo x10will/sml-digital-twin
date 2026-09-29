@@ -1,0 +1,52 @@
+{
+  "_comment": "Director-owned story config (viewer-story-cinema §3). C mirrors B's morning compressed; set-pieces at the 14:00 drop-off desk and riding the ferry home. Carries the film's closing card (the sitting ends on C). Lineage-gated by tests/test_story_config_lineage.py.",
+  "scenario": "v5_c",
+  "protagonist_tracks": [
+    { "cohort": "v5c_wannabe_ride", "from": "09:15", "to": "14:00" },
+    { "cohort": "v5c_wannabe_ferry_early", "from": "14:00", "to": "15:15" },
+    { "cohort": "v5c_wannabe_ferry", "from": "15:15", "to": null }
+  ],
+  "defaults": { "play_speed_ms": 40 },
+  "beats": {
+    "arrival_and_rental_queue": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.8665026, 120.9112999], "posOffset": [80, -220], "posZ": 940, "targetAnchor": [23.8665026, 120.9112999], "targetZ": 760 } },
+      "play_speed_ms": 240
+    },
+    "first_ride_moment": {
+      "camera": { "mode": "follow", "follow": { "distance_m": 140, "height_m": 70 } },
+      "play_speed_ms": 320
+    },
+    "xiangshan_fork": {
+      "camera": { "mode": "follow", "follow": { "distance_m": 140, "height_m": 70 } },
+      "play_speed_ms": 320
+    },
+    "yidashao_lunch": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.848, 120.93], "posOffset": [-120, -320], "posZ": 1100, "targetAnchor": [23.848, 120.93], "targetZ": 760 } },
+      "play_speed_ms": 240,
+      "skip_to": "13:55"
+    },
+    "return_dilemma": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.849444, 120.9285997], "posOffset": [90, -180], "posZ": 890, "targetAnchor": [23.849444, 120.9285997], "targetZ": 756 } },
+      "play_speed_ms": 280,
+      "hold_ms": 3000
+    },
+    "backtrack_or_ferry": {
+      "camera": { "mode": "follow", "follow": { "distance_m": 220, "height_m": 110 } },
+      "play_speed_ms": 360,
+      "hold_ms": 3000
+    },
+    "sunset_return": {
+      "camera": { "mode": "pose", "pose": { "posAnchor": [23.8643, 120.9119], "posOffset": [-60, -260], "posZ": 950, "targetAnchor": [23.8643, 120.9119], "targetZ": 755 } },
+      "play_speed_ms": 240,
+      "hold_ms": 4000
+    }
+  },
+  "closing_card": [
+    { "label": "夢想家滯留 wannabes stranded at dark", "value": "0 / 100 / 0", "source": "data/sml/delta_report_v5.md §2 (director_report_v5_* stranded_cohort criticals)" },
+    { "label": "船隊使用率 fleet utilization", "value": "6.2% / 23.2% / 25.0%", "source": "data/sml/delta_report_v5.md §3 (frames_v5_* per-frame vehicles)" },
+    { "label": "滿載班次 vehicle-hours at 45/45", "value": "27 / 183 / 202", "source": "data/sml/delta_report_v5.md §3" },
+    { "label": "商店街尖峰 lunch crush", "value": "1,460 / 2,770 / 3,050", "source": "data/sml/delta_report_v5.md §3" },
+    { "label": "同一支船隊 no extra boats", "value": "the same fleet, worked harder", "source": "data/sml/delta_report_v5.md §6 bottom line" }
+  ],
+  "display": { "min_cohort_pax": 5, "reason": "delta_report_v5.md §5 ⚠ ENGINE — background artifacts must not read as signal in cinema; working mode unaffected" }
+}

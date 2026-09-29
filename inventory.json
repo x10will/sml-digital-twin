@@ -1,0 +1,433 @@
+{
+  "schema": "sml-static-release/v1",
+  "sourceRevision": "c11e7d8b1aa5c1964d05718e8aa98fbb46d07984",
+  "dependencies": {
+    "three": "0.170.0",
+    "@mkkellogg/gaussian-splats-3d": "0.4.7"
+  },
+  "meshEvidenceSha256": {
+    "terrain": "94633b5a9c5fcfd9a2d1c828160e746691e2cdbd2bbeb8f82a7bc5d8d0f5e811",
+    "edges": "a0d3dc2c65e1b9052a4b03d3030178949988a4da43f054aa2c06916f5e4839b0",
+    "support_structures": "737b97500bf8538880c5e987ca662e2d2975f58edaf5627ee7a6b9c43cdb2cbe",
+    "m10_completion": "a59bd8ba5dae4734e4c67330f97d5412115389e56f111a8b8d78fb1189f19c70"
+  },
+  "inventorySelfExcluded": true,
+  "files": {
+    ".nojekyll": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/sml/base/nodes.json": {
+      "sha256": "589ffb714d8b4fce64e0ff68fd536b0d40358e6c68408470393329288e576e34",
+      "bytes": 23150
+    },
+    "data/sml/diagnostics/causal_diagnoses.json": {
+      "sha256": "7c9a78030a9c97ab6a4f48e7aa2f09b91f081ea9a56f042929231fb0a6973a5d",
+      "bytes": 50162459
+    },
+    "data/sml/diagnostics/relief_faults.json": {
+      "sha256": "9d3927c1044d5fb4a7f019ced2b7b1ef4befb5f5c51b94388aa4cd5e4a1c55b8",
+      "bytes": 232826
+    },
+    "data/sml/director_narration_v5_a.json": {
+      "sha256": "927e18fb3747bd3e90cf31331405ba9bcd0b2d4ec1b0fa77a6cfcd96ff93f9f6",
+      "bytes": 4139
+    },
+    "data/sml/director_narration_v5_b.json": {
+      "sha256": "d30be8afebefd8d27cd0e648b59094e9e245196b48457acaf146eea3eefe98fb",
+      "bytes": 7218
+    },
+    "data/sml/director_narration_v5_c.json": {
+      "sha256": "e21fae79c097e56e5466b90e837c9f6da0c937d4543ea9b73c0b01cb551fb578",
+      "bytes": 5176
+    },
+    "data/sml/edge_names.json": {
+      "sha256": "9ba32a37b4b2c4abdb607e738cd28e53d3dfd31bc51c59858373e2af4fbaec5c",
+      "bytes": 19012
+    },
+    "data/sml/elevation_profiles/stairs_step_counts.json": {
+      "sha256": "e5432b10a41412c0e2c30cd22798ed4ee6e1990bd162fcfcf769a3cc962e6643",
+      "bytes": 2633
+    },
+    "data/sml/frames_v5_a_viewer.json": {
+      "sha256": "780d644dfa07cb2f4858b462d535000d0870ee9ea65071091ed0999c840472da",
+      "bytes": 7023380
+    },
+    "data/sml/frames_v5_b_viewer.json": {
+      "sha256": "ed4a6fe3829e30a658d68cef85bdb1bb1103609feccd8715799deacecdb9e2da",
+      "bytes": 10484175
+    },
+    "data/sml/frames_v5_c_viewer.json": {
+      "sha256": "3bf9ebbce5c1e8812be861c2f2ff4bef5b1e5a7a37fbe91959ac6f656944443e",
+      "bytes": 10386192
+    },
+    "data/sml/meshes/buildings.glb": {
+      "sha256": "c8f8a63e0402cb2d261713c8ffc47166582bb8152a9d894e66e5db59ee503972",
+      "bytes": 95312
+    },
+    "data/sml/meshes/docks.glb": {
+      "sha256": "eb3b5a9a9cf47b8f2af1c9aafa04b1c730046973f54e0e6d3249c39f56157503",
+      "bytes": 1228
+    },
+    "data/sml/meshes/edges.glb": {
+      "sha256": "796bf4c2ba199a8805cb4fa17cc8442805e3e72e7daed4b6193e204d7d1ebbf0",
+      "bytes": 43730772
+    },
+    "data/sml/meshes/junction_plates.glb": {
+      "sha256": "99f943087ae2123156142d262ecfc7434f6c3db11cc1b67799224fa2d71c90a4",
+      "bytes": 107652
+    },
+    "data/sml/meshes/lake.glb": {
+      "sha256": "e331a536ab967e542cd749a801553e9884aed5a5b7aa8eb0d1986878c8e0db36",
+      "bytes": 24160
+    },
+    "data/sml/meshes/manifest.json": {
+      "sha256": "ee6e6c7d60995972534016cf8c76fe3edb22e0b2ddd55a39d27c3292fdce9f1d",
+      "bytes": 4079
+    },
+    "data/sml/meshes/nodes.glb": {
+      "sha256": "ef115f44e9c9485a9f85e7616216e2680c978ceed397cc8c0b47efe755e6d487",
+      "bytes": 572832
+    },
+    "data/sml/meshes/poi_labels.json": {
+      "sha256": "217a8886dabb32788e48adbc2fc2ff2ac35676c35ad974bd773666d9be5849fe",
+      "bytes": 14933
+    },
+    "data/sml/meshes/support_structures.glb": {
+      "sha256": "7b365ce6e4bee299896c84ea304d41088b400b498b386423bc2a10c25699d219",
+      "bytes": 28600
+    },
+    "data/sml/meshes/support_structures.glb.provenance.json": {
+      "sha256": "737b97500bf8538880c5e987ca662e2d2975f58edaf5627ee7a6b9c43cdb2cbe",
+      "bytes": 35021
+    },
+    "data/sml/meshes/terrain.glb": {
+      "sha256": "3772c8b80c37c00552f94f12bb56a7d860a47e35cfa91aeab1ce3e34f11f7894",
+      "bytes": 59842416
+    },
+    "data/sml/meshes/test_hero_railing.glb": {
+      "sha256": "bbd2fa8956076686df6708dd53b64fa7f861712296d78f2163d912796da508fd",
+      "bytes": 638232
+    },
+    "data/sml/meshes/twin_lineage.json": {
+      "sha256": "5b42748baae86b4ef706450dc791d77e3cb0a9dca4d5416ed7303bceb1b1f6e2",
+      "bytes": 132243
+    },
+    "data/sml/meshes/walkway_3d_overrides.glb": {
+      "sha256": "b28b02e65ede82497c318a7096a3de421271aef565da3bce467f02fc55ea5468",
+      "bytes": 3362536
+    },
+    "data/sml/pipeline_registry.json": {
+      "sha256": "932bca0e21f382003a5fdf29e3e4894089dd67be82bfc0b36d5d976b0d8a0b62",
+      "bytes": 6217
+    },
+    "data/sml/poi_descriptions.json": {
+      "sha256": "f9f809e61da094abbb1a80ff05d81715c86a929376de71ea69d55d75b9487ea2",
+      "bytes": 48274
+    },
+    "data/sml/props/lalu_island.glb": {
+      "sha256": "ba09bcd95be415c64c7f40116c4c7bbc0a7f3bf5f1b4af11b80538a48980e4fc",
+      "bytes": 884880
+    },
+    "data/sml/props/lalu_ring.glb": {
+      "sha256": "7b3d580e774ba5fbd847768b8cc47eb63806f4192220be7bc07344da88bca219",
+      "bytes": 606548
+    },
+    "data/sml/props/lalu_splat.ksplat": {
+      "sha256": "e47dda063e6a1db0661a4a9b7fcdaf3c5c776c3eb803af5a34cca83c1bae2893",
+      "bytes": 1617088
+    },
+    "data/sml/props/wenwu_splat.ksplat": {
+      "sha256": "dc1853b06d75152213c505cac3ac566834e1513f493c19405da8019d36ce5601",
+      "bytes": 7403532
+    },
+    "data/sml/props/wenwu_temple.glb": {
+      "sha256": "21f078c43d80367a018cda48bb0454141d2cd14b864b506cdc097971ae3b5dc4",
+      "bytes": 1753292
+    },
+    "data/sml/set/geometry_report.json": {
+      "sha256": "5d1b9c61a1998023c8d2b015f508b056288faec2047ffe8175839d8f8dfea753",
+      "bytes": 23624
+    },
+    "data/sml/set/terrain_reference.json": {
+      "sha256": "43eed5b2d64943b4b387dfb01174206af6fa24d790bd99b58cab3e4c0354e3b4",
+      "bytes": 9633
+    },
+    "data/sml/set/typed_set.json": {
+      "sha256": "d7277ea557721bb3f72ad5da73e6d9d719df00524126998f5339be081337201c",
+      "bytes": 650212
+    },
+    "data/sml/story_v5_a.json": {
+      "sha256": "a95c0ea6fd09a82a33d965aafc0040e710c73dacec7a01f706e6f385ae525975",
+      "bytes": 2141
+    },
+    "data/sml/story_v5_b.json": {
+      "sha256": "c5dfa030cf0bf64f3a8bfd4b071c9dc979fe19eb4b869722ac70b0135edaf10b",
+      "bytes": 3123
+    },
+    "data/sml/story_v5_c.json": {
+      "sha256": "f7009021082cfc170edf932858643f58bf85e524f9effcb0136fbb9e18ebe3cf",
+      "bytes": 3041
+    },
+    "data/sml/t2/edges/edges.json": {
+      "sha256": "b26f14585c3bc9f8729eb9ec431ae347a5e02ecf80d94a08ec6a7a6c2f39b718",
+      "bytes": 15969629
+    },
+    "data/sml/t2/edges/intersections.json": {
+      "sha256": "893f272a04c4640c0a863dfdcbdb80af2aca8ddc4f743091531b9f6083b264c9",
+      "bytes": 1477327
+    },
+    "docs/viewer-3d/actor-models.js": {
+      "sha256": "0bdb2a2835ce707e3cfa63b20418f408370388b4fc64d99d86b1af8051098391",
+      "bytes": 2401
+    },
+    "docs/viewer-3d/base.html": {
+      "sha256": "a1ab9d32a35175f6c48b666608756de1477a24eb3369fd4665c574bf4f3b5324",
+      "bytes": 2073
+    },
+    "docs/viewer-3d/base.js": {
+      "sha256": "63890150aaa57bd076a699d5e3ef45fba752335ff1aa284562cacd1b36498af6",
+      "bytes": 56748
+    },
+    "docs/viewer-3d/controls-base.js": {
+      "sha256": "276a65e66f3916e03b70eea9dd2c7423e422018edbc375bf22fbc734715d5266",
+      "bytes": 14257
+    },
+    "docs/viewer-3d/deployment-config.js": {
+      "sha256": "b704b72ae2950960e1a5f89b5d01c2332a172aa1a55a6f21f1f3f657fa92064f",
+      "bytes": 2399
+    },
+    "docs/viewer-3d/edge-labels.mjs": {
+      "sha256": "f0e7a236cc073f7126ae9aa808213fab160a9650d597abd495eca1dfad32a140",
+      "bytes": 11764
+    },
+    "docs/viewer-3d/embed-adapter.js": {
+      "sha256": "1a6d01db014d7c9b1280e4e0b2f32f10e641bbdd859e6b7cab6e0d2ceb6fe895",
+      "bytes": 15369
+    },
+    "docs/viewer-3d/embed-extensions.js": {
+      "sha256": "ed925b40e03b8c9b2235c916b982a6a47561f5244e3ac2be8f00a1ddea5c9e71",
+      "bytes": 6633
+    },
+    "docs/viewer-3d/embed-protocol.js": {
+      "sha256": "68f1fe708606c212d3e1e99996057d66c66109915aeca75a1e5586ac66657ed4",
+      "bytes": 582
+    },
+    "docs/viewer-3d/embed-selection.js": {
+      "sha256": "2be957e719bed571e47e9876a1442bc76fe94b6caabc8f369be890845eef992f",
+      "bytes": 2678
+    },
+    "docs/viewer-3d/embed-time.js": {
+      "sha256": "d6f59a9765ac5dd3f04a2208dac7c80bbb30ba36d3650473561da5362b86fbe8",
+      "bytes": 2795
+    },
+    "docs/viewer-3d/embed.css": {
+      "sha256": "be83666843d9bef036f60a18460aeee702375c559d67aab7f699202a51af3e46",
+      "bytes": 2397
+    },
+    "docs/viewer-3d/index.html": {
+      "sha256": "46854f09d1826987a37395bac9846e736174bc39da6b3a3fc189b477caea2239",
+      "bytes": 12009
+    },
+    "docs/viewer-3d/inspector-base.js": {
+      "sha256": "16756ba8b99b284baf0e7f5509df49a8e3dc32d05a62ec3460ce13f574edb8e8",
+      "bytes": 3756
+    },
+    "docs/viewer-3d/inspector-panel.js": {
+      "sha256": "b4a2cd4af8b65a5bd6d16b119f1181491674689603de8b3ff6df0aa6f3d5d572",
+      "bytes": 37582
+    },
+    "docs/viewer-3d/main.js": {
+      "sha256": "908342fa455fb6d5f4c5d3e64839430ae088729be6dbc8028d69e661599edb97",
+      "bytes": 296889
+    },
+    "docs/viewer-3d/mobile-chrome.js": {
+      "sha256": "bd135e6f4b83a711305ef833f5322735cd70e09bf697bef24c4b17159d6d56e9",
+      "bytes": 15181
+    },
+    "docs/viewer-3d/mobile-gesture-controller.js": {
+      "sha256": "878aa78f174b4aa708baa75eae6436f2f1dbcae42dcd3dfd902af177f2a63eb9",
+      "bytes": 49004
+    },
+    "docs/viewer-3d/schematic-layer.js": {
+      "sha256": "c77c5ae94a8a28055e895912360cf5567d6f637d5fa85a473a97d50380d5cbfb",
+      "bytes": 3966
+    },
+    "docs/viewer-3d/site-config.js": {
+      "sha256": "c48e34b7aad9939551b4804a8dd232c7d961a21534b240952569174096b751f3",
+      "bytes": 29694
+    },
+    "docs/viewer-3d/style.css": {
+      "sha256": "e1acf7b1971fad11b61d07f6bce9fce10a7995c0af78b5d6f2e6f777ec383b30",
+      "bytes": 26749
+    },
+    "docs/viewer-3d/vendor/panel-core/map-client.js": {
+      "sha256": "31fbab87fb9d7bc8d7639771e984856c54f70f57ac983ab421ee7e3033dfb987",
+      "bytes": 4034
+    },
+    "docs/viewer-common/appearance-policy.js": {
+      "sha256": "d44e61a384e7586ea6ea7c33d90153e08d1140a6e06fe7931280270c4188f572",
+      "bytes": 3447
+    },
+    "docs/viewer-common/canonical-site-playback.mjs": {
+      "sha256": "9ff523cd7fd4eedc956d47d9d94149288e1929c06cac232b095b71eb3e75ba37",
+      "bytes": 7672
+    },
+    "docs/viewer-common/causal-diagnosis.js": {
+      "sha256": "2b85308d6da3e949fefa5712bfac8fc2f9d0528cd5c24d44ab6daad1a4eb9fc0",
+      "bytes": 5901
+    },
+    "docs/viewer-common/diagnostics.js": {
+      "sha256": "35a7a372f5e6098569fc037c01d49ae4bb9a7aed244b242d71b0d927107757ea",
+      "bytes": 42307
+    },
+    "docs/viewer-common/edge-mesh-merge.js": {
+      "sha256": "805cc7866c789e9f21d91e9a92f4b948847f6f8924b6e50baebb7d14755998e4",
+      "bytes": 8302
+    },
+    "docs/viewer-common/edge-tracks.js": {
+      "sha256": "92573e05a7bfeda68c1cbd33b53060415326cec4cc0faeeaf2243e112370e115",
+      "bytes": 7302
+    },
+    "docs/viewer-common/goto-resolver.js": {
+      "sha256": "1ed450db0c0079f8cab879ed3edb16b936879f11578cd1198f3c3133bc14ebeb",
+      "bytes": 3509
+    },
+    "docs/viewer-common/label-binding.js": {
+      "sha256": "47f17dee6227a968adb921b351101c9342a7683a70aa0acb731be368c8213be8",
+      "bytes": 2147
+    },
+    "docs/viewer-common/mobile-gesture-math.mjs": {
+      "sha256": "d6c92997bd31f731e6cc8c459b90362216845e7a3a1ca3b512dd679ea962e3b1",
+      "bytes": 9720
+    },
+    "docs/viewer-common/nav-sensitivity.mjs": {
+      "sha256": "10ef79c629479051dac6d0fef8cf611032a778d4c4226da70e27fbf73d7dd086",
+      "bytes": 5126
+    },
+    "docs/viewer-common/node-card.js": {
+      "sha256": "40e44935b8a4e08a37d7f29747d7e0ae798cf6dcf47249a53358f3b3ff705d89",
+      "bytes": 4018
+    },
+    "docs/viewer-common/node-z-lookup.js": {
+      "sha256": "d700691ace761f78b3090dc0551d8b0248f26744e8ccfa7404397bedc7ab19ba",
+      "bytes": 1423
+    },
+    "docs/viewer-common/poi-card.js": {
+      "sha256": "f7f8b734a2e525b1b053ef689d0e5c6a62806865dc90e8ccf7362501e8711360",
+      "bytes": 1967
+    },
+    "docs/viewer-common/poi-label-declutter.mjs": {
+      "sha256": "19f0227ceb3483d603feb1839d556e3f9ca2391911d1e6adb45f1cbbb53ee64c",
+      "bytes": 1880
+    },
+    "docs/viewer-common/site-layer-consumer.js": {
+      "sha256": "8ff41008cbf0e8b487614de63c8b2336a8e62a8b790747f4685e570615c125c5",
+      "bytes": 16843
+    },
+    "docs/viewer-common/solar-position.mjs": {
+      "sha256": "df82263c86cdcb5dfded71be2bb8c112f07744ffee367c083d06f916ee781225",
+      "bytes": 5309
+    },
+    "docs/viewer-common/story-director.js": {
+      "sha256": "2f322c46f4600a9ebe6393b9ff2ba1f05d614754494c6ee9effb38ac96f8881a",
+      "bytes": 8136
+    },
+    "docs/viewer-common/story-narration.js": {
+      "sha256": "78d235e0c5dacc455a327394179f9d8932227bc875313469db1cd5045e88dc8f",
+      "bytes": 2576
+    },
+    "docs/viewer-common/support-structure.js": {
+      "sha256": "9627642115ca6add258b84372655673898da8ee1e82708a25d998044252c8890",
+      "bytes": 6723
+    },
+    "docs/viewer-common/terrain-sampler.mjs": {
+      "sha256": "c90ce7e77fee4dd82a2c94360e82492a5220b4ce1b1e797aef1e367342389e69",
+      "bytes": 3875
+    },
+    "docs/viewer-common/twin-lineage.js": {
+      "sha256": "a383c6355c11bb59c2237ef73b7fe527f115254fbe2f3193b97c0cdfc9449bd2",
+      "bytes": 1241
+    },
+    "docs/viewer-common/typed-runtime.js": {
+      "sha256": "78c9db462b1804b25ea669afcb300c4bdf5447a9a3e882dee0d9aa69a27b2e33",
+      "bytes": 5716
+    },
+    "index.html": {
+      "sha256": "3e541be74e2ab7a8f275a9f80a1aa74c4088f03a6a3284c014f066a38d623acc",
+      "bytes": 404
+    },
+    "licenses/ATTRIBUTION.md": {
+      "sha256": "0189a18d30e58734ec5c6d7b1717cf4b97ff712846ca3f36c221223b48c9715e",
+      "bytes": 604
+    },
+    "licenses/meshoptimizer.txt": {
+      "sha256": "2823893c0068712e45fbc4ecb7742e158357b290d0bf1f2e8319cebf811bf5eb",
+      "bytes": 1104
+    },
+    "node_modules/@mkkellogg/gaussian-splats-3d/build/gaussian-splats-3d.module.js": {
+      "sha256": "f273394134c9174e49bf42bb4ea0945caaad4fdd63023b8996cc6cd248f52a6b",
+      "bytes": 616821
+    },
+    "node_modules/@mkkellogg/gaussian-splats-3d/LICENSE": {
+      "sha256": "eaf88512a83fc007481fee3c10b6b6e3dbab64bd6d0d3c64416decf86dbc9440",
+      "bytes": 1078
+    },
+    "node_modules/@mkkellogg/gaussian-splats-3d/package.json": {
+      "sha256": "91f8e565f00d66e6cd654186ecca221fba857487795ff2a7064134331227a361",
+      "bytes": 2868
+    },
+    "node_modules/three/build/three.module.js": {
+      "sha256": "ce1fa418de16a19495a9f72495580e3015d7745c296d3ce0485897f902ddedfb",
+      "bytes": 1314681
+    },
+    "node_modules/three/build/three.module.min.js": {
+      "sha256": "08fd7545d13d2c7fb65ab691530a802dafefd638596501854f267d0fb13c39e7",
+      "bytes": 691648
+    },
+    "node_modules/three/examples/jsm/controls/OrbitControls.js": {
+      "sha256": "80efaadea4f8a636a65fb0bd08bfef62f3d93a0bb94e2e7500f23176c5c07f4e",
+      "bytes": 32134
+    },
+    "node_modules/three/examples/jsm/libs/meshopt_decoder.module.js": {
+      "sha256": "01f48524f4bac6141eaba07e94cc36e7ee56f311796fa6117c159842941b0468",
+      "bytes": 24850
+    },
+    "node_modules/three/examples/jsm/lines/Line2.js": {
+      "sha256": "f926f3c903983abbf10e7a30dc5908df71dc6a20117eb67f0f758344d4a76f93",
+      "bytes": 433
+    },
+    "node_modules/three/examples/jsm/lines/LineGeometry.js": {
+      "sha256": "b7e1952c8891dc7840a9119ce03eeb547825663c831851bd73baf305d4c61c46",
+      "bytes": 1458
+    },
+    "node_modules/three/examples/jsm/lines/LineMaterial.js": {
+      "sha256": "4a58808a6e3a48f2a98eb2a410022ae648f801eaae89d457fcd662b077a7cf27",
+      "bytes": 10986
+    },
+    "node_modules/three/examples/jsm/lines/LineSegments2.js": {
+      "sha256": "9dcce823f86d7f00c4faa8c80ea3833fa86bf4957f394a1f64f3b126f6eea661",
+      "bytes": 9607
+    },
+    "node_modules/three/examples/jsm/lines/LineSegmentsGeometry.js": {
+      "sha256": "213a12e0e1ea878495d4998817cb83b1945441f19194267dba108c3a9e8f31ac",
+      "bytes": 4693
+    },
+    "node_modules/three/examples/jsm/loaders/GLTFLoader.js": {
+      "sha256": "45139faddd5aaf48ed2d62203d976e5cbd703db1a592de40527f9f6cf58abd44",
+      "bytes": 110273
+    },
+    "node_modules/three/examples/jsm/utils/BufferGeometryUtils.js": {
+      "sha256": "c25b7930e570e9ec56173cd3b866ec8d2e10016630db3937efb439daf1cedbf6",
+      "bytes": 31768
+    },
+    "node_modules/three/LICENSE": {
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454",
+      "bytes": 1081
+    },
+    "node_modules/three/package.json": {
+      "sha256": "2caf5d31ca4368c7e39e7e598dd95774fe1bdaae7cfbc5b073c8dcb5ec7e25da",
+      "bytes": 4373
+    }
+  }
+}

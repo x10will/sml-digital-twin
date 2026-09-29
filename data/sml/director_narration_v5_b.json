@@ -1,0 +1,178 @@
+[
+ {
+  "text": "The wannabe steps off the 6670 bus. Walks toward 捷安特. Sees a queue stretching past the visitor center — 200+ people. Instagram didn't show this. Joins the line. Checks phone. 40 minutes. The dream starts with standing in line.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "arrival_and_rental_queue"
+  },
+  "time": "09:15",
+  "beat": "arrival_and_rental_queue",
+  "commentary": "6325 pax across 23 nodes. Top: 伊達邵商店街=2300. 17 cohorts active.",
+  "metrics": {
+   "total_pax": 6325,
+   "occupied_nodes": 23,
+   "cohort_count": 17,
+   "top_node": "伊達邵商店街=2300"
+  }
+ },
+ {
+  "text": "Finally on the bike at 09:55. First km on 月潭自行車道 — but the path is busy. Groups stopped for photos block the lane. 水社壩 dismount zone: a 10-minute shuffle instead of a quick walk-through. The Instagram moment is there but shared with a hundred other phones.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "first_ride_moment"
+  },
+  "time": "10:00",
+  "beat": "first_ride_moment",
+  "commentary": "6185 pax across 8 nodes. Top: 伊達邵商店街=2700. 16 cohorts active.",
+  "metrics": {
+   "total_pax": 6185,
+   "occupied_nodes": 8,
+   "cohort_count": 16,
+   "top_node": "伊達邵商店街=2700"
+  }
+ },
+ {
+  "text": "向山遊客中心 at 10:40 (was 10:30 in the dream). Café has a queue. The cantilever platform is packed. Decision: press on to 伊達邵? The road ahead is busy — buses, cars, cyclists of all speeds. But the wannabe came for the full ride. Presses east.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "xiangshan_fork"
+  },
+  "time": "10:40",
+  "beat": "xiangshan_fork",
+  "commentary": "6255 pax across 14 nodes. Top: 伊達邵商店街=2300. 20 cohorts active.",
+  "metrics": {
+   "total_pax": 6255,
+   "occupied_nodes": 14,
+   "cohort_count": 20,
+   "top_node": "伊達邵商店街=2300"
+  }
+ },
+ {
+  "text": "伊達邵 at 13:00 — two hours late. Food street is PACKED. Every stall has a queue. The wannabe squeezes through crowds, finds 山豬肉香腸 after 20 minutes of searching. Eats standing up because all seats are taken. The lake glitters, but they can barely see it through the crowd.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "yidashao_lunch"
+  },
+  "time": "13:00",
+  "beat": "yidashao_lunch",
+  "commentary": "7250 pax across 6 nodes. Top: 伊達邵碼頭=2950. 17 cohorts active.",
+  "metrics": {
+   "total_pax": 7250,
+   "occupied_nodes": 6,
+   "cohort_count": 17,
+   "top_node": "伊達邵碼頭=2950"
+  }
+ },
+ {
+  "text": "Lunch done. The bike is locked outside 伊達邵商店街. Home base is 捷安特 水社 — 8km north. The wannabe asks a local vendor: \"Can I return the bike here?\" No. 甲租甲還. Must ride back. They stare at the north shore road: cars, buses, afternoon sun. The dream dies here. They climb back on the bike.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "return_dilemma"
+  },
+  "time": "14:00",
+  "beat": "return_dilemma",
+  "commentary": "5850 pax across 6 nodes. Top: 伊達邵商店街=2400. 15 cohorts active.",
+  "metrics": {
+   "total_pax": 5850,
+   "occupied_nodes": 6,
+   "cohort_count": 15,
+   "top_node": "伊達邵商店街=2400"
+  }
+ },
+ {
+  "text": "Halfway back on the north shore road. Legs burning. 28 degrees. Cars honking. A bus passes too close. The wannabe stops at a roadside guardrail to rest. Watches a ferry glide past on the lake below — passengers relaxing, taking photos of the sunset. That could have been them. Instead they're on this road.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "backtrack_or_ferry"
+  },
+  "time": "15:30",
+  "beat": "backtrack_or_ferry",
+  "commentary": "4600 pax across 8 nodes. Top: 伊達邵商店街=1500. 11 cohorts active.",
+  "metrics": {
+   "total_pax": 4600,
+   "occupied_nodes": 8,
+   "cohort_count": 11,
+   "top_node": "伊達邵商店街=1500"
+  }
+ },
+ {
+  "text": "100 wannabes, too spent to ride and too rushed to think, crowd onto the 16:05 sailing at 水社碼頭. They believe any boat will carry them home. It won't — this is an outbound circuit, and the last full loop back to their side of the lake already departed. They are on the water now, moving the wrong way.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "wrong_ferry_boarding"
+  },
+  "time": "16:05",
+  "beat": "wrong_ferry_boarding",
+  "commentary": "3385 pax across 7 nodes. Top: 伊達邵商店街=1500. 9 cohorts active.",
+  "metrics": {
+   "total_pax": 3385,
+   "occupied_nodes": 7,
+   "cohort_count": 9,
+   "top_node": "伊達邵商店街=1500"
+  }
+ },
+ {
+  "text": "水社 at last. Bike returned at 16:15. The wannabe staggers to the bus terminal. Too exhausted for a ferry ride, too late for the full circuit anyway. The 17:05 bus to 台中 is their escape. Instagram story? Not posted. Review: \"Beautiful lake but the cycling is a trap. Just take the ferry.\"\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "sunset_return"
+  },
+  "time": "16:30",
+  "beat": "sunset_return",
+  "commentary": "1820 pax across 3 nodes. Top: 伊達邵商店街=1500. 6 cohorts active.",
+  "metrics": {
+   "total_pax": 1820,
+   "occupied_nodes": 3,
+   "cohort_count": 6,
+   "top_node": "伊達邵商店街=1500"
+  }
+ },
+ {
+  "text": "The 16:05 boat lands them at 伊達邵碼頭 at 16:50. It is the wrong shore. Between them and the 水社 rental they must return to lies 8 km of unlit 台21甲 provincial road, and the daylight is going. The boat that was supposed to save them has only stranded them further from home.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "wrong_shore_landing"
+  },
+  "time": "16:50",
+  "beat": "wrong_shore_landing",
+  "commentary": "1500 pax across 3 nodes. Top: W_E243_1=900. 4 cohorts active.",
+  "metrics": {
+   "total_pax": 1500,
+   "occupied_nodes": 3,
+   "cohort_count": 4,
+   "top_node": "W_E243_1=900"
+  }
+ },
+ {
+  "text": "By 17:06 the boats are done and the wannabes give up on the water. They start walking — 台21甲 northbound, single file along the shoulder, phone torches out. Dusk settles over the lake. 水社 is 8 km away and every one of them is now on foot.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "walking_in_the_dark"
+  },
+  "time": "17:06",
+  "beat": "walking_in_the_dark",
+  "commentary": "1600 pax across 5 nodes. Top: W_E320_13=900. 3 cohorts active.",
+  "metrics": {
+   "total_pax": 1600,
+   "occupied_nodes": 5,
+   "cohort_count": 3,
+   "top_node": "W_E320_13=900"
+  }
+ },
+ {
+  "text": "18:00, simulation cutoff. The 100 who trusted the ferry are strung out along the night road: 60 stalled at 水蛙頭步道巴士站, 20 at 纜車站巴士站, 20 more on an unlit stretch with no shelter at all. Not one of them reached 水社. The Instagram dream ended in the dark, on foot, on the wrong side of the lake.\n",
+  "provenance": {
+   "source": "scriptor",
+   "beat_id": "nightfall_stranded"
+  },
+  "time": "18:00",
+  "beat": "nightfall_stranded",
+  "commentary": "1600 pax across 6 nodes. Top: W_E438_1=900. 2 cohorts active.",
+  "metrics": {
+   "total_pax": 1600,
+   "occupied_nodes": 6,
+   "cohort_count": 2,
+   "top_node": "W_E438_1=900"
+  }
+ }
+]

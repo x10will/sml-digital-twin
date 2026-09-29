@@ -1,0 +1,989 @@
+{
+  "schema": "sml-s7-support-structures/v3",
+  "stage": "S7",
+  "tool": "road_support_structure",
+  "generated_by": {
+    "pipeline": {
+      "name": "sml-s7-road-support-structure",
+      "script": "scripts/mesh_gen/road_support_structure.py",
+      "openspec_change": "sml-m9-road-support-structure"
+    },
+    "consumes": [
+      "data/sml/t2/edges/edges.json",
+      "data/sml/meshes/edges.glb",
+      "data/sml/meshes/edges.glb.generated_by.json",
+      "data/sml/meshes/terrain_base.glb",
+      "data/sml/meshes/terrain.glb",
+      "data/sml/meshes/terrain.glb.generated_by.json",
+      "data/sml/meshes/walkway_3d_overrides.glb"
+    ],
+    "site": "sml"
+  },
+  "artifact": "data/sml/meshes/support_structures.glb",
+  "artifact_sha256": "sha256:7b365ce6e4bee299896c84ea304d41088b400b498b386423bc2a10c25699d219",
+  "input_hashes": {
+    "data/sml/t2/edges/edges.json": "sha256:b26f14585c3bc9f8729eb9ec431ae347a5e02ecf80d94a08ec6a7a6c2f39b718",
+    "data/sml/meshes/edges.glb": "sha256:796bf4c2ba199a8805cb4fa17cc8442805e3e72e7daed4b6193e204d7d1ebbf0",
+    "data/sml/meshes/edges.glb.generated_by.json": "sha256:a0d3dc2c65e1b9052a4b03d3030178949988a4da43f054aa2c06916f5e4839b0",
+    "data/sml/meshes/terrain_base.glb": "sha256:5bd2eac02f2f210345aa0aaf7f44b7963a382cddf861cae92728705b4d8e08fe",
+    "data/sml/meshes/terrain.glb": "sha256:3772c8b80c37c00552f94f12bb56a7d860a47e35cfa91aeab1ce3e34f11f7894",
+    "data/sml/meshes/terrain.glb.generated_by.json": "sha256:94633b5a9c5fcfd9a2d1c828160e746691e2cdbd2bbeb8f82a7bc5d8d0f5e811",
+    "data/sml/meshes/walkway_3d_overrides.glb": "sha256:b28b02e65ede82497c318a7096a3de421271aef565da3bce467f02fc55ea5468",
+    ".m10-candidate/m10-cycleway-z-authority/completion_manifest.json": "sha256:a59bd8ba5dae4734e4c67330f97d5412115389e56f111a8b8d78fb1189f19c70",
+    "scripts/mesh_gen/fit_terrain_v3.py": "sha256:b93e17a3cd5a49a38229dafb4d9e35c0f05b7dc61881e89eedee48d3623b4acf",
+    "openspec/changes/archive/2026-09-03-sml-m9-road-support-structure/evidence/air-gap-census.json": "sha256:24c6d1c9ad42c1eccd714e9c740656668d8de9d5b1dbe4c11829fa8b485d8a44",
+    "openspec/changes/archive/2026-09-03-sml-m9-road-support-structure/evidence/visibility-check-2026-08-20-m9b/cycleway_clearance.json": "sha256:5c015b57c82034989a5bcf6537039ec02225ce185d7beef13818259692a9a7e1",
+    "scripts/mesh_gen/road_support_structure.py": "sha256:0d72aa042597e3c5af8d1e534cba09eaeb8614a42e4fd1d55e0c180e81152b52",
+    "openspec/changes/archive/2026-09-03-sml-m9-road-support-structure/design.md": "sha256:fc21d426937c5300a824dc338bcaee0f56afff0cd5ab6abd7b4465a4f8180d04"
+  },
+  "generated_input_chain": {
+    "candidate_sha256": "sha256:5b8454d68ad6831e75e98b87bb408179995f82986fc7fd5030e335a667a84024",
+    "edges_sha256": "sha256:796bf4c2ba199a8805cb4fa17cc8442805e3e72e7daed4b6193e204d7d1ebbf0",
+    "terrain_sha256": "sha256:3772c8b80c37c00552f94f12bb56a7d860a47e35cfa91aeab1ce3e34f11f7894",
+    "overlay_sha256": "sha256:b28b02e65ede82497c318a7096a3de421271aef565da3bce467f02fc55ea5468",
+    "producer_sha256": "sha256:0d72aa042597e3c5af8d1e534cba09eaeb8614a42e4fd1d55e0c180e81152b52"
+  },
+  "structures": [
+    {
+      "structure_id": "SML-S7-SUPPORT-E-62f16ef2-R53-56",
+      "edge_id": "E-62f16ef2",
+      "support_type": "open_side_retaining_wall",
+      "convention_id": "sml-s7-support-selection-v1",
+      "covered_tuple_ids": [
+        "unsupported_deck_gap|vertex|E-62f16ef2|r|191|gt_0_5m",
+        "unsupported_deck_gap|vertex|E-62f16ef2|r|192|gt_0_5m",
+        "unsupported_deck_gap|vertex|E-62f16ef2|r|193|gt_0_5m",
+        "unsupported_deck_gap|vertex|E-62f16ef2|r|194|gt_0_5m",
+        "unsupported_deck_gap|vertex|E-62f16ef2|r|195|gt_0_5m",
+        "unsupported_deck_gap|vertex|E-62f16ef2|r|196|gt_0_5m",
+        "unsupported_deck_gap|vertex|E-62f16ef2|r|197|gt_0_5m",
+        "unsupported_deck_gap|vertex|E-62f16ef2|r|200|gt_0_5m",
+        "unsupported_deck_gap|vertex|E-62f16ef2|r|201|gt_0_5m",
+        "unsupported_deck_gap|vertex|E-62f16ef2|r|202|gt_0_5m",
+        "unsupported_deck_gap|vertex|E-62f16ef2|r|203|gt_0_5m",
+        "unsupported_deck_gap|vertex|E-62f16ef2|r|207|gt_0_5m",
+        "unsupported_deck_gap|segment|E-62f16ef2|r|190|gt_0_5m",
+        "unsupported_deck_gap|segment|E-62f16ef2|r|191|gt_0_5m",
+        "unsupported_deck_gap|segment|E-62f16ef2|r|192|gt_0_5m",
+        "unsupported_deck_gap|segment|E-62f16ef2|r|193|gt_0_5m",
+        "unsupported_deck_gap|segment|E-62f16ef2|r|194|gt_0_5m",
+        "unsupported_deck_gap|segment|E-62f16ef2|r|195|gt_0_5m",
+        "unsupported_deck_gap|segment|E-62f16ef2|r|196|gt_0_5m",
+        "unsupported_deck_gap|segment|E-62f16ef2|r|197|gt_0_5m",
+        "unsupported_deck_gap|segment|E-62f16ef2|r|199|gt_0_5m",
+        "unsupported_deck_gap|segment|E-62f16ef2|r|200|gt_0_5m",
+        "unsupported_deck_gap|segment|E-62f16ef2|r|201|gt_0_5m",
+        "unsupported_deck_gap|segment|E-62f16ef2|r|202|gt_0_5m",
+        "unsupported_deck_gap|segment|E-62f16ef2|r|203|gt_0_5m",
+        "unsupported_deck_gap|segment|E-62f16ef2|r|206|gt_0_5m",
+        "unsupported_deck_gap|segment|E-62f16ef2|r|207|gt_0_5m"
+      ],
+      "station_runs": [
+        [
+          190,
+          208
+        ]
+      ],
+      "continuity_bridge": {
+        "stations": [
+          198,
+          199,
+          204,
+          205,
+          206
+        ],
+        "reason": "continuous_certified_run_including_restored_lid_contact",
+        "disqualifier": null
+      },
+      "wall_line_continuity": {
+        "probe_spacing_m": 0.25,
+        "probe_count": 166,
+        "maximum_unwalled_gap_m": 0.0
+      },
+      "wall_foot_seating": {
+        "probe_spacing_m": 0.25,
+        "probe_count": 332,
+        "tolerance_m": 0.02,
+        "maximum_float_m": 3e-05,
+        "maximum_burial_m": 3.1e-05,
+        "out_of_tolerance_probe_count": 0
+      },
+      "dense_foot_authority": {
+        "probe_spacing_m": 0.25,
+        "maximum_probe_spacing_m": 0.249639,
+        "probe_count": 332,
+        "s1_valid_probe_count": 332,
+        "land_probe_count": 332,
+        "collision_clear_probe_count": 332,
+        "covered_probe_count": 332,
+        "minimum_collision_clearance_m": 0.965544,
+        "maximum_wall_foot_minus_s1_m": 1.844401,
+        "minimum_wall_foot_minus_s1_m": -0.233121,
+        "probe_authority_sha256": "sha256:ac192c2f0914520a8f176cb7c66684c866ca8bcd4870dc38d2b31b62fe54a7da"
+      },
+      "deck_authority": {
+        "stage": "S5",
+        "source": "data/sml/meshes/edges.glb.generated_by.json",
+        "surface_role": "surface",
+        "deck_thickness_m": 0.3
+      },
+      "ground_authority": {
+        "stage": "S1",
+        "source": "data/sml/meshes/terrain_base.glb"
+      },
+      "render_support_observation": {
+        "stage": "S6",
+        "source": "data/sml/meshes/terrain.glb",
+        "selector": "highest_terrain_face_at_or_below_deck_underside",
+        "contact_tolerance_m": 0.005
+      },
+      "water_class": "land",
+      "water_classifier": "scripts/mesh_gen/fit_terrain_v3.py:_build_over_water_predicate",
+      "wall_alignment": {
+        "side": "right/outboard",
+        "outboard_offset_m": 1.5,
+        "thickness_m": 0.3,
+        "reason": "ground_side_of_protected_lower_cycleway",
+        "horizontal_clearance_convention_m": 0.9,
+        "underside_connector": "not_emitted"
+      },
+      "road_edge_fascia": {
+        "component_role": "road_edge_fascia",
+        "surface_seat_m": 0.01,
+        "fascia_depth_m": 0.29,
+        "horizontal_seat_m": 0.15,
+        "authority": "S5_rendered_road_surface_and_0.30m_deck_convention"
+      },
+      "wall_stations": [
+        {
+          "station_index": 190,
+          "actionable_tuple_id": null,
+          "wall_alignment_xy_m": [
+            1980.037376,
+            861.098614
+          ],
+          "wall_top_z_m": 782.689136,
+          "wall_foot_z_m": 779.934176,
+          "wall_height_m": 2.75496,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 779.698149,
+          "water_class": "land",
+          "continuity_bridge": false
+        },
+        {
+          "station_index": 191,
+          "actionable_tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|191|gt_0_5m",
+          "wall_alignment_xy_m": [
+            1977.868698,
+            861.284728
+          ],
+          "wall_top_z_m": 782.78075,
+          "wall_foot_z_m": 779.770478,
+          "wall_height_m": 3.010271,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 779.848504,
+          "water_class": "land",
+          "continuity_bridge": false
+        },
+        {
+          "station_index": 192,
+          "actionable_tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|192|gt_0_5m",
+          "wall_alignment_xy_m": [
+            1975.725868,
+            861.555064
+          ],
+          "wall_top_z_m": 782.895251,
+          "wall_foot_z_m": 779.923111,
+          "wall_height_m": 2.972141,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.05379,
+          "water_class": "land",
+          "continuity_bridge": false
+        },
+        {
+          "station_index": 193,
+          "actionable_tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|193|gt_0_5m",
+          "wall_alignment_xy_m": [
+            1973.609733,
+            861.901436
+          ],
+          "wall_top_z_m": 783.027209,
+          "wall_foot_z_m": 780.078443,
+          "wall_height_m": 2.948767,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.289615,
+          "water_class": "land",
+          "continuity_bridge": false
+        },
+        {
+          "station_index": 194,
+          "actionable_tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|194|gt_0_5m",
+          "wall_alignment_xy_m": [
+            1971.520391,
+            862.315896
+          ],
+          "wall_top_z_m": 783.161731,
+          "wall_foot_z_m": 780.248397,
+          "wall_height_m": 2.913334,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.257573,
+          "water_class": "land",
+          "continuity_bridge": false
+        },
+        {
+          "station_index": 195,
+          "actionable_tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|195|gt_0_5m",
+          "wall_alignment_xy_m": [
+            1969.457778,
+            862.790734
+          ],
+          "wall_top_z_m": 783.28136,
+          "wall_foot_z_m": 780.415861,
+          "wall_height_m": 2.865499,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.175406,
+          "water_class": "land",
+          "continuity_bridge": false
+        },
+        {
+          "station_index": 196,
+          "actionable_tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|196|gt_0_5m",
+          "wall_alignment_xy_m": [
+            1967.421775,
+            863.318423
+          ],
+          "wall_top_z_m": 783.395801,
+          "wall_foot_z_m": 780.571282,
+          "wall_height_m": 2.824519,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.132282,
+          "water_class": "land",
+          "continuity_bridge": false
+        },
+        {
+          "station_index": 197,
+          "actionable_tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|197|gt_0_5m",
+          "wall_alignment_xy_m": [
+            1965.409945,
+            863.892335
+          ],
+          "wall_top_z_m": 783.504016,
+          "wall_foot_z_m": 780.721058,
+          "wall_height_m": 2.782958,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.017264,
+          "water_class": "land",
+          "continuity_bridge": false
+        },
+        {
+          "station_index": 198,
+          "actionable_tuple_id": null,
+          "wall_alignment_xy_m": [
+            1963.443193,
+            864.501334
+          ],
+          "wall_top_z_m": 783.605457,
+          "wall_foot_z_m": 780.859161,
+          "wall_height_m": 2.746296,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 779.8836,
+          "water_class": "land",
+          "continuity_bridge": true
+        },
+        {
+          "station_index": 199,
+          "actionable_tuple_id": null,
+          "wall_alignment_xy_m": [
+            1961.472933,
+            865.166982
+          ],
+          "wall_top_z_m": 783.700488,
+          "wall_foot_z_m": 781.009239,
+          "wall_height_m": 2.691249,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 779.85017,
+          "water_class": "land",
+          "continuity_bridge": true
+        },
+        {
+          "station_index": 200,
+          "actionable_tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|200|gt_0_5m",
+          "wall_alignment_xy_m": [
+            1959.501574,
+            865.900254
+          ],
+          "wall_top_z_m": 783.790027,
+          "wall_foot_z_m": 781.164333,
+          "wall_height_m": 2.625694,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 779.869721,
+          "water_class": "land",
+          "continuity_bridge": false
+        },
+        {
+          "station_index": 201,
+          "actionable_tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|201|gt_0_5m",
+          "wall_alignment_xy_m": [
+            1957.535654,
+            866.711235
+          ],
+          "wall_top_z_m": 783.870654,
+          "wall_foot_z_m": 781.305454,
+          "wall_height_m": 2.5652,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 779.849679,
+          "water_class": "land",
+          "continuity_bridge": false
+        },
+        {
+          "station_index": 202,
+          "actionable_tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|202|gt_0_5m",
+          "wall_alignment_xy_m": [
+            1955.582626,
+            867.610511
+          ],
+          "wall_top_z_m": 783.95177,
+          "wall_foot_z_m": 781.45721,
+          "wall_height_m": 2.49456,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 779.869602,
+          "water_class": "land",
+          "continuity_bridge": false
+        },
+        {
+          "station_index": 203,
+          "actionable_tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|203|gt_0_5m",
+          "wall_alignment_xy_m": [
+            1953.650552,
+            868.60858
+          ],
+          "wall_top_z_m": 784.042163,
+          "wall_foot_z_m": 781.614157,
+          "wall_height_m": 2.428006,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 779.948777,
+          "water_class": "land",
+          "continuity_bridge": false
+        },
+        {
+          "station_index": 204,
+          "actionable_tuple_id": null,
+          "wall_alignment_xy_m": [
+            1951.748395,
+            869.716168
+          ],
+          "wall_top_z_m": 784.143054,
+          "wall_foot_z_m": 780.105196,
+          "wall_height_m": 4.037858,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.105196,
+          "water_class": "land",
+          "continuity_bridge": true
+        },
+        {
+          "station_index": 205,
+          "actionable_tuple_id": null,
+          "wall_alignment_xy_m": [
+            1949.887023,
+            870.943197
+          ],
+          "wall_top_z_m": 784.256763,
+          "wall_foot_z_m": 780.207573,
+          "wall_height_m": 4.04919,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.207568,
+          "water_class": "land",
+          "continuity_bridge": true
+        },
+        {
+          "station_index": 206,
+          "actionable_tuple_id": null,
+          "wall_alignment_xy_m": [
+            1948.080071,
+            872.296232
+          ],
+          "wall_top_z_m": 784.384937,
+          "wall_foot_z_m": 780.368931,
+          "wall_height_m": 4.016005,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.368931,
+          "water_class": "land",
+          "continuity_bridge": true
+        },
+        {
+          "station_index": 207,
+          "actionable_tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|207|gt_0_5m",
+          "wall_alignment_xy_m": [
+            1946.346932,
+            873.772851
+          ],
+          "wall_top_z_m": 784.525684,
+          "wall_foot_z_m": 780.566018,
+          "wall_height_m": 3.959665,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.566024,
+          "water_class": "land",
+          "continuity_bridge": false
+        },
+        {
+          "station_index": 208,
+          "actionable_tuple_id": null,
+          "wall_alignment_xy_m": [
+            1944.701685,
+            875.373316
+          ],
+          "wall_top_z_m": 784.67583,
+          "wall_foot_z_m": 780.707082,
+          "wall_height_m": 3.968748,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.707052,
+          "water_class": "land",
+          "continuity_bridge": false
+        }
+      ],
+      "actionable_vertices": [
+        {
+          "station_index": 191,
+          "tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|191|gt_0_5m",
+          "road_boundary_xy_m": [
+            1978.026855,
+            862.776367
+          ],
+          "deck_top_z_m": 783.08075,
+          "deck_underside_z_m": 782.78075,
+          "observed_support_face_z_m": 779.76179,
+          "unsupported_gap_m": 3.018959,
+          "wall_alignment_xy_m": [
+            1977.868698,
+            861.284728
+          ],
+          "wall_top_z_m": 782.78075,
+          "wall_foot_z_m": 779.770478,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 779.848504,
+          "water_class": "land"
+        },
+        {
+          "station_index": 192,
+          "tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|192|gt_0_5m",
+          "road_boundary_xy_m": [
+            1975.94104,
+            863.039551
+          ],
+          "deck_top_z_m": 783.195251,
+          "deck_underside_z_m": 782.895251,
+          "observed_support_face_z_m": 779.92975,
+          "unsupported_gap_m": 2.965502,
+          "wall_alignment_xy_m": [
+            1975.725868,
+            861.555064
+          ],
+          "wall_top_z_m": 782.895251,
+          "wall_foot_z_m": 779.923111,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.05379,
+          "water_class": "land"
+        },
+        {
+          "station_index": 193,
+          "tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|193|gt_0_5m",
+          "road_boundary_xy_m": [
+            1973.876953,
+            863.377441
+          ],
+          "deck_top_z_m": 783.327209,
+          "deck_underside_z_m": 783.027209,
+          "observed_support_face_z_m": 780.081937,
+          "unsupported_gap_m": 2.945272,
+          "wall_alignment_xy_m": [
+            1973.609733,
+            861.901436
+          ],
+          "wall_top_z_m": 783.027209,
+          "wall_foot_z_m": 780.078443,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.289615,
+          "water_class": "land"
+        },
+        {
+          "station_index": 194,
+          "tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|194|gt_0_5m",
+          "road_boundary_xy_m": [
+            1971.834717,
+            863.782593
+          ],
+          "deck_top_z_m": 783.461731,
+          "deck_underside_z_m": 783.161731,
+          "observed_support_face_z_m": 780.248169,
+          "unsupported_gap_m": 2.913562,
+          "wall_alignment_xy_m": [
+            1971.520391,
+            862.315896
+          ],
+          "wall_top_z_m": 783.161731,
+          "wall_foot_z_m": 780.248397,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.257573,
+          "water_class": "land"
+        },
+        {
+          "station_index": 195,
+          "tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|195|gt_0_5m",
+          "road_boundary_xy_m": [
+            1969.814331,
+            864.247742
+          ],
+          "deck_top_z_m": 783.58136,
+          "deck_underside_z_m": 783.28136,
+          "observed_support_face_z_m": 780.422029,
+          "unsupported_gap_m": 2.85933,
+          "wall_alignment_xy_m": [
+            1969.457778,
+            862.790734
+          ],
+          "wall_top_z_m": 783.28136,
+          "wall_foot_z_m": 780.415861,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.175406,
+          "water_class": "land"
+        },
+        {
+          "station_index": 196,
+          "tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|196|gt_0_5m",
+          "road_boundary_xy_m": [
+            1967.815796,
+            864.765747
+          ],
+          "deck_top_z_m": 783.695801,
+          "deck_underside_z_m": 783.395801,
+          "observed_support_face_z_m": 780.574591,
+          "unsupported_gap_m": 2.821209,
+          "wall_alignment_xy_m": [
+            1967.421775,
+            863.318423
+          ],
+          "wall_top_z_m": 783.395801,
+          "wall_foot_z_m": 780.571282,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.132282,
+          "water_class": "land"
+        },
+        {
+          "station_index": 197,
+          "tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|197|gt_0_5m",
+          "road_boundary_xy_m": [
+            1965.837402,
+            865.330139
+          ],
+          "deck_top_z_m": 783.804016,
+          "deck_underside_z_m": 783.504016,
+          "observed_support_face_z_m": 780.730315,
+          "unsupported_gap_m": 2.773701,
+          "wall_alignment_xy_m": [
+            1965.409945,
+            863.892335
+          ],
+          "wall_top_z_m": 783.504016,
+          "wall_foot_z_m": 780.721058,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.017264,
+          "water_class": "land"
+        },
+        {
+          "station_index": 200,
+          "tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|200|gt_0_5m",
+          "road_boundary_xy_m": [
+            1960.04895,
+            867.296814
+          ],
+          "deck_top_z_m": 784.090027,
+          "deck_underside_z_m": 783.790027,
+          "observed_support_face_z_m": 781.165818,
+          "unsupported_gap_m": 2.624209,
+          "wall_alignment_xy_m": [
+            1959.501574,
+            865.900254
+          ],
+          "wall_top_z_m": 783.790027,
+          "wall_foot_z_m": 781.164333,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 779.869721,
+          "water_class": "land"
+        },
+        {
+          "station_index": 201,
+          "tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|201|gt_0_5m",
+          "road_boundary_xy_m": [
+            1958.135254,
+            868.086182
+          ],
+          "deck_top_z_m": 784.170654,
+          "deck_underside_z_m": 783.870654,
+          "observed_support_face_z_m": 781.312579,
+          "unsupported_gap_m": 2.558075,
+          "wall_alignment_xy_m": [
+            1957.535654,
+            866.711235
+          ],
+          "wall_top_z_m": 783.870654,
+          "wall_foot_z_m": 781.305454,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 779.849679,
+          "water_class": "land"
+        },
+        {
+          "station_index": 202,
+          "tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|202|gt_0_5m",
+          "road_boundary_xy_m": [
+            1956.240479,
+            868.958557
+          ],
+          "deck_top_z_m": 784.25177,
+          "deck_underside_z_m": 783.95177,
+          "observed_support_face_z_m": 781.467331,
+          "unsupported_gap_m": 2.484439,
+          "wall_alignment_xy_m": [
+            1955.582626,
+            867.610511
+          ],
+          "wall_top_z_m": 783.95177,
+          "wall_foot_z_m": 781.45721,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 779.869602,
+          "water_class": "land"
+        },
+        {
+          "station_index": 203,
+          "tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|203|gt_0_5m",
+          "road_boundary_xy_m": [
+            1954.372192,
+            869.923584
+          ],
+          "deck_top_z_m": 784.342163,
+          "deck_underside_z_m": 784.042163,
+          "observed_support_face_z_m": 781.623121,
+          "unsupported_gap_m": 2.419042,
+          "wall_alignment_xy_m": [
+            1953.650552,
+            868.60858
+          ],
+          "wall_top_z_m": 784.042163,
+          "wall_foot_z_m": 781.614157,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 779.948777,
+          "water_class": "land"
+        },
+        {
+          "station_index": 207,
+          "tuple_id": "unsupported_deck_gap|vertex|E-62f16ef2|r|207|gt_0_5m",
+          "road_boundary_xy_m": [
+            1947.356689,
+            874.88208
+          ],
+          "deck_top_z_m": 784.825684,
+          "deck_underside_z_m": 784.525684,
+          "observed_support_face_z_m": 781.287042,
+          "unsupported_gap_m": 3.238641,
+          "wall_alignment_xy_m": [
+            1946.346932,
+            873.772851
+          ],
+          "wall_top_z_m": 784.525684,
+          "wall_foot_z_m": 780.566018,
+          "wall_foot_selector": "highest_terrain_face_at_or_below_deck_underside",
+          "s1_ground_z_m": 780.566024,
+          "water_class": "land"
+        }
+      ],
+      "protected_lower_cycleway": {
+        "edge_id": "E-dfdaab64",
+        "source": "data/sml/meshes/walkway_3d_overrides.glb",
+        "source_sha256": "sha256:b28b02e65ede82497c318a7096a3de421271aef565da3bce467f02fc55ea5468",
+        "corridor_deck_roles": [
+          {
+            "geometry": "geometry_96",
+            "role": "deck"
+          },
+          {
+            "geometry": "geometry_160",
+            "role": "edge_trim_left"
+          },
+          {
+            "geometry": "geometry_161",
+            "role": "edge_trim_right"
+          }
+        ],
+        "other_corridor_deck_roles": [],
+        "rows": [
+          {
+            "row": "E-dfdaab64[53]",
+            "x_m": 1947.216385,
+            "y_m": 876.70066,
+            "deck_top_z_m": 782.751689,
+            "support_face_z_m": 781.9485,
+            "underside_to_support_gap_m": 0.503188,
+            "terrain_face_above_deck_top": false,
+            "verdict": "CLEAR"
+          },
+          {
+            "row": "E-dfdaab64[54]",
+            "x_m": 1957.356441,
+            "y_m": 869.865612,
+            "deck_top_z_m": 781.774548,
+            "support_face_z_m": 781.416926,
+            "underside_to_support_gap_m": 0.057622,
+            "terrain_face_above_deck_top": false,
+            "verdict": "CLEAR"
+          },
+          {
+            "row": "E-dfdaab64[55]",
+            "x_m": 1967.700111,
+            "y_m": 865.724508,
+            "deck_top_z_m": 780.963499,
+            "support_face_z_m": 780.603436,
+            "underside_to_support_gap_m": 0.060063,
+            "terrain_face_above_deck_top": false,
+            "verdict": "CLEAR"
+          },
+          {
+            "row": "E-dfdaab64[56]",
+            "x_m": 1978.461194,
+            "y_m": 863.45358,
+            "deck_top_z_m": 780.084701,
+            "support_face_z_m": 779.746241,
+            "underside_to_support_gap_m": 0.03846,
+            "terrain_face_above_deck_top": true,
+            "verdict": "BURIED"
+          }
+        ],
+        "horizontal_clearance_convention_m": 0.9,
+        "stem_minimum_plan_separation_m": 0.965366,
+        "stem_minimum_mesh_separation_m": 0.965366,
+        "stem_overhead_column_count": 0,
+        "stem_minimum_headroom_m": null,
+        "stem_mesh_collision": false,
+        "per_deck_role_stem_clearance": [
+          {
+            "geometry": "geometry_96",
+            "role": "deck",
+            "minimum_plan_separation_m": 0.965387,
+            "minimum_mesh_separation_m": 0.965387
+          },
+          {
+            "geometry": "geometry_160",
+            "role": "edge_trim_left",
+            "minimum_plan_separation_m": 3.208537,
+            "minimum_mesh_separation_m": 3.208537
+          },
+          {
+            "geometry": "geometry_161",
+            "role": "edge_trim_right",
+            "minimum_plan_separation_m": 0.965366,
+            "minimum_mesh_separation_m": 0.965366
+          }
+        ],
+        "fascia_classification": "S5_road_deck_edge_not_wall_stem",
+        "fascia_clearance": {
+          "probe_spacing_m": 0.25,
+          "probe_count": 163,
+          "overhead_column_count": 90,
+          "minimum_headroom_m": 1.792505,
+          "per_deck_role": [
+            {
+              "geometry": "geometry_96",
+              "role": "deck",
+              "overhead_column_count": 90,
+              "minimum_headroom_m": 1.847486
+            },
+            {
+              "geometry": "geometry_160",
+              "role": "edge_trim_left",
+              "overhead_column_count": 0,
+              "minimum_headroom_m": null
+            },
+            {
+              "geometry": "geometry_161",
+              "role": "edge_trim_right",
+              "overhead_column_count": 26,
+              "minimum_headroom_m": 1.792505
+            }
+          ]
+        },
+        "clearance_convention_disposition": {
+          "status": "declared",
+          "component_role": "road_edge_fascia",
+          "convention_m": 0.9,
+          "director_grid": {
+            "probe_spacing_m": 0.5,
+            "column_count": 577,
+            "overhead_column_count": 14,
+            "minimum_3d_separation_m": 0.8484,
+            "minimum_headroom_m": 2.0865
+          },
+          "affected_station_segments": [
+            "191-192",
+            "192-193",
+            "193-194",
+            "194-195",
+            "195-196",
+            "196-197",
+            "197-198",
+            "198-199",
+            "201-202",
+            "206-207",
+            "207-208"
+          ],
+          "violating_columns": [
+            {
+              "xy_m": [
+                1945.5,
+                876.5
+              ],
+              "station_segment": "207-208",
+              "minimum_3d_separation_m": 0.8529,
+              "overhead": false
+            },
+            {
+              "xy_m": [
+                1947.5,
+                875
+              ],
+              "station_segment": "206-207",
+              "minimum_3d_separation_m": 0.8484,
+              "overhead": false
+            },
+            {
+              "xy_m": [
+                1956.5,
+                869
+              ],
+              "station_segment": "201-202",
+              "minimum_3d_separation_m": 1.7113,
+              "overhead": true
+            },
+            {
+              "xy_m": [
+                1957.5,
+                868.5
+              ],
+              "station_segment": "201-202",
+              "minimum_3d_separation_m": 1.8501,
+              "overhead": true
+            },
+            {
+              "xy_m": [
+                1962.5,
+                866.5
+              ],
+              "station_segment": "198-199",
+              "minimum_3d_separation_m": 1.725,
+              "overhead": true
+            },
+            {
+              "xy_m": [
+                1964,
+                866
+              ],
+              "station_segment": "197-198",
+              "minimum_3d_separation_m": 1.6519,
+              "overhead": true
+            },
+            {
+              "xy_m": [
+                1965.5,
+                865.5
+              ],
+              "station_segment": "197-198",
+              "minimum_3d_separation_m": 1.6715,
+              "overhead": true
+            },
+            {
+              "xy_m": [
+                1967,
+                865
+              ],
+              "station_segment": "196-197",
+              "minimum_3d_separation_m": 1.7855,
+              "overhead": true
+            },
+            {
+              "xy_m": [
+                1967.5,
+                865
+              ],
+              "station_segment": "196-197",
+              "minimum_3d_separation_m": 1.7286,
+              "overhead": true
+            },
+            {
+              "xy_m": [
+                1969,
+                864.5
+              ],
+              "station_segment": "195-196",
+              "minimum_3d_separation_m": 1.8188,
+              "overhead": true
+            },
+            {
+              "xy_m": [
+                1971,
+                864
+              ],
+              "station_segment": "194-195",
+              "minimum_3d_separation_m": 1.8273,
+              "overhead": true
+            },
+            {
+              "xy_m": [
+                1971.5,
+                864
+              ],
+              "station_segment": "194-195",
+              "minimum_3d_separation_m": 1.7275,
+              "overhead": true
+            },
+            {
+              "xy_m": [
+                1973.5,
+                863.5
+              ],
+              "station_segment": "193-194",
+              "minimum_3d_separation_m": 1.6496,
+              "overhead": true
+            },
+            {
+              "xy_m": [
+                1974,
+                863.5
+              ],
+              "station_segment": "192-193",
+              "minimum_3d_separation_m": 1.6829,
+              "overhead": true
+            },
+            {
+              "xy_m": [
+                1976.5,
+                863
+              ],
+              "station_segment": "191-192",
+              "minimum_3d_separation_m": 1.6685,
+              "overhead": true
+            },
+            {
+              "xy_m": [
+                1977,
+                863
+              ],
+              "station_segment": "191-192",
+              "minimum_3d_separation_m": 1.9455,
+              "overhead": true
+            }
+          ],
+          "stem_meets_convention": true,
+          "reason": "The required S5 road-edge fascia occupies these columns; moving the ground-side stem cannot remove the S5/S5 overlap without deleting or falsifying the fascia.",
+          "resolution": "retained_truthful_S5_fascia_and_ground_side_stem"
+        }
+      }
+    }
+  ]
+}

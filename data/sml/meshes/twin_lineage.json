@@ -1,0 +1,4326 @@
+{
+  "generator": "scripts/producer/emit_twin_lineage_index.py",
+  "inputs": {
+    "data_sources": {
+      "path": "data/sml/data_sources.json",
+      "sha256": "c5c74936ceadf089e3b9d47d975122359e7da94db997affa9be1ef09d612853a"
+    },
+    "linkage": {
+      "path": "data/sml/linkage.json",
+      "sha256": "ced661e90635da41022249d8b32fcbab2ae345bd05a4c06824b3f0d91ea08eb7"
+    },
+    "physical_twins": {
+      "path": "data/sml/physical_twins.json",
+      "sha256": "9745e379f8b7cf99e13650e8c4808dba575c02a3f03c10a48add8ee86be667be"
+    }
+  },
+  "schema": "dt-twin-lineage/1",
+  "site": "sml",
+  "twins": {
+    "SML-ACC-01": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "文化部 國家文化記憶庫",
+          "provider": "文化部",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-22",
+          "trust_level": 2,
+          "url": "https://culture.tw/"
+        },
+        {
+          "name": "維基百科 日月潭涵碧樓酒店",
+          "provides": "year_opened,established,rooms,architect,floor_area_m2",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-52",
+          "url": "https://zh.wikipedia.org/wiki/涵碧樓_(日月潭)"
+        }
+      ]
+    },
+    "SML-ACC-02": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-ACC-03": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-ACC-04": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-ACC-05": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-ACC-06": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-ACC-07": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-ACC-08": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-ACC-09": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-ACC-10": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-ACC-12": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, site=sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-XY-osm",
+          "trust_level": 2,
+          "url": "overpass via osm MCP; cache data/sml/osm_cache/"
+        }
+      ]
+    },
+    "SML-BIK-01": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "Web search — cycling path data",
+          "provider": "Multiple (gofunit, ningl.tw, taiwanbike.tw)",
+          "provides": "feature_inventory",
+          "resolved_fields": [
+            "rental_capacity",
+            "operator",
+            "return_policy"
+          ],
+          "source_id": "SRC-SML-18",
+          "trust_level": 2,
+          "url": null
+        }
+      ]
+    },
+    "SML-BIK-02": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "Web search — cycling path data",
+          "provider": "Multiple (gofunit, ningl.tw, taiwanbike.tw)",
+          "provides": "feature_inventory",
+          "resolved_fields": [
+            "rental_capacity",
+            "operator",
+            "return_policy"
+          ],
+          "source_id": "SRC-SML-18",
+          "trust_level": 2,
+          "url": null
+        }
+      ]
+    },
+    "SML-BIK-03": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "Web search — cycling path data",
+          "provider": "Multiple (gofunit, ningl.tw, taiwanbike.tw)",
+          "provides": "feature_inventory",
+          "resolved_fields": [
+            "rental_capacity",
+            "operator",
+            "return_policy"
+          ],
+          "source_id": "SRC-SML-18",
+          "trust_level": 2,
+          "url": null
+        }
+      ]
+    },
+    "SML-BIK-04": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "Web search — cycling path data",
+          "provider": "Multiple (gofunit, ningl.tw, taiwanbike.tw)",
+          "provides": "feature_inventory",
+          "resolved_fields": [
+            "rental_capacity",
+            "operator",
+            "return_policy"
+          ],
+          "source_id": "SRC-SML-18",
+          "trust_level": 2,
+          "url": null
+        }
+      ]
+    },
+    "SML-BIK-05": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "Web search — cycling path data",
+          "provider": "Multiple (gofunit, ningl.tw, taiwanbike.tw)",
+          "provides": "feature_inventory",
+          "resolved_fields": [
+            "rental_capacity",
+            "operator",
+            "return_policy"
+          ],
+          "source_id": "SRC-SML-18",
+          "trust_level": 2,
+          "url": null
+        }
+      ]
+    },
+    "SML-BIK-06": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "Web search — cycling path data",
+          "provider": "Multiple (gofunit, ningl.tw, taiwanbike.tw)",
+          "provides": "feature_inventory",
+          "resolved_fields": [
+            "rental_capacity",
+            "operator",
+            "return_policy"
+          ],
+          "source_id": "SRC-SML-18",
+          "trust_level": 2,
+          "url": null
+        }
+      ]
+    },
+    "SML-BIK-07": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "OpenStreetMap node 3605023466 (amenity=bicycle_rental, name=叱奼風輪)",
+          "provides": "feature_type_and_coords",
+          "resolved_fields": [
+            "type",
+            "lat",
+            "lng",
+            "name"
+          ],
+          "source_id": "SRC-SML-38",
+          "url": "https://www.openstreetmap.org/node/3605023466"
+        }
+      ]
+    },
+    "SML-BIK-08": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "Web search — cycling path data",
+          "provider": "Multiple (gofunit, ningl.tw, taiwanbike.tw)",
+          "provides": "attributes",
+          "resolved_fields": [
+            "pricing",
+            "bike_types",
+            "address"
+          ],
+          "source_id": "SRC-SML-18",
+          "trust_level": 2,
+          "url": null
+        }
+      ]
+    },
+    "SML-BIK-09": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "Web search — cycling path data",
+          "provider": "Multiple (gofunit, ningl.tw, taiwanbike.tw)",
+          "provides": "attributes",
+          "resolved_fields": [
+            "pricing",
+            "hours",
+            "phone",
+            "address"
+          ],
+          "source_id": "SRC-SML-18",
+          "trust_level": 2,
+          "url": null
+        }
+      ]
+    },
+    "SML-BIK-10": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "Web search — cycling path data",
+          "provider": "Multiple (gofunit, ningl.tw, taiwanbike.tw)",
+          "provides": "attributes",
+          "resolved_fields": [
+            "operator",
+            "fleet_size_approx",
+            "bike_types",
+            "cross_station_return",
+            "phone"
+          ],
+          "source_id": "SRC-SML-18",
+          "trust_level": 2,
+          "url": null
+        }
+      ]
+    },
+    "SML-BIK-11": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "Web search — cycling path data",
+          "provider": "Multiple (gofunit, ningl.tw, taiwanbike.tw)",
+          "provides": "attributes",
+          "resolved_fields": [
+            "operator",
+            "bike_types",
+            "cross_station_return",
+            "cross_station_partner"
+          ],
+          "source_id": "SRC-SML-18",
+          "trust_level": 2,
+          "url": null
+        }
+      ]
+    },
+    "SML-BIK-12": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "日月潭國家風景區範圍 (NSA boundary polygon)",
+          "provider": "交通部觀光署 via data.gov.tw dataset 9938 (VA0205V04)",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-JJ-01",
+          "trust_level": 1
+        }
+      ]
+    },
+    "SML-BIK-13": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-JJ-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-COM-01": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "原住民族委員會",
+          "provider": "行政院原住民族委員會",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-21",
+          "trust_level": 1,
+          "url": "https://cip.gov.tw/"
+        },
+        {
+          "name": "中央研究院民族學研究所 數位典藏",
+          "provider": "中央研究院民族學研究所",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-24",
+          "trust_level": 2,
+          "url": "https://ianthro.tw/"
+        }
+      ]
+    },
+    "SML-COM-02": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-COM-12": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-JJ-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-FAC-01": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-FAC-02": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-FAC-03": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass) — 車埕/水里 zone",
+          "provider": "OpenStreetMap",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-CC-OSM",
+          "trust_level": 2,
+          "url": "osm MCP cache (site=sml)"
+        }
+      ]
+    },
+    "SML-FAC-04": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass) — 車埕/水里 zone",
+          "provider": "OpenStreetMap",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-CC-OSM",
+          "trust_level": 2,
+          "url": "osm MCP cache (site=sml)"
+        }
+      ]
+    },
+    "SML-FAC-05": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-TP-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-FAC-06": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, site=sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-XY-osm",
+          "trust_level": 2,
+          "url": "overpass via osm MCP; cache data/sml/osm_cache/"
+        }
+      ]
+    },
+    "SML-HYD-01": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "台灣電力公司 電業文物典藏",
+          "provider": "台灣電力公司",
+          "provides": "attributes",
+          "resolved_fields": [
+            "role",
+            "feeds_power",
+            "level_raised_m"
+          ],
+          "source_id": "SRC-SML-29",
+          "trust_level": 1,
+          "url": "https://taipower.com.tw/"
+        },
+        {
+          "name": "經濟部水利署",
+          "provider": "經濟部水利署",
+          "provides": "attributes",
+          "resolved_fields": [
+            "surface_area_km2",
+            "normal_pool_level_m",
+            "effective_capacity_m3",
+            "natural_catchment_km2"
+          ],
+          "source_id": "SRC-SML-31",
+          "trust_level": 1,
+          "url": "https://wra.gov.tw/"
+        },
+        {
+          "name": "維基百科 - 日月潭",
+          "provides": "catchment_km2,capacity_m3,dam_height_m,dam_crest_length_m,dam_crest_elevation_m",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-57",
+          "url": "https://zh.wikipedia.org/wiki/%E6%97%A5%E6%9C%88%E6%BD%AD"
+        }
+      ]
+    },
+    "SML-HYD-02": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "台灣電力公司 電業文物典藏",
+          "provider": "台灣電力公司",
+          "provides": "attributes",
+          "resolved_fields": [
+            "length_m",
+            "max_flow_cms",
+            "intake",
+            "commissioned"
+          ],
+          "source_id": "SRC-SML-29",
+          "trust_level": 1,
+          "url": "https://taipower.com.tw/"
+        },
+        {
+          "name": "經濟部水利署",
+          "provider": "經濟部水利署",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "outlet_at"
+          ],
+          "source_id": "SRC-SML-31",
+          "trust_level": 1,
+          "url": "https://wra.gov.tw/"
+        },
+        {
+          "name": "維基百科 - 新武界引水隧道工程",
+          "provides": "max_flow_cms",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-58",
+          "url": "https://zh.wikipedia.org/zh-tw/%E6%96%B0%E6%AD%A6%E7%95%8C%E5%BC%95%E6%B0%B4%E9%9A%A7%E9%81%93%E5%B7%A5%E7%A8%8B"
+        }
+      ]
+    },
+    "SML-PKG-01": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "南投好交遊 (funbus) — 日月潭交通懶人包",
+          "provider": "funbus.welcometw.com",
+          "provides": "attributes",
+          "resolved_fields": [
+            "parking_capacity",
+            "transport_overview"
+          ],
+          "source_id": "SRC-SML-15",
+          "trust_level": 3,
+          "url": "https://funbus.welcometw.com/en/blog/4"
+        },
+        {
+          "name": "Web search — parking capacity aggregation",
+          "provider": "Multiple (UDN, funbus, sunmoonlake.gov.tw, uptogo)",
+          "provides": "attributes",
+          "resolved_fields": [
+            "parking_capacity"
+          ],
+          "source_id": "SRC-SML-17",
+          "trust_level": 2,
+          "url": null
+        },
+        {
+          "name": "日月潭智慧旅遊資訊網（即時停車／人流／交通）",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-32",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/?l=1"
+        },
+        {
+          "name": "日月潭智慧觀光 停車場資料 API (GetData.ashx)",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-34",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/GetData.ashx?type=Parking"
+        }
+      ]
+    },
+    "SML-PKG-02": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭智慧旅遊資訊網（即時停車／人流／交通）",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-32",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/?l=1"
+        },
+        {
+          "name": "日月潭智慧觀光 停車場資料 API (GetData.ashx)",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-34",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/GetData.ashx?type=Parking"
+        }
+      ]
+    },
+    "SML-PKG-03": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "南投好交遊 (funbus) — 日月潭交通懶人包",
+          "provider": "funbus.welcometw.com",
+          "provides": "attributes",
+          "resolved_fields": [
+            "parking_capacity",
+            "transport_overview"
+          ],
+          "source_id": "SRC-SML-15",
+          "trust_level": 3,
+          "url": "https://funbus.welcometw.com/en/blog/4"
+        },
+        {
+          "name": "Web search — parking capacity aggregation",
+          "provider": "Multiple (UDN, funbus, sunmoonlake.gov.tw, uptogo)",
+          "provides": "attributes",
+          "resolved_fields": [
+            "parking_capacity"
+          ],
+          "source_id": "SRC-SML-17",
+          "trust_level": 2,
+          "url": null
+        },
+        {
+          "name": "日月潭智慧旅遊資訊網（即時停車／人流／交通）",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-32",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/?l=1"
+        },
+        {
+          "name": "日月潭智慧觀光 停車場資料 API (GetData.ashx)",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-34",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/GetData.ashx?type=Parking"
+        }
+      ]
+    },
+    "SML-PKG-04": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "聯合新聞網 — 伊達邵立體停車場",
+          "provider": "聯合新聞網 (UDN)",
+          "provides": "attributes",
+          "resolved_fields": [
+            "parking_capacity"
+          ],
+          "source_id": "SRC-SML-12",
+          "trust_level": 2,
+          "url": "https://udn.com/news/story/7325/8531122"
+        },
+        {
+          "name": "Web search — parking capacity aggregation",
+          "provider": "Multiple (UDN, funbus, sunmoonlake.gov.tw, uptogo)",
+          "provides": "attributes",
+          "resolved_fields": [
+            "parking_capacity"
+          ],
+          "source_id": "SRC-SML-17",
+          "trust_level": 2,
+          "url": null
+        },
+        {
+          "name": "日月潭智慧旅遊資訊網（即時停車／人流／交通）",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-32",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/?l=1"
+        },
+        {
+          "name": "日月潭智慧觀光 停車場資料 API (GetData.ashx)",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-34",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/GetData.ashx?type=Parking"
+        }
+      ]
+    },
+    "SML-PKG-05": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-PKG-06": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-PKG-07": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭智慧旅遊資訊網（即時停車／人流／交通）",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-32",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/?l=1"
+        },
+        {
+          "name": "日月潭智慧觀光 停車場資料 API (GetData.ashx)",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-34",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/GetData.ashx?type=Parking"
+        }
+      ]
+    },
+    "SML-PKG-08": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭智慧旅遊資訊網（即時停車／人流／交通）",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-32",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/?l=1"
+        },
+        {
+          "name": "日月潭智慧觀光 停車場資料 API (GetData.ashx)",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-34",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/GetData.ashx?type=Parking"
+        }
+      ]
+    },
+    "SML-PKG-09": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-PKG-10": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-PKG-11": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-PKG-12": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭智慧旅遊資訊網（即時停車／人流／交通）",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-32",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/?l=1"
+        },
+        {
+          "name": "日月潭智慧觀光 停車場資料 API (GetData.ashx)",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-34",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/GetData.ashx?type=Parking"
+        }
+      ]
+    },
+    "SML-PKG-13": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭智慧旅遊資訊網（即時停車／人流／交通）",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-32",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/?l=1"
+        },
+        {
+          "name": "日月潭智慧觀光 停車場資料 API (GetData.ashx)",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-34",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/GetData.ashx?type=Parking"
+        }
+      ]
+    },
+    "SML-PKG-14": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭智慧旅遊資訊網（即時停車／人流／交通）",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-32",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/?l=1"
+        },
+        {
+          "name": "日月潭智慧觀光 停車場資料 API (GetData.ashx)",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-34",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/GetData.ashx?type=Parking"
+        }
+      ]
+    },
+    "SML-PKG-15": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭智慧旅遊資訊網（即時停車／人流／交通）",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "attributes",
+          "resolved_fields": [
+            "operational",
+            "realtime_feed"
+          ],
+          "source_id": "SRC-SML-32",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/?l=1"
+        },
+        {
+          "name": "日月潭智慧觀光 停車場資料 API (GetData.ashx)",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-34",
+          "trust_level": 1,
+          "url": "https://theme.sunmoonlake.gov.tw/Smarttourism-sml/GetData.ashx?type=Parking"
+        }
+      ]
+    },
+    "SML-PKG-16": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass) — 車埕/水里 zone",
+          "provider": "OpenStreetMap",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-CC-OSM",
+          "trust_level": 2,
+          "url": "osm MCP cache (site=sml)"
+        }
+      ]
+    },
+    "SML-POI-01": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭國家風景區管理處官網",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-02",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/"
+        }
+      ]
+    },
+    "SML-POI-02": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭國家風景區管理處官網",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-02",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "維基百科 向山行政暨遊客中心",
+          "provides": "architect,year_opened,established,floor_area_m2,building_levels,area_ha",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-50",
+          "url": "https://zh.wikipedia.org/wiki/向山行政暨遊客中心"
+        }
+      ]
+    },
+    "SML-POI-03": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭國家風景區管理處官網",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-02",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "原住民族委員會",
+          "provider": "行政院原住民族委員會",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-21",
+          "trust_level": 1,
+          "url": "https://cip.gov.tw/"
+        },
+        {
+          "name": "中央研究院民族學研究所 數位典藏",
+          "provider": "中央研究院民族學研究所",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-24",
+          "trust_level": 2,
+          "url": "https://ianthro.tw/"
+        },
+        {
+          "name": "雄獅旅遊 伊達邵遊客中心",
+          "provides": "year_opened",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-51",
+          "url": "https://go.liontravel.com/zh-tw/attraction/nantou_county-yi_da_shao_you_ke_zhong_xin-7585"
+        }
+      ]
+    },
+    "SML-POI-10": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "文化部 國家文化記憶庫",
+          "provider": "文化部",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-22",
+          "trust_level": 2,
+          "url": "https://culture.tw/"
+        },
+        {
+          "name": "大紀元",
+          "provider": "大紀元時報",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-23",
+          "trust_level": 3,
+          "url": "https://epochtimes.com/"
+        },
+        {
+          "name": "維基百科 日月潭文武廟",
+          "provides": "established,rebuilt_year,main_deity",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-41",
+          "url": "https://zh.wikipedia.org/wiki/%E6%97%A5%E6%9C%88%E6%BD%AD%E6%96%87%E6%AD%A6%E5%BB%9F"
+        }
+      ]
+    },
+    "SML-POI-11": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "大紀元",
+          "provider": "大紀元時報",
+          "provides": "attributes",
+          "resolved_fields": [
+            "history"
+          ],
+          "source_id": "SRC-SML-23",
+          "trust_level": 3,
+          "url": "https://epochtimes.com/"
+        },
+        {
+          "name": "維基百科 玄光寺",
+          "provides": "established,enshrines,religion",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-42",
+          "url": "https://zh.wikipedia.org/wiki/%E7%8E%84%E5%85%89%E5%AF%BA"
+        }
+      ]
+    },
+    "SML-POI-12": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "大紀元",
+          "provider": "大紀元時報",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-23",
+          "trust_level": 3,
+          "url": "https://epochtimes.com/"
+        },
+        {
+          "name": "維基百科 玄奘寺 (南投縣)",
+          "provides": "established,building_levels,relic",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-43",
+          "url": "https://zh.wikipedia.org/wiki/%E7%8E%84%E5%A5%98%E5%AF%BA_(%E5%8D%97%E6%8A%95%E7%B8%A3)"
+        }
+      ]
+    },
+    "SML-POI-13": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭國家風景區管理處官網",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-02",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "大紀元",
+          "provider": "大紀元時報",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-23",
+          "trust_level": 3,
+          "url": "https://epochtimes.com/"
+        },
+        {
+          "name": "慈恩塔 — 維基百科",
+          "provides": "height,storeys,year_built,summit_elevation",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-40",
+          "url": "https://zh.wikipedia.org/wiki/%E6%85%88%E6%81%A9%E5%A1%94"
+        }
+      ]
+    },
+    "SML-POI-14": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "James Discover 旅遊部落格",
+          "provider": "個人部落格",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-25",
+          "trust_level": 3,
+          "url": "https://jamesdiscover.tw/"
+        },
+        {
+          "name": "維基百科 日月潭龍鳳宮",
+          "provides": "established,main_deity,houses_yuexia_laoren",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-44",
+          "url": "https://zh.wikipedia.org/wiki/%E6%97%A5%E6%9C%88%E6%BD%AD%E9%BE%8D%E9%B3%B3%E5%AE%AE"
+        }
+      ]
+    },
+    "SML-POI-15": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "OpenStreetMap — 耶穌堂 (Sun Moon Lake Jesus Church)",
+          "provides": "coordinates+attributes",
+          "resolved_fields": [
+            "lat",
+            "lng",
+            "opening_hours",
+            "wikidata"
+          ],
+          "source_id": "SRC-SML-35",
+          "url": "https://www.openstreetmap.org/way/307557112"
+        }
+      ]
+    },
+    "SML-POI-16": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭纜車官網 (ropeway.com.tw)",
+          "provider": "九族文化村 / 日月潭纜車",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-04",
+          "trust_level": 2,
+          "url": "https://www.ropeway.com.tw/"
+        },
+        {
+          "name": "九族文化村官網 (nine.com.tw)",
+          "provider": "九族文化村",
+          "provides": "attributes",
+          "resolved_fields": [
+            "park_hours",
+            "ticket_prices",
+            "ropeway_specs"
+          ],
+          "source_id": "SRC-SML-05",
+          "trust_level": 2,
+          "url": "https://www.nine.com.tw/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "中央研究院民族學研究所 數位典藏",
+          "provider": "中央研究院民族學研究所",
+          "provides": "attributes",
+          "resolved_fields": [
+            "note"
+          ],
+          "source_id": "SRC-SML-24",
+          "trust_level": 2,
+          "url": "https://ianthro.tw/"
+        },
+        {
+          "name": "維基百科 九族文化村",
+          "provides": "established,area_ha,attractions_count",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-45",
+          "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%97%8F%E6%96%87%E5%8C%96%E6%9D%91"
+        }
+      ]
+    },
+    "SML-POI-17": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "交通部觀光署 觀光景點 向山眺望平台",
+          "provides": "height_m,established,structure_type",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-46",
+          "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001016&id=A12-00529"
+        }
+      ]
+    },
+    "SML-POI-18": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-POI-19": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-POI-20": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "OpenStreetMap — 頭社水庫 (Toushe Reservoir)",
+          "provides": "coordinates+attributes",
+          "resolved_fields": [
+            "lat",
+            "lng",
+            "opening_hours"
+          ],
+          "source_id": "SRC-SML-37",
+          "url": "https://www.openstreetmap.org/node/11900441387"
+        }
+      ]
+    },
+    "SML-POI-21": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "文化部文化資產局 國家文化資產網",
+          "provider": "文化部文化資產局",
+          "provides": "attributes",
+          "resolved_fields": [
+            "ethnic_significance"
+          ],
+          "source_id": "SRC-SML-20",
+          "trust_level": 1,
+          "url": "https://boch.gov.tw/"
+        },
+        {
+          "name": "原住民族委員會",
+          "provider": "行政院原住民族委員會",
+          "provides": "attributes",
+          "resolved_fields": [
+            "ethnic_significance",
+            "access",
+            "names"
+          ],
+          "source_id": "SRC-SML-21",
+          "trust_level": 1,
+          "url": "https://cip.gov.tw/"
+        },
+        {
+          "name": "文化部 國家文化記憶庫",
+          "provider": "文化部",
+          "provides": "attributes",
+          "resolved_fields": [
+            "names",
+            "access"
+          ],
+          "source_id": "SRC-SML-22",
+          "trust_level": 2,
+          "url": "https://culture.tw/"
+        },
+        {
+          "name": "維基百科 拉魯島",
+          "provides": "elevation_m,ethnic_significance,area",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-47",
+          "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E9%AD%AF%E5%B3%B6"
+        }
+      ]
+    },
+    "SML-POI-22": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "健行筆記 — 日月潭步道",
+          "provider": "hiking.biji.co",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-14",
+          "trust_level": 3,
+          "url": "https://hiking.biji.co/index.php?q=trail&act=detail&id=1568"
+        },
+        {
+          "name": "農業部茶及飲料作物改良場",
+          "provider": "農業部",
+          "provides": "attributes",
+          "resolved_fields": [
+            "note"
+          ],
+          "source_id": "SRC-SML-30",
+          "trust_level": 1,
+          "url": "https://tbrs.gov.tw/"
+        },
+        {
+          "name": "維基百科 貓囒山",
+          "provides": "mountain_range,trail_length_m",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-48",
+          "url": "https://zh.wikipedia.org/wiki/%E8%B2%93%E5%9B%92%E5%B1%B1"
+        }
+      ]
+    },
+    "SML-POI-23": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "健行筆記 — 日月潭步道",
+          "provider": "hiking.biji.co",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-14",
+          "trust_level": 3,
+          "url": "https://hiking.biji.co/index.php?q=trail&act=detail&id=1568"
+        },
+        {
+          "name": "OpenStreetMap — 日月潭氣象站 (weather station)",
+          "provides": "coordinates+attributes",
+          "resolved_fields": [
+            "lat",
+            "lng",
+            "operator",
+            "elevation_m",
+            "opening_hours"
+          ],
+          "source_id": "SRC-SML-36",
+          "url": "https://www.openstreetmap.org/node/8297936224"
+        }
+      ]
+    },
+    "SML-POI-24": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "健行筆記 — 日月潭步道",
+          "provider": "hiking.biji.co",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-14",
+          "trust_level": 3,
+          "url": "https://hiking.biji.co/index.php?q=trail&act=detail&id=1568"
+        },
+        {
+          "name": "農業部茶及飲料作物改良場",
+          "provider": "農業部",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-30",
+          "trust_level": 1,
+          "url": "https://tbrs.gov.tw/"
+        },
+        {
+          "name": "維基百科 農業部茶及飲料作物改良場中部分場",
+          "provides": "established",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-49",
+          "url": "https://zh.wikipedia.org/wiki/%E8%BE%B2%E6%A5%AD%E9%83%A8%E8%8C%B6%E5%8F%8A%E9%A3%B2%E6%96%99%E4%BD%9C%E7%89%A9%E6%94%B9%E8%89%AF%E5%A0%B4%E4%B8%AD%E9%83%A8%E5%88%86%E5%A0%B4"
+        }
+      ]
+    },
+    "SML-POI-25": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-POI-26": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass) — 車埕/水里 zone",
+          "provider": "OpenStreetMap",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-CC-OSM",
+          "trust_level": 2,
+          "url": "osm MCP cache (site=sml)"
+        }
+      ]
+    },
+    "SML-POI-27": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "日月潭國家風景區管理處 — 車埕 cluster / 林班道商圈 / 大觀發電廠 / 明潭發電廠",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-CC-NSA-CHECHENG",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/Attractions/Attractions?a=20&id=82"
+        }
+      ]
+    },
+    "SML-POI-28": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "日月潭國家風景區管理處 — 車埕 cluster / 林班道商圈 / 大觀發電廠 / 明潭發電廠",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-CC-NSA-CHECHENG",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/Attractions/Attractions?a=20&id=82"
+        }
+      ]
+    },
+    "SML-POI-29": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass) — 車埕/水里 zone",
+          "provider": "OpenStreetMap",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-CC-OSM",
+          "trust_level": 2,
+          "url": "osm MCP cache (site=sml)"
+        }
+      ]
+    },
+    "SML-POI-30": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "日月潭國家風景區管理處 — 車埕 cluster / 林班道商圈 / 大觀發電廠 / 明潭發電廠",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-CC-NSA-CHECHENG",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/Attractions/Attractions?a=20&id=82"
+        }
+      ]
+    },
+    "SML-POI-31": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "日月潭國家風景區管理處 — 車埕 cluster / 林班道商圈 / 大觀發電廠 / 明潭發電廠",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-CC-NSA-CHECHENG",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/Attractions/Attractions?a=20&id=82"
+        }
+      ]
+    },
+    "SML-POI-32": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-JJ-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-POI-33": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-JJ-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-POI-34": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-JJ-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-POI-35": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-JJ-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-POI-36": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-JJ-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-POI-37": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-JJ-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-POI-38": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-JJ-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-POI-39": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-JJ-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-POI-40": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "日月潭國家風景區範圍 (NSA boundary polygon)",
+          "provider": "交通部觀光署 via data.gov.tw dataset 9938 (VA0205V04)",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-TP-01",
+          "trust_level": 1
+        }
+      ]
+    },
+    "SML-POI-41": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-TP-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-POI-42": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-TP-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-POI-43": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-TP-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-POI-44": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-TP-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-POI-45": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-TP-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-POI-46": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, site=sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-XY-osm",
+          "trust_level": 2,
+          "url": "overpass via osm MCP; cache data/sml/osm_cache/"
+        }
+      ]
+    },
+    "SML-POI-47": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, site=sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-XY-osm",
+          "trust_level": 2,
+          "url": "overpass via osm MCP; cache data/sml/osm_cache/"
+        }
+      ]
+    },
+    "SML-POI-48": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, site=sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-XY-osm",
+          "trust_level": 2,
+          "url": "overpass via osm MCP; cache data/sml/osm_cache/"
+        }
+      ]
+    },
+    "SML-POI-49": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, site=sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-XY-osm",
+          "trust_level": 2,
+          "url": "overpass via osm MCP; cache data/sml/osm_cache/"
+        }
+      ]
+    },
+    "SML-POI-51": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, site=sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-XY-osm",
+          "trust_level": 2,
+          "url": "overpass via osm MCP; cache data/sml/osm_cache/"
+        }
+      ]
+    },
+    "SML-POI-52": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, site=sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-XY-osm",
+          "trust_level": 2,
+          "url": "overpass via osm MCP; cache data/sml/osm_cache/"
+        }
+      ]
+    },
+    "SML-POI-53": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, site=sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-XY-osm",
+          "trust_level": 2,
+          "url": "overpass via osm MCP; cache data/sml/osm_cache/"
+        }
+      ]
+    },
+    "SML-POI-54": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, site=sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-XY-osm",
+          "trust_level": 2,
+          "url": "overpass via osm MCP; cache data/sml/osm_cache/"
+        }
+      ]
+    },
+    "SML-STA-01": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭國家風景區管理處官網",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-02",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/"
+        },
+        {
+          "name": "交通部觀光署 — 日月潭景點頁",
+          "provider": "交通部觀光署",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-03",
+          "trust_level": 1,
+          "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001016&id=A12-00299"
+        },
+        {
+          "name": "水社海觀光遊艇 (boat.com.tw)",
+          "provider": "日月潭水社海觀光遊艇(股)公司",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-06",
+          "trust_level": 2,
+          "url": "https://www.boat.com.tw/time_price_list.php"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "藍天觀光遊艇",
+          "provider": "藍天觀光遊艇",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-28",
+          "trust_level": 2,
+          "url": "https://skyboat.com.tw/"
+        }
+      ]
+    },
+    "SML-STA-02": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭國家風景區管理處官網",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-02",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/"
+        },
+        {
+          "name": "水社海觀光遊艇 (boat.com.tw)",
+          "provider": "日月潭水社海觀光遊艇(股)公司",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-06",
+          "trust_level": 2,
+          "url": "https://www.boat.com.tw/time_price_list.php"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "藍天觀光遊艇",
+          "provider": "藍天觀光遊艇",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-28",
+          "trust_level": 2,
+          "url": "https://skyboat.com.tw/"
+        }
+      ]
+    },
+    "SML-STA-03": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭國家風景區管理處官網",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-02",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/"
+        },
+        {
+          "name": "水社海觀光遊艇 (boat.com.tw)",
+          "provider": "日月潭水社海觀光遊艇(股)公司",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-06",
+          "trust_level": 2,
+          "url": "https://www.boat.com.tw/time_price_list.php"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "埔里四季早泳會（萬人泳渡主辦）",
+          "provider": "埔里四季早泳會",
+          "provides": "attributes",
+          "resolved_fields": [
+            "note"
+          ],
+          "source_id": "SRC-SML-27",
+          "trust_level": 2,
+          "url": "https://pulifourswim.tw/"
+        },
+        {
+          "name": "藍天觀光遊艇",
+          "provider": "藍天觀光遊艇",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-28",
+          "trust_level": 2,
+          "url": "https://skyboat.com.tw/"
+        }
+      ]
+    },
+    "SML-STA-04": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭國家風景區管理處官網",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-02",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/"
+        },
+        {
+          "name": "水社海觀光遊艇 (boat.com.tw)",
+          "provider": "日月潭水社海觀光遊艇(股)公司",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-06",
+          "trust_level": 2,
+          "url": "https://www.boat.com.tw/time_price_list.php"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "埔里四季早泳會（萬人泳渡主辦）",
+          "provider": "埔里四季早泳會",
+          "provides": "attributes",
+          "resolved_fields": [
+            "note"
+          ],
+          "source_id": "SRC-SML-27",
+          "trust_level": 2,
+          "url": "https://pulifourswim.tw/"
+        },
+        {
+          "name": "藍天觀光遊艇",
+          "provider": "藍天觀光遊艇",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-28",
+          "trust_level": 2,
+          "url": "https://skyboat.com.tw/"
+        }
+      ]
+    },
+    "SML-STA-05": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭國家風景區管理處官網",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-02",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/"
+        },
+        {
+          "name": "日月潭纜車官網 (ropeway.com.tw)",
+          "provider": "九族文化村 / 日月潭纜車",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-04",
+          "trust_level": 2,
+          "url": "https://www.ropeway.com.tw/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        }
+      ]
+    },
+    "SML-STA-06": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭纜車官網 (ropeway.com.tw)",
+          "provider": "九族文化村 / 日月潭纜車",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-04",
+          "trust_level": 2,
+          "url": "https://www.ropeway.com.tw/"
+        },
+        {
+          "name": "九族文化村官網 (nine.com.tw)",
+          "provider": "九族文化村",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-05",
+          "trust_level": 2,
+          "url": "https://www.nine.com.tw/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        }
+      ]
+    },
+    "SML-STA-10": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-11": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-12": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-13": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-14": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-15": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-16": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-17": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-18": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-19": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-20": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-21": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-22": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-23": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-24": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-25": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-26": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-27": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-28": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-29": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-STA-30": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "南投客運 公車路線時刻表",
+          "provider": "南投汽車客運股份有限公司",
+          "provides": "attributes",
+          "resolved_fields": [
+            "serves_vehicles"
+          ],
+          "source_id": "SRC-SML-33",
+          "trust_level": 2,
+          "url": "http://www.ntbus.com.tw/s05.html"
+        }
+      ]
+    },
+    "SML-STA-31": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "南投客運 公車路線時刻表",
+          "provider": "南投汽車客運股份有限公司",
+          "provides": "attributes",
+          "resolved_fields": [
+            "serves_vehicles"
+          ],
+          "source_id": "SRC-SML-33",
+          "trust_level": 2,
+          "url": "http://www.ntbus.com.tw/s05.html"
+        }
+      ]
+    },
+    "SML-STA-32": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "南投客運 公車路線時刻表",
+          "provider": "南投汽車客運股份有限公司",
+          "provides": "attributes",
+          "resolved_fields": [
+            "serves_vehicles"
+          ],
+          "source_id": "SRC-SML-33",
+          "trust_level": 2,
+          "url": "http://www.ntbus.com.tw/s05.html"
+        }
+      ]
+    },
+    "SML-STA-33": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "南投客運 — 路線6669",
+          "provider": "南投客運",
+          "provides": "attributes",
+          "resolved_fields": [
+            "serves_vehicles",
+            "colocated_with"
+          ],
+          "source_id": "SRC-SML-07",
+          "trust_level": 2,
+          "url": "http://www.ntbus.com.tw/s03.html"
+        }
+      ]
+    },
+    "SML-STA-34": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass) — 車埕/水里 zone",
+          "provider": "OpenStreetMap",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-CC-OSM",
+          "trust_level": 2,
+          "url": "osm MCP cache (site=sml)"
+        }
+      ]
+    },
+    "SML-STA-35": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass) — 車埕/水里 zone",
+          "provider": "OpenStreetMap",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-CC-OSM",
+          "trust_level": 2,
+          "url": "osm MCP cache (site=sml)"
+        }
+      ]
+    },
+    "SML-STA-36": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass) — 車埕/水里 zone",
+          "provider": "OpenStreetMap",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-CC-OSM",
+          "trust_level": 2,
+          "url": "osm MCP cache (site=sml)"
+        }
+      ]
+    },
+    "SML-STA-37": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass) — 車埕/水里 zone",
+          "provider": "OpenStreetMap",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-CC-OSM",
+          "trust_level": 2,
+          "url": "osm MCP cache (site=sml)"
+        }
+      ]
+    },
+    "SML-STA-38": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-JJ-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-STA-39": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-JJ-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-STA-40": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-TP-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-STA-41": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-TP-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-STA-42": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-TP-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-STA-43": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap (Overpass, sml cache)",
+          "provider": "OSM contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-TP-02",
+          "trust_level": 2
+        }
+      ]
+    },
+    "SML-TRL-01": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭國家風景區管理處官網",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-02",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "健行筆記 — 日月潭步道",
+          "provider": "hiking.biji.co",
+          "provides": "attributes",
+          "resolved_fields": [
+            "trail_length",
+            "walking_time",
+            "difficulty"
+          ],
+          "source_id": "SRC-SML-14",
+          "trust_level": 3,
+          "url": "https://hiking.biji.co/index.php?q=trail&act=detail&id=1568"
+        },
+        {
+          "name": "南投旅遊網 - 日月潭涵碧步道",
+          "provides": "length_km",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-53",
+          "url": "https://travel.nantou.gov.tw/attractions/hanbi-trail/"
+        }
+      ]
+    },
+    "SML-TRL-02": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "健行筆記 — 日月潭步道",
+          "provider": "hiking.biji.co",
+          "provides": "attributes",
+          "resolved_fields": [
+            "trail_length",
+            "walking_time",
+            "difficulty"
+          ],
+          "source_id": "SRC-SML-14",
+          "trust_level": 3,
+          "url": "https://hiking.biji.co/index.php?q=trail&act=detail&id=1568"
+        },
+        {
+          "name": "寶寶溫旅行親子生活",
+          "provider": "個人部落格",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-19",
+          "trust_level": 3,
+          "url": "https://bobowin.blog/"
+        },
+        {
+          "name": "交通部觀光署 - 日月潭水蛙頭步道",
+          "provides": "length_m,elevation_drop_m",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-54",
+          "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001016&id=A12-00427"
+        }
+      ]
+    },
+    "SML-TRL-03": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭國家風景區管理處官網",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-02",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/"
+        },
+        {
+          "name": "健行筆記 — 日月潭步道",
+          "provider": "hiking.biji.co",
+          "provides": "attributes",
+          "resolved_fields": [
+            "trail_length",
+            "walking_time",
+            "difficulty"
+          ],
+          "source_id": "SRC-SML-14",
+          "trust_level": 3,
+          "url": "https://hiking.biji.co/index.php?q=trail&act=detail&id=1568"
+        }
+      ]
+    },
+    "SML-TRL-04": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "健行筆記 — 日月潭步道",
+          "provider": "hiking.biji.co",
+          "provides": "attributes",
+          "resolved_fields": [
+            "trail_length",
+            "walking_time",
+            "difficulty"
+          ],
+          "source_id": "SRC-SML-14",
+          "trust_level": 3,
+          "url": "https://hiking.biji.co/index.php?q=trail&act=detail&id=1568"
+        }
+      ]
+    },
+    "SML-TRL-05": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "健行筆記 — 日月潭步道",
+          "provider": "hiking.biji.co",
+          "provides": "attributes",
+          "resolved_fields": [
+            "trail_length",
+            "walking_time",
+            "difficulty"
+          ],
+          "source_id": "SRC-SML-14",
+          "trust_level": 3,
+          "url": "https://hiking.biji.co/index.php?q=trail&act=detail&id=1568"
+        },
+        {
+          "name": "健行筆記 - 日月潭/青龍山步道",
+          "provides": "length_m,walking_time_min",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-55",
+          "url": "https://hiking.biji.co/index.php?q=review&act=info&review_id=8824"
+        }
+      ]
+    },
+    "SML-TRL-06": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-TRL-07": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-TRL-08": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-TRL-09": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-TRL-10": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        }
+      ]
+    },
+    "SML-TRL-11": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "coordinates",
+          "resolved_fields": [
+            "lat",
+            "lng"
+          ],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "健行筆記 — 日月潭步道",
+          "provider": "hiking.biji.co",
+          "provides": "attributes",
+          "resolved_fields": [
+            "trail_length",
+            "walking_time",
+            "difficulty"
+          ],
+          "source_id": "SRC-SML-14",
+          "trust_level": 3,
+          "url": "https://hiking.biji.co/index.php?q=trail&act=detail&id=1568"
+        },
+        {
+          "name": "Web search — cycling path data",
+          "provider": "Multiple (gofunit, ningl.tw, taiwanbike.tw)",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-18",
+          "trust_level": 2,
+          "url": null
+        }
+      ]
+    },
+    "SML-TRL-12": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "健行筆記 — 日月潭步道",
+          "provider": "hiking.biji.co",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-14",
+          "trust_level": 3,
+          "url": "https://hiking.biji.co/index.php?q=trail&act=detail&id=1568"
+        },
+        {
+          "name": "OpenStreetMap way 660125671/660127951/660127953 (highway=footway/steps, name=貓囒山步道, summit segment) + way 405498812 (明潭國中, trail entrance)",
+          "provides": "trail_endpoint_geometry",
+          "resolved_fields": [
+            "lat",
+            "lng",
+            "entrance"
+          ],
+          "source_id": "SRC-SML-39",
+          "url": "https://www.openstreetmap.org/way/660125671"
+        },
+        {
+          "name": "健行筆記 - 貓囒山步道",
+          "provides": "elevation_m,elevation_gain_m,length_km",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-56",
+          "url": "https://hiking.biji.co/index.php?q=trail&act=detail&id=448"
+        }
+      ]
+    },
+    "SML-VEH-01": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "日月潭國家風景區管理處官網",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-02",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/"
+        },
+        {
+          "name": "水社海觀光遊艇 (boat.com.tw)",
+          "provider": "日月潭水社海觀光遊艇(股)公司",
+          "provides": "attributes",
+          "resolved_fields": [
+            "ferry_schedule",
+            "ticket_prices",
+            "boat_types",
+            "departure_times"
+          ],
+          "source_id": "SRC-SML-06",
+          "trust_level": 2,
+          "url": "https://www.boat.com.tw/time_price_list.php"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "Klook — Sun Moon Lake Boat Ticket",
+          "provider": "Klook",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-16",
+          "trust_level": 3,
+          "url": "https://www.klook.com/en-US/activity/10687-sun-moon-lake-boat-ticket-taichung/"
+        },
+        {
+          "name": "自由時報",
+          "provider": "自由時報",
+          "provides": "attributes",
+          "resolved_fields": [
+            "note"
+          ],
+          "source_id": "SRC-SML-26",
+          "trust_level": 2,
+          "url": "https://ltn.com.tw/"
+        },
+        {
+          "name": "藍天觀光遊艇",
+          "provider": "藍天觀光遊艇",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-28",
+          "trust_level": 2,
+          "url": "https://skyboat.com.tw/"
+        },
+        {
+          "name": "日月潭國家風景區管理處觀光旅遊網 — 區內交通",
+          "provides": "number_of_operators,frequency_approx_min",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-59",
+          "url": "https://www.sunmoonlake.gov.tw/Explore/Articles?a=7"
+        }
+      ]
+    },
+    "SML-VEH-02": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭國家風景區管理處官網",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-02",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/"
+        },
+        {
+          "name": "日月潭纜車官網 (ropeway.com.tw)",
+          "provider": "九族文化村 / 日月潭纜車",
+          "provides": "attributes",
+          "resolved_fields": [
+            "ropeway_hours",
+            "ticket_prices",
+            "maintenance_schedule"
+          ],
+          "source_id": "SRC-SML-04",
+          "trust_level": 2,
+          "url": "https://www.ropeway.com.tw/"
+        },
+        {
+          "name": "九族文化村官網 (nine.com.tw)",
+          "provider": "九族文化村",
+          "provides": "attributes",
+          "resolved_fields": [
+            "park_hours",
+            "ticket_prices",
+            "ropeway_specs"
+          ],
+          "source_id": "SRC-SML-05",
+          "trust_level": 2,
+          "url": "https://www.nine.com.tw/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "Guide to Taipei — Sun Moon Lake Ropeway",
+          "provider": "guidetotaipei.com",
+          "provides": "attributes",
+          "resolved_fields": [
+            "operating_hours",
+            "maintenance_day",
+            "manufacturer"
+          ],
+          "source_id": "SRC-SML-11",
+          "trust_level": 3,
+          "url": "https://guidetotaipei.com/visit/sun-moon-lake-ropeway"
+        },
+        {
+          "name": "維基百科 — 日月潭纜車",
+          "provides": "cabins_total,throughput_per_hour_per_direction,max_speed_m_s",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-60",
+          "url": "https://zh.wikipedia.org/wiki/%E6%97%A5%E6%9C%88%E6%BD%AD%E7%BA%9C%E8%BB%8A"
+        },
+        {
+          "name": "九族文化村官網 — 空中纜車",
+          "provides": "ride_duration_min",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-61",
+          "url": "https://www.nine.com.tw/page/about/index.aspx?kind=256&lang=TW"
+        }
+      ]
+    },
+    "SML-VEH-03": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "OpenStreetMap — Sun Moon Lake bbox",
+          "provider": "OpenStreetMap contributors",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-01",
+          "trust_level": 2,
+          "url": "https://overpass-api.de/"
+        },
+        {
+          "name": "日月潭纜車官網 (ropeway.com.tw)",
+          "provider": "九族文化村 / 日月潭纜車",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-04",
+          "trust_level": 2,
+          "url": "https://www.ropeway.com.tw/"
+        },
+        {
+          "name": "九族文化村官網 (nine.com.tw)",
+          "provider": "九族文化村",
+          "provides": "attributes",
+          "resolved_fields": [
+            "park_hours",
+            "ticket_prices",
+            "ropeway_specs"
+          ],
+          "source_id": "SRC-SML-05",
+          "trust_level": 2,
+          "url": "https://www.nine.com.tw/"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "維基百科 九族文化村",
+          "provides": "year_opened",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-45",
+          "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%97%8F%E6%96%87%E5%8C%96%E6%9D%91"
+        }
+      ]
+    },
+    "SML-VEH-04": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "日月潭國家風景區管理處官網",
+          "provider": "交通部觀光署日月潭國家風景區管理處",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-02",
+          "trust_level": 1,
+          "url": "https://www.sunmoonlake.gov.tw/"
+        },
+        {
+          "name": "南投客運 — 路線6669",
+          "provider": "南投客運",
+          "provides": "attributes",
+          "resolved_fields": [
+            "bus_timetable",
+            "stops",
+            "fares"
+          ],
+          "source_id": "SRC-SML-07",
+          "trust_level": 2,
+          "url": "http://www.ntbus.com.tw/s03.html"
+        },
+        {
+          "name": "台灣公路客運即時資訊 (taiwanbus.tw)",
+          "provider": "交通部公路局",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-09",
+          "trust_level": 1,
+          "url": "https://www.taiwanbus.tw/eBUSPage/Query/QueryResult.aspx?rno=66690"
+        },
+        {
+          "name": "windko — 6669遊湖巴士路線",
+          "provider": "windko.tw (travel blog)",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-13",
+          "trust_level": 3,
+          "url": "https://windko.tw/bus-6669/"
+        },
+        {
+          "name": "南投好交遊 (funbus) — 日月潭交通懶人包",
+          "provider": "funbus.welcometw.com",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-15",
+          "trust_level": 3,
+          "url": "https://funbus.welcometw.com/en/blog/4"
+        }
+      ]
+    },
+    "SML-VEH-05": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "台灣好行日月潭線 (taiwantrip.com.tw)",
+          "provider": "交通部觀光署 / 南投客運",
+          "provides": "attributes",
+          "resolved_fields": [
+            "bus_timetable",
+            "stops",
+            "sub_routes"
+          ],
+          "source_id": "SRC-SML-08",
+          "trust_level": 1,
+          "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0124"
+        },
+        {
+          "name": "台灣公路客運即時資訊 (taiwanbus.tw)",
+          "provider": "交通部公路局",
+          "provides": "feature_inventory",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-09",
+          "trust_level": 1,
+          "url": "https://www.taiwanbus.tw/eBUSPage/Query/QueryResult.aspx?rno=66690"
+        },
+        {
+          "name": "日月潭纜車 — 維基百科",
+          "provider": "Wikipedia zh",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-10",
+          "trust_level": 2,
+          "url": "https://zh.wikipedia.org/zh-tw/日月潭纜車"
+        },
+        {
+          "name": "南投好交遊 (funbus) — 日月潭交通懶人包",
+          "provider": "funbus.welcometw.com",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-15",
+          "trust_level": 3,
+          "url": "https://funbus.welcometw.com/en/blog/4"
+        }
+      ]
+    },
+    "SML-VEH-06": {
+      "authority": "data/sml/physical_twins.json",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "name": "南投客運 公車路線時刻表",
+          "provider": "南投汽車客運股份有限公司",
+          "provides": "twin_provenance",
+          "resolved_fields": [],
+          "source_id": "SRC-SML-33",
+          "trust_level": 2,
+          "url": "http://www.ntbus.com.tw/s05.html"
+        }
+      ]
+    }
+  }
+}

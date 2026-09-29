@@ -1,0 +1,101 @@
+{
+ "_provenance": "OSM steps ways carrying an integer step_count tag, extracted from data/sml/osm_cache (gitignored; populated via the osm MCP) by change sml-node-z-evidence-gates. Regenerate by re-scanning the cache for highway=steps ways with step_count. Consumed by tests/t2/test_node_z_evidence_gates.py Gate A — tracked so the gate is self-contained at test time.",
+ "ways": [
+  {
+   "way_id": 65630189,
+   "step_count": 367,
+   "name": "",
+   "source": "osm_cache/fc6fb8a7459df61561419c49e927d97ed99f15e1.json"
+  },
+  {
+   "way_id": 65630190,
+   "step_count": 229,
+   "name": "",
+   "source": "osm_cache/f17f9da751f0fc132086c04ff8140058734e43ad.json"
+  },
+  {
+   "way_id": 307436265,
+   "step_count": 36,
+   "name": "",
+   "source": "osm_cache/e558e8929a56352acc9fb53162a481da6ab55d5b.json"
+  },
+  {
+   "way_id": 374755668,
+   "step_count": 16,
+   "name": "",
+   "source": "osm_cache/e558e8929a56352acc9fb53162a481da6ab55d5b.json"
+  },
+  {
+   "way_id": 611191461,
+   "step_count": 127,
+   "name": "",
+   "source": "osm_cache/e558e8929a56352acc9fb53162a481da6ab55d5b.json"
+  },
+  {
+   "way_id": 611191462,
+   "step_count": 25,
+   "name": "",
+   "source": "osm_cache/e558e8929a56352acc9fb53162a481da6ab55d5b.json"
+  },
+  {
+   "way_id": 696140871,
+   "step_count": 56,
+   "name": "",
+   "source": "osm_cache/e558e8929a56352acc9fb53162a481da6ab55d5b.json"
+  },
+  {
+   "way_id": 989826761,
+   "step_count": 24,
+   "name": "",
+   "source": "osm_cache/e558e8929a56352acc9fb53162a481da6ab55d5b.json"
+  },
+  {
+   "way_id": 1016046314,
+   "step_count": 9,
+   "name": "",
+   "source": "osm_cache/281c5782ec45639c560dbf0385698527eaf9541b.json"
+  },
+  {
+   "way_id": 1019891595,
+   "step_count": 24,
+   "name": "",
+   "source": "osm_cache/e558e8929a56352acc9fb53162a481da6ab55d5b.json"
+  },
+  {
+   "way_id": 1212084721,
+   "step_count": 21,
+   "name": "",
+   "source": "osm_cache/e558e8929a56352acc9fb53162a481da6ab55d5b.json"
+  },
+  {
+   "way_id": 1212084722,
+   "step_count": 2,
+   "name": "",
+   "source": "osm_cache/e558e8929a56352acc9fb53162a481da6ab55d5b.json"
+  },
+  {
+   "way_id": 1281704580,
+   "step_count": 19,
+   "name": "",
+   "source": "osm_cache/e558e8929a56352acc9fb53162a481da6ab55d5b.json"
+  },
+  {
+   "way_id": 1282100819,
+   "step_count": 19,
+   "name": "",
+   "source": "osm_cache/e558e8929a56352acc9fb53162a481da6ab55d5b.json"
+  },
+  {
+   "way_id": 1282100823,
+   "step_count": 2,
+   "name": "",
+   "source": "osm_cache/e558e8929a56352acc9fb53162a481da6ab55d5b.json"
+  },
+  {
+   "way_id": 1282116467,
+   "step_count": 29,
+   "name": "",
+   "source": "osm_cache/e558e8929a56352acc9fb53162a481da6ab55d5b.json"
+  }
+ ]
+}
