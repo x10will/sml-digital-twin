@@ -291,6 +291,10 @@
     const path = v => typeof v === 'string' && v.length > 0;
     const scenariosValid = scenarios => scenarios === undefined || (object(scenarios) &&
       Object.entries(scenarios).every(([id, manifest]) => /^[a-z0-9][a-z0-9_-]*$/.test(id) && path(manifest)));
+    const gzipAssetsValid = paths => paths === undefined || (Array.isArray(paths) &&
+      paths.length > 0 && new Set(paths).size === paths.length &&
+      paths.every(p => typeof p === 'string' && p.endsWith('.json') &&
+        p.split('/').every(part => /^[a-zA-Z0-9_.-]+$/.test(part) && part !== '.' && part !== '..')));
     const vector = v => Array.isArray(v) && v.length === 3 && v.every(Number.isFinite);
     // Optional portrait variant of a local {pos, target} viewpoint (geo-anchored
     // presets have none): {pos, target} local vectors.
@@ -312,6 +316,8 @@
           !(site.lakeZ === null || Number.isFinite(site.lakeZ)) ||
           typeof site.scenarios !== 'boolean' || !cameraValid(site) || !inspectorValid(site.inspector) ||
           !optional(site.canonicalManifest, path) || !scenariosValid(site.canonicalScenarios) ||
+          (site.meshopt !== undefined && typeof site.meshopt !== 'boolean') ||
+          !gzipAssetsValid(site.gzipAssets) ||
           !viewpointsValid(site.viewpoints) ||
           (site.startupNodeCount !== undefined &&
             !(Number.isInteger(site.startupNodeCount) && site.startupNodeCount > 0))) fail();

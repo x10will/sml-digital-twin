@@ -22,7 +22,8 @@
 
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { createSiteGLTFLoader } from '../viewer-common/site-gltf-loader.mjs';
+import { fetchSiteAsset as fetch } from '../viewer-common/fetch-site-asset.mjs';
 import {
   showSurfaceInspector, showNodeInspector, hideInspector,
   attachInspectorClose,
@@ -248,7 +249,7 @@ const LAKE_Z_WGS84 = window.DT_SITE.lakeZ;   // orthometric (TWVD2001) — geoid
 async function loadLake() {
   setLoading('Loading lake surface...', 2);
   const url = window.DT_assetUrl('meshes/lake.glb');
-  const loader = new GLTFLoader();
+  const loader = await createSiteGLTFLoader(window.DT_SITE);
   return new Promise((resolve, reject) => {
     loader.load(url,
       (gltf) => {
@@ -298,7 +299,7 @@ async function loadLake() {
 // ── Base terrain ───────────────────────────────────────────────
 async function loadTerrain() {
   setLoading('Loading base terrain...', 1);
-  const loader = new GLTFLoader();
+  const loader = await createSiteGLTFLoader(window.DT_SITE);
   return new Promise((resolve, reject) => {
     loader.load(window.DT_assetUrl('meshes/terrain.glb'),
       (gltf) => {
@@ -387,8 +388,8 @@ function registerContextRecord(request, root) {
   });
 }
 
-function loadContextGLB(request) {
-  const loader = new GLTFLoader();
+async function loadContextGLB(request) {
+  const loader = await createSiteGLTFLoader(window.DT_SITE);
   return new Promise((resolve, reject) => {
     loader.load(
       request.url,

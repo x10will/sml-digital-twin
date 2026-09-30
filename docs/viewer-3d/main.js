@@ -1,7 +1,8 @@
 import { canonicalCandidate, loadCanonicalAdapter, createCanonicalClock, localArtifactUrl, presentationPaint } from '../viewer-common/canonical-site-playback.mjs';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { createSiteGLTFLoader } from '../viewer-common/site-gltf-loader.mjs';
+import { fetchSiteAsset as fetch } from '../viewer-common/fetch-site-asset.mjs';
 import { TypedRuntimeRegistry } from '../viewer-common/typed-runtime.js';
 import { resolveTwinQuery, resolveTwinQueryAll, buildNameById } from '../viewer-common/goto-resolver.js';
 import { mergeEdgesIntoBatches } from '../viewer-common/edge-mesh-merge.js';
@@ -794,11 +795,7 @@ let loadedTerrainMesh = null;  // cached for screen-center raycast (R2)
 
 async function loadTerrain() {
   setLoading('Loading terrain mesh...', 1);
-  const loader = new GLTFLoader();
-  if (window.DT_SITE.meshopt) {
-    const { MeshoptDecoder } = await import('three/addons/libs/meshopt_decoder.module.js');
-    loader.setMeshoptDecoder(MeshoptDecoder);
-  }
+  const loader = await createSiteGLTFLoader(window.DT_SITE);
 
   return new Promise((resolve, reject) => {
     loader.load(window.DT_assetUrl('meshes/terrain.glb'),
@@ -1002,11 +999,7 @@ let _schematicLineMaterials = [];
 let _diagModeSnapshot = null;
 
 async function loadMeshes() {
-  const loader = new GLTFLoader();
-  if (window.DT_SITE.meshopt) {
-    const { MeshoptDecoder } = await import('three/addons/libs/meshopt_decoder.module.js');
-    loader.setMeshoptDecoder(MeshoptDecoder);
-  }
+  const loader = await createSiteGLTFLoader(window.DT_SITE);
   setLoading('Loading scene meshes...', 4);
 
   const lakeMat = new THREE.MeshStandardMaterial({
@@ -6233,7 +6226,7 @@ async function loadWalkway3dOverlay() {
   );
   if (!head) return null;
 
-  const loader = new GLTFLoader();
+  const loader = await createSiteGLTFLoader(window.DT_SITE);
   return new Promise((resolve, reject) => {
     loader.load(
       url,

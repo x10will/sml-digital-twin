@@ -1,6 +1,6 @@
 {
   "schema": "sml-static-release/v1",
-  "sourceRevision": "c11e7d8b1aa5c1964d05718e8aa98fbb46d07984",
+  "sourceRevision": "e10a8e30619dc264af5d5c20e2d9654d7ffa03e2",
   "dependencies": {
     "three": "0.170.0",
     "@mkkellogg/gaussian-splats-3d": "0.4.7"
@@ -10,6 +10,241 @@
     "edges": "a0d3dc2c65e1b9052a4b03d3030178949988a4da43f054aa2c06916f5e4839b0",
     "support_structures": "737b97500bf8538880c5e987ca662e2d2975f58edaf5627ee7a6b9c43cdb2cbe",
     "m10_completion": "a59bd8ba5dae4734e4c67330f97d5412115389e56f111a8b8d78fb1189f19c70"
+  },
+  "assetEncodings": {
+    "data/sml/diagnostics/causal_diagnoses.json": {
+      "encoding": "gzip",
+      "decodedExact": true,
+      "source": {
+        "sha256": "7c9a78030a9c97ab6a4f48e7aa2f09b91f081ea9a56f042929231fb0a6973a5d",
+        "bytes": 50162459
+      },
+      "deliveryPath": "data/sml/diagnostics/causal_diagnoses.json.gz"
+    },
+    "data/sml/frames_v5_a_viewer.json": {
+      "encoding": "gzip",
+      "decodedExact": true,
+      "source": {
+        "sha256": "780d644dfa07cb2f4858b462d535000d0870ee9ea65071091ed0999c840472da",
+        "bytes": 7023380
+      },
+      "deliveryPath": "data/sml/frames_v5_a_viewer.json.gz"
+    },
+    "data/sml/frames_v5_b_viewer.json": {
+      "encoding": "gzip",
+      "decodedExact": true,
+      "source": {
+        "sha256": "ed4a6fe3829e30a658d68cef85bdb1bb1103609feccd8715799deacecdb9e2da",
+        "bytes": 10484175
+      },
+      "deliveryPath": "data/sml/frames_v5_b_viewer.json.gz"
+    },
+    "data/sml/frames_v5_c_viewer.json": {
+      "encoding": "gzip",
+      "decodedExact": true,
+      "source": {
+        "sha256": "3bf9ebbce5c1e8812be861c2f2ff4bef5b1e5a7a37fbe91959ac6f656944443e",
+        "bytes": 10386192
+      },
+      "deliveryPath": "data/sml/frames_v5_c_viewer.json.gz"
+    },
+    "data/sml/meshes/edges.glb": {
+      "encoding": "EXT_meshopt_compression",
+      "meshopt": {
+        "encoder": "meshoptimizer",
+        "encoderVersion": "0.24.0",
+        "packerSha256": "ba96ac76cbfac71f3356f2b928a96123fdfd506591064aa105dbb8f4bff55ee1",
+        "decoder": "three/examples/jsm/libs/meshopt_decoder.module.js",
+        "positionsExact": true,
+        "maxPositionErrorMeters": 0,
+        "lossless": true,
+        "quantizedAttributes": [],
+        "maxNormalAngularErrorDegrees": 0,
+        "exactBufferViews": 12510,
+        "quantizedNormalBufferViews": 0
+      },
+      "source": {
+        "sha256": "796bf4c2ba199a8805cb4fa17cc8442805e3e72e7daed4b6193e204d7d1ebbf0",
+        "bytes": 43730772
+      },
+      "deliveryPath": "data/sml/meshes/edges.glb"
+    },
+    "data/sml/meshes/nodes.glb": {
+      "encoding": "EXT_meshopt_compression",
+      "meshopt": {
+        "encoder": "meshoptimizer",
+        "encoderVersion": "0.24.0",
+        "packerSha256": "ba96ac76cbfac71f3356f2b928a96123fdfd506591064aa105dbb8f4bff55ee1",
+        "decoder": "three/examples/jsm/libs/meshopt_decoder.module.js",
+        "positionsExact": true,
+        "maxPositionErrorMeters": 0,
+        "lossless": true,
+        "quantizedAttributes": [],
+        "maxNormalAngularErrorDegrees": 0,
+        "exactBufferViews": 617,
+        "quantizedNormalBufferViews": 0
+      },
+      "source": {
+        "sha256": "ef115f44e9c9485a9f85e7616216e2680c978ceed397cc8c0b47efe755e6d487",
+        "bytes": 572832
+      },
+      "deliveryPath": "data/sml/meshes/nodes.glb"
+    },
+    "data/sml/meshes/terrain.glb": {
+      "encoding": "EXT_meshopt_compression",
+      "meshopt": {
+        "encoder": "meshoptimizer",
+        "encoderVersion": "0.24.0",
+        "packerSha256": "ba96ac76cbfac71f3356f2b928a96123fdfd506591064aa105dbb8f4bff55ee1",
+        "decoder": "three/examples/jsm/libs/meshopt_decoder.module.js",
+        "positionsExact": true,
+        "maxPositionErrorMeters": 0,
+        "lossless": true,
+        "quantizedAttributes": [],
+        "maxNormalAngularErrorDegrees": 0,
+        "exactBufferViews": 3,
+        "quantizedNormalBufferViews": 0
+      },
+      "source": {
+        "sha256": "3772c8b80c37c00552f94f12bb56a7d860a47e35cfa91aeab1ce3e34f11f7894",
+        "bytes": 59842416
+      },
+      "deliveryPath": "data/sml/meshes/terrain.glb"
+    },
+    "data/sml/meshes/test_hero_railing.glb": {
+      "encoding": "EXT_meshopt_compression",
+      "meshopt": {
+        "encoder": "meshoptimizer",
+        "encoderVersion": "0.24.0",
+        "packerSha256": "ba96ac76cbfac71f3356f2b928a96123fdfd506591064aa105dbb8f4bff55ee1",
+        "decoder": "three/examples/jsm/libs/meshopt_decoder.module.js",
+        "positionsExact": true,
+        "maxPositionErrorMeters": 0,
+        "lossless": false,
+        "quantizedAttributes": [
+          "NORMAL"
+        ],
+        "maxNormalAngularErrorDegrees": 0.8188772633387597,
+        "exactBufferViews": 4,
+        "quantizedNormalBufferViews": 2
+      },
+      "source": {
+        "sha256": "bbd2fa8956076686df6708dd53b64fa7f861712296d78f2163d912796da508fd",
+        "bytes": 638232
+      },
+      "deliveryPath": "data/sml/meshes/test_hero_railing.glb"
+    },
+    "data/sml/meshes/walkway_3d_overrides.glb": {
+      "encoding": "EXT_meshopt_compression",
+      "meshopt": {
+        "encoder": "meshoptimizer",
+        "encoderVersion": "0.24.0",
+        "packerSha256": "ba96ac76cbfac71f3356f2b928a96123fdfd506591064aa105dbb8f4bff55ee1",
+        "decoder": "three/examples/jsm/libs/meshopt_decoder.module.js",
+        "positionsExact": true,
+        "maxPositionErrorMeters": 0,
+        "lossless": true,
+        "quantizedAttributes": [],
+        "maxNormalAngularErrorDegrees": 0,
+        "exactBufferViews": 924,
+        "quantizedNormalBufferViews": 0
+      },
+      "source": {
+        "sha256": "b28b02e65ede82497c318a7096a3de421271aef565da3bce467f02fc55ea5468",
+        "bytes": 3362536
+      },
+      "deliveryPath": "data/sml/meshes/walkway_3d_overrides.glb"
+    },
+    "data/sml/props/lalu_island.glb": {
+      "encoding": "EXT_meshopt_compression",
+      "meshopt": {
+        "encoder": "meshoptimizer",
+        "encoderVersion": "0.24.0",
+        "packerSha256": "ba96ac76cbfac71f3356f2b928a96123fdfd506591064aa105dbb8f4bff55ee1",
+        "decoder": "three/examples/jsm/libs/meshopt_decoder.module.js",
+        "positionsExact": true,
+        "maxPositionErrorMeters": 0,
+        "lossless": true,
+        "quantizedAttributes": [],
+        "maxNormalAngularErrorDegrees": 0,
+        "exactBufferViews": 3,
+        "quantizedNormalBufferViews": 0
+      },
+      "source": {
+        "sha256": "ba09bcd95be415c64c7f40116c4c7bbc0a7f3bf5f1b4af11b80538a48980e4fc",
+        "bytes": 884880
+      },
+      "deliveryPath": "data/sml/props/lalu_island.glb"
+    },
+    "data/sml/props/lalu_ring.glb": {
+      "encoding": "EXT_meshopt_compression",
+      "meshopt": {
+        "encoder": "meshoptimizer",
+        "encoderVersion": "0.24.0",
+        "packerSha256": "ba96ac76cbfac71f3356f2b928a96123fdfd506591064aa105dbb8f4bff55ee1",
+        "decoder": "three/examples/jsm/libs/meshopt_decoder.module.js",
+        "positionsExact": true,
+        "maxPositionErrorMeters": 0,
+        "lossless": true,
+        "quantizedAttributes": [],
+        "maxNormalAngularErrorDegrees": 0,
+        "exactBufferViews": 3,
+        "quantizedNormalBufferViews": 0
+      },
+      "source": {
+        "sha256": "7b3d580e774ba5fbd847768b8cc47eb63806f4192220be7bc07344da88bca219",
+        "bytes": 606548
+      },
+      "deliveryPath": "data/sml/props/lalu_ring.glb"
+    },
+    "data/sml/props/wenwu_temple.glb": {
+      "encoding": "EXT_meshopt_compression",
+      "meshopt": {
+        "encoder": "meshoptimizer",
+        "encoderVersion": "0.24.0",
+        "packerSha256": "ba96ac76cbfac71f3356f2b928a96123fdfd506591064aa105dbb8f4bff55ee1",
+        "decoder": "three/examples/jsm/libs/meshopt_decoder.module.js",
+        "positionsExact": true,
+        "maxPositionErrorMeters": 0,
+        "lossless": true,
+        "quantizedAttributes": [],
+        "maxNormalAngularErrorDegrees": 0,
+        "exactBufferViews": 3,
+        "quantizedNormalBufferViews": 0
+      },
+      "source": {
+        "sha256": "21f078c43d80367a018cda48bb0454141d2cd14b864b506cdc097971ae3b5dc4",
+        "bytes": 1753292
+      },
+      "deliveryPath": "data/sml/props/wenwu_temple.glb"
+    },
+    "data/sml/set/typed_set.json": {
+      "encoding": "gzip",
+      "decodedExact": true,
+      "source": {
+        "sha256": "d7277ea557721bb3f72ad5da73e6d9d719df00524126998f5339be081337201c",
+        "bytes": 650212
+      },
+      "deliveryPath": "data/sml/set/typed_set.json.gz"
+    },
+    "data/sml/t2/edges/edges.json": {
+      "encoding": "gzip",
+      "decodedExact": true,
+      "source": {
+        "sha256": "b26f14585c3bc9f8729eb9ec431ae347a5e02ecf80d94a08ec6a7a6c2f39b718",
+        "bytes": 15969629
+      },
+      "deliveryPath": "data/sml/t2/edges/edges.json.gz"
+    },
+    "data/sml/t2/edges/intersections.json": {
+      "encoding": "gzip",
+      "decodedExact": true,
+      "source": {
+        "sha256": "893f272a04c4640c0a863dfdcbdb80af2aca8ddc4f743091531b9f6083b264c9",
+        "bytes": 1477327
+      },
+      "deliveryPath": "data/sml/t2/edges/intersections.json.gz"
+    }
   },
   "inventorySelfExcluded": true,
   "files": {
@@ -21,9 +256,9 @@
       "sha256": "589ffb714d8b4fce64e0ff68fd536b0d40358e6c68408470393329288e576e34",
       "bytes": 23150
     },
-    "data/sml/diagnostics/causal_diagnoses.json": {
-      "sha256": "7c9a78030a9c97ab6a4f48e7aa2f09b91f081ea9a56f042929231fb0a6973a5d",
-      "bytes": 50162459
+    "data/sml/diagnostics/causal_diagnoses.json.gz": {
+      "sha256": "e45c29a1a65a886baecb85e74a3ac9167865bc8f0877b5e36a461015e529baa8",
+      "bytes": 5398186
     },
     "data/sml/diagnostics/relief_faults.json": {
       "sha256": "9d3927c1044d5fb4a7f019ced2b7b1ef4befb5f5c51b94388aa4cd5e4a1c55b8",
@@ -49,17 +284,17 @@
       "sha256": "e5432b10a41412c0e2c30cd22798ed4ee6e1990bd162fcfcf769a3cc962e6643",
       "bytes": 2633
     },
-    "data/sml/frames_v5_a_viewer.json": {
-      "sha256": "780d644dfa07cb2f4858b462d535000d0870ee9ea65071091ed0999c840472da",
-      "bytes": 7023380
+    "data/sml/frames_v5_a_viewer.json.gz": {
+      "sha256": "b63d783a678884bac9d1d48086d1a79483dfa616a56441a0cb1c14aa25082915",
+      "bytes": 427039
     },
-    "data/sml/frames_v5_b_viewer.json": {
-      "sha256": "ed4a6fe3829e30a658d68cef85bdb1bb1103609feccd8715799deacecdb9e2da",
-      "bytes": 10484175
+    "data/sml/frames_v5_b_viewer.json.gz": {
+      "sha256": "12987b09a978d5813e524d2ca7d5eea59432cb029931efdd64a692cf810cbe2e",
+      "bytes": 583561
     },
-    "data/sml/frames_v5_c_viewer.json": {
-      "sha256": "3bf9ebbce5c1e8812be861c2f2ff4bef5b1e5a7a37fbe91959ac6f656944443e",
-      "bytes": 10386192
+    "data/sml/frames_v5_c_viewer.json.gz": {
+      "sha256": "38c3ff930a9c85598c85d95870b80654c7d461cab15c930602db7e3214669948",
+      "bytes": 571380
     },
     "data/sml/meshes/buildings.glb": {
       "sha256": "c8f8a63e0402cb2d261713c8ffc47166582bb8152a9d894e66e5db59ee503972",
@@ -70,8 +305,8 @@
       "bytes": 1228
     },
     "data/sml/meshes/edges.glb": {
-      "sha256": "796bf4c2ba199a8805cb4fa17cc8442805e3e72e7daed4b6193e204d7d1ebbf0",
-      "bytes": 43730772
+      "sha256": "faaa10454f2f3ef69535dc6f35e381f674ffd84122523562f2e8da867233be12",
+      "bytes": 23967228
     },
     "data/sml/meshes/junction_plates.glb": {
       "sha256": "99f943087ae2123156142d262ecfc7434f6c3db11cc1b67799224fa2d71c90a4",
@@ -86,8 +321,8 @@
       "bytes": 4079
     },
     "data/sml/meshes/nodes.glb": {
-      "sha256": "ef115f44e9c9485a9f85e7616216e2680c978ceed397cc8c0b47efe755e6d487",
-      "bytes": 572832
+      "sha256": "dbaf490930d37bb0ee5246aa13f15a6b3d40cd342a71934f932a8c5916a2ed45",
+      "bytes": 530464
     },
     "data/sml/meshes/poi_labels.json": {
       "sha256": "217a8886dabb32788e48adbc2fc2ff2ac35676c35ad974bd773666d9be5849fe",
@@ -102,20 +337,20 @@
       "bytes": 35021
     },
     "data/sml/meshes/terrain.glb": {
-      "sha256": "3772c8b80c37c00552f94f12bb56a7d860a47e35cfa91aeab1ce3e34f11f7894",
-      "bytes": 59842416
+      "sha256": "37ee9d74eb21a870e2b90e8e94bd448bf985ee70dfe6c5a813eee751841b50aa",
+      "bytes": 18276792
     },
     "data/sml/meshes/test_hero_railing.glb": {
-      "sha256": "bbd2fa8956076686df6708dd53b64fa7f861712296d78f2163d912796da508fd",
-      "bytes": 638232
+      "sha256": "512f408d4b7b7d1314876d2518e52d95d62fb47c4bd9e5bf91809398482f5af8",
+      "bytes": 163280
     },
     "data/sml/meshes/twin_lineage.json": {
       "sha256": "5b42748baae86b4ef706450dc791d77e3cb0a9dca4d5416ed7303bceb1b1f6e2",
       "bytes": 132243
     },
     "data/sml/meshes/walkway_3d_overrides.glb": {
-      "sha256": "b28b02e65ede82497c318a7096a3de421271aef565da3bce467f02fc55ea5468",
-      "bytes": 3362536
+      "sha256": "80bee090c0fb2a49b2371fafb58c0031db32909db9959a1a61b98413ffa23cca",
+      "bytes": 1780552
     },
     "data/sml/pipeline_registry.json": {
       "sha256": "932bca0e21f382003a5fdf29e3e4894089dd67be82bfc0b36d5d976b0d8a0b62",
@@ -126,12 +361,12 @@
       "bytes": 48274
     },
     "data/sml/props/lalu_island.glb": {
-      "sha256": "ba09bcd95be415c64c7f40116c4c7bbc0a7f3bf5f1b4af11b80538a48980e4fc",
-      "bytes": 884880
+      "sha256": "7dc2121f954b9bd9dc0c7953f16c6fe20a2857e56da6e553da5c5e0045f82a9e",
+      "bytes": 352476
     },
     "data/sml/props/lalu_ring.glb": {
-      "sha256": "7b3d580e774ba5fbd847768b8cc47eb63806f4192220be7bc07344da88bca219",
-      "bytes": 606548
+      "sha256": "d82ea4853be0dadd2ef1f2713a13f035bf9aa4e872abff0ab2c1308a559010fc",
+      "bytes": 240840
     },
     "data/sml/props/lalu_splat.ksplat": {
       "sha256": "e47dda063e6a1db0661a4a9b7fcdaf3c5c776c3eb803af5a34cca83c1bae2893",
@@ -142,8 +377,8 @@
       "bytes": 7403532
     },
     "data/sml/props/wenwu_temple.glb": {
-      "sha256": "21f078c43d80367a018cda48bb0454141d2cd14b864b506cdc097971ae3b5dc4",
-      "bytes": 1753292
+      "sha256": "40073adf051e7e5fffd2432e0c72c2b9bae46ac33ec3f86a4b2765a0d247e726",
+      "bytes": 688524
     },
     "data/sml/set/geometry_report.json": {
       "sha256": "5d1b9c61a1998023c8d2b015f508b056288faec2047ffe8175839d8f8dfea753",
@@ -153,9 +388,9 @@
       "sha256": "43eed5b2d64943b4b387dfb01174206af6fa24d790bd99b58cab3e4c0354e3b4",
       "bytes": 9633
     },
-    "data/sml/set/typed_set.json": {
-      "sha256": "d7277ea557721bb3f72ad5da73e6d9d719df00524126998f5339be081337201c",
-      "bytes": 650212
+    "data/sml/set/typed_set.json.gz": {
+      "sha256": "fff69d2db29d6e973460e8ed86301a1ebe7b4d896182509c6aaa1ca74e5337a2",
+      "bytes": 103254
     },
     "data/sml/story_v5_a.json": {
       "sha256": "a95c0ea6fd09a82a33d965aafc0040e710c73dacec7a01f706e6f385ae525975",
@@ -169,13 +404,13 @@
       "sha256": "f7009021082cfc170edf932858643f58bf85e524f9effcb0136fbb9e18ebe3cf",
       "bytes": 3041
     },
-    "data/sml/t2/edges/edges.json": {
-      "sha256": "b26f14585c3bc9f8729eb9ec431ae347a5e02ecf80d94a08ec6a7a6c2f39b718",
-      "bytes": 15969629
+    "data/sml/t2/edges/edges.json.gz": {
+      "sha256": "97c7feef3a9bedda076002eae9355bb2b17c9e80873436fc8a67601d3e520591",
+      "bytes": 902682
     },
-    "data/sml/t2/edges/intersections.json": {
-      "sha256": "893f272a04c4640c0a863dfdcbdb80af2aca8ddc4f743091531b9f6083b264c9",
-      "bytes": 1477327
+    "data/sml/t2/edges/intersections.json.gz": {
+      "sha256": "1d03826574805a54de36fafd25b25732815a088ee8ce7aed918ea0f71a6263eb",
+      "bytes": 94107
     },
     "docs/viewer-3d/actor-models.js": {
       "sha256": "0bdb2a2835ce707e3cfa63b20418f408370388b4fc64d99d86b1af8051098391",
@@ -186,16 +421,16 @@
       "bytes": 2073
     },
     "docs/viewer-3d/base.js": {
-      "sha256": "63890150aaa57bd076a699d5e3ef45fba752335ff1aa284562cacd1b36498af6",
-      "bytes": 56748
+      "sha256": "957eacee13132a50578b110a61484250ae6c4f879cd6d925fbd941ca9af242db",
+      "bytes": 56926
     },
     "docs/viewer-3d/controls-base.js": {
       "sha256": "276a65e66f3916e03b70eea9dd2c7423e422018edbc375bf22fbc734715d5266",
       "bytes": 14257
     },
     "docs/viewer-3d/deployment-config.js": {
-      "sha256": "b704b72ae2950960e1a5f89b5d01c2332a172aa1a55a6f21f1f3f657fa92064f",
-      "bytes": 2399
+      "sha256": "436babc9c83e9cf53a60c589bb89d6736c13c3c15b3d4415e4c8286a0b33f452",
+      "bytes": 2626
     },
     "docs/viewer-3d/edge-labels.mjs": {
       "sha256": "f0e7a236cc073f7126ae9aa808213fab160a9650d597abd495eca1dfad32a140",
@@ -238,8 +473,8 @@
       "bytes": 37582
     },
     "docs/viewer-3d/main.js": {
-      "sha256": "908342fa455fb6d5f4c5d3e64839430ae088729be6dbc8028d69e661599edb97",
-      "bytes": 296889
+      "sha256": "6174751f264e6b3a30a9053b7c5b56cc986343b1bf27c978e61678abe3ec341e",
+      "bytes": 296713
     },
     "docs/viewer-3d/mobile-chrome.js": {
       "sha256": "bd135e6f4b83a711305ef833f5322735cd70e09bf697bef24c4b17159d6d56e9",
@@ -254,8 +489,8 @@
       "bytes": 3966
     },
     "docs/viewer-3d/site-config.js": {
-      "sha256": "c48e34b7aad9939551b4804a8dd232c7d961a21534b240952569174096b751f3",
-      "bytes": 29694
+      "sha256": "a3af7316d888284d2d81e569779ba00a5dc404025d4b3403aa30c5f69b4da7fa",
+      "bytes": 30145
     },
     "docs/viewer-3d/style.css": {
       "sha256": "e1acf7b1971fad11b61d07f6bce9fce10a7995c0af78b5d6f2e6f777ec383b30",
@@ -289,6 +524,10 @@
       "sha256": "92573e05a7bfeda68c1cbd33b53060415326cec4cc0faeeaf2243e112370e115",
       "bytes": 7302
     },
+    "docs/viewer-common/fetch-site-asset.mjs": {
+      "sha256": "f41e0a8b12557e29ca0764534a3292f29e8075638e403688d8bc34fcea30e480",
+      "bytes": 2209
+    },
     "docs/viewer-common/goto-resolver.js": {
       "sha256": "1ed450db0c0079f8cab879ed3edb16b936879f11578cd1198f3c3133bc14ebeb",
       "bytes": 3509
@@ -321,6 +560,10 @@
       "sha256": "19f0227ceb3483d603feb1839d556e3f9ca2391911d1e6adb45f1cbbb53ee64c",
       "bytes": 1880
     },
+    "docs/viewer-common/site-gltf-loader.mjs": {
+      "sha256": "8d0c71888aa4f8e78fb86da4dfdd17843d256216550ee53d002363caa1708ea2",
+      "bytes": 336
+    },
     "docs/viewer-common/site-layer-consumer.js": {
       "sha256": "8ff41008cbf0e8b487614de63c8b2336a8e62a8b790747f4685e570615c125c5",
       "bytes": 16843
@@ -350,8 +593,8 @@
       "bytes": 1241
     },
     "docs/viewer-common/typed-runtime.js": {
-      "sha256": "78c9db462b1804b25ea669afcb300c4bdf5447a9a3e882dee0d9aa69a27b2e33",
-      "bytes": 5716
+      "sha256": "3aac725a3cd14486aae621db4c4d521309a17a6b968b4cf8e7d10a493572c64a",
+      "bytes": 5783
     },
     "index.html": {
       "sha256": "3e541be74e2ab7a8f275a9f80a1aa74c4088f03a6a3284c014f066a38d623acc",
